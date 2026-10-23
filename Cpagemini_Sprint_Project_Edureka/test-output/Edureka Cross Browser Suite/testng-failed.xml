@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Edureka Cross Browser Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Chrome Tests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="verifyScrollingReachesLowerAISections"/>
+          <include name="verifyPrimaryCourseCallToActionNavigation"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1 -->
+    </classes>
+  </test> <!-- Chrome Tests(failed) -->
+  <test thread-count="5" name="Edge Tests(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.edureka.login.LoginTestScript1">
+        <methods>
+          <include name="verifyEmailFieldDisplayed"/>
+          <include name="setUp"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="verifyPasswordFieldDisplayed"/>
+          <include name="beforeSuite"/>
+          <include name="verifySignUpNavigation"/>
+          <include name="afterClass"/>
+          <include name="verifyForgotPasswordNavigation"/>
+          <include name="verifyLoginButtonDisplayed"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.edureka.login.LoginTestScript1 -->
+      <class name="com.edureka.AllCourses.AllCoursesTestScript1">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="verifyAllCoursesPageLoads"/>
+          <include name="verifyArtificialIntelligenceCategory"/>
+          <include name="verifyAllCoursesCategorySelection"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.edureka.AllCourses.AllCoursesTestScript1 -->
+    </classes>
+  </test> <!-- Edge Tests(failed) -->
+  <test thread-count="5" name="Firefox Tests(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="verifyAICourseDetailReloadsCorrectly"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1 -->
+      <class name="com.edureka.login.LoginTestScript1">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="verifySignUpNavigation"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.edureka.login.LoginTestScript1 -->
+      <class name="com.edureka.AllCourses.AllCoursesTestScript1">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="verifyOnlineDoctorateProgramsCategory"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="verifyAllCoursesPageLoads"/>
+          <include name="verifyArtificialIntelligenceCategory"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.edureka.AllCourses.AllCoursesTestScript1 -->
+    </classes>
+  </test> <!-- Firefox Tests(failed) -->
+</suite> <!-- Failed suite [Edureka Cross Browser Suite] -->

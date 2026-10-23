@@ -1,0 +1,1967 @@
+2026-10-15T18:03:03.747685100 - Test suite started.
+2026-10-15T18:03:03.770720900 - Test started.
+2026-10-15T18:03:29.661511800 - Browser launched: chrome
+2026-10-15T18:03:47.861549700 - PASSED: verifyAllCoursesCategorySelection
+2026-10-15T18:03:51.258132 - Browser launched: chrome
+2026-10-15T18:03:58.024575600 - PASSED: verifyAllCoursesPageLoads
+2026-10-15T18:04:01.753247800 - Browser launched: chrome
+2026-10-15T18:04:11.876902400 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-15T18:04:15.454718400 - Browser launched: chrome
+2026-10-15T18:04:50.034884200 - FAILED: verifyCategoryButtonsDisplayed
+2026-10-15T18:04:53.267079500 - Browser launched: chrome
+2026-10-15T18:04:58.644018600 - PASSED: verifyHeadingAndIntroductoryText
+2026-10-15T18:05:02.033762700 - Browser launched: chrome
+2026-10-15T18:05:12.738228800 - PASSED: verifyOnlineDoctorateProgramsCategory
+2026-10-15T18:05:13.307572700 - Test class completed.
+2026-10-15T18:05:26.714927600 - Test suite started.
+2026-10-15T18:05:26.737412400 - Test started.
+2026-10-15T18:05:53.049990900 - Browser launched: chrome
+2026-10-15T18:05:54.176756 - Test class completed.
+2026-10-15T18:06:06.953296700 - Test suite started.
+2026-10-15T18:06:06.975727300 - Test started.
+2026-10-15T18:06:10.969901600 - Browser launched: chrome
+2026-10-15T18:06:23.428636500 - PASSED: verifyAllCoursesCategorySelection
+2026-10-15T18:06:26.932731500 - Browser launched: chrome
+2026-10-15T18:06:32.258582900 - PASSED: verifyAllCoursesPageLoads
+2026-10-15T18:06:35.133361 - Browser launched: chrome
+2026-10-15T18:06:44.197863800 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-15T18:06:47.170159600 - Browser launched: chrome
+2026-10-15T18:07:16.206815800 - FAILED: verifyCategoryButtonsDisplayed
+2026-10-15T18:07:20.148653200 - Browser launched: chrome
+2026-10-15T18:07:29.768335700 - Browser launched: chrome
+2026-10-15T18:07:32.859176 - Test class completed.
+2026-10-15T18:23:25.111229500 - Test suite started.
+2026-10-15T18:23:25.133047500 - Test started.
+2026-10-15T18:24:14.925296500 - Test suite started.
+2026-10-15T18:24:14.951689 - Test started.
+2026-10-15T18:24:18.698177200 - Browser launched: chrome
+2026-10-15T18:24:29.462561100 - PASSED: verifyAllCoursesCategorySelection
+2026-10-15T18:24:32.999787900 - Browser launched: chrome
+2026-10-15T18:24:37.176632700 - PASSED: verifyAllCoursesPageLoads
+2026-10-15T18:24:40.544158700 - Browser launched: chrome
+2026-10-15T18:24:49.262171500 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-15T18:24:52.413815300 - Browser launched: chrome
+2026-10-15T18:24:59.350244600 - PASSED: verifyCategoryButtonsDisplayed
+2026-10-15T18:25:02.656925900 - Browser launched: chrome
+2026-10-15T18:25:08.505442100 - PASSED: verifyHeadingAndIntroductoryText
+2026-10-15T18:25:11.838521 - Browser launched: chrome
+2026-10-15T18:25:21.575114900 - PASSED: verifyOnlineDoctorateProgramsCategory
+2026-10-15T18:25:22.108402100 - Test class completed.
+2026-10-15T18:25:31.956489800 - Test suite started.
+2026-10-15T18:25:31.977556500 - Test started.
+2026-10-15T18:25:35.694280400 - Browser launched: chrome
+2026-10-15T18:25:47.778385800 - PASSED: verifyDataScienceCategory
+2026-10-15T18:25:50.802568300 - Browser launched: chrome
+2026-10-15T18:25:59.636208 - PASSED: verifyDatabasesCategory
+2026-10-15T18:26:02.745436300 - Browser launched: chrome
+2026-10-15T18:26:11.475786500 - PASSED: verifyOnlineMBACategory
+2026-10-15T18:26:14.921349800 - Browser launched: chrome
+2026-10-15T18:26:20.848337300 - PASSED: verifyOthersCategory
+2026-10-15T18:26:23.438889700 - Browser launched: chrome
+2026-10-15T18:26:47.049911700 - FAILED: verifyProgrammingFrameworksCategory
+2026-10-15T18:26:49.604677100 - Browser launched: chrome
+2026-10-15T18:26:52.965875800 - Test class completed.
+2026-10-15T18:28:04.670475900 - Test suite started.
+2026-10-15T18:28:04.694361700 - Test started.
+2026-10-15T18:28:08.051105300 - Browser launched: chrome
+2026-10-15T18:28:14.122195400 - Test class completed.
+2026-10-15T18:35:31.947272600 - Test suite started.
+2026-10-15T18:35:31.973403700 - Test started.
+2026-10-15T18:35:35.720202 - Browser launched: chrome
+2026-10-15T18:36:03.518839 - FAILED: verifyProgrammingFrameworksCategory
+2026-10-15T18:36:04.430170600 - Test class completed.
+2026-10-15T18:38:23.488365400 - Test suite started.
+2026-10-15T18:38:23.510548400 - Test started.
+2026-10-15T18:38:27.492461500 - Browser launched: chrome
+2026-10-15T18:38:41.999929400 - PASSED: verifyProgrammingFrameworksCategory
+2026-10-15T18:38:42.874225800 - Test class completed.
+2026-10-15T18:39:00.256585700 - Test suite started.
+2026-10-15T18:39:00.285205900 - Test started.
+2026-10-15T18:39:04.129345700 - Browser launched: chrome
+2026-10-15T18:39:16.217812700 - PASSED: verifyProjectManagementCategory
+2026-10-15T18:39:16.912724100 - Test class completed.
+2026-10-15T18:39:32.125120300 - Test suite started.
+2026-10-15T18:39:32.147211 - Test started.
+2026-10-15T18:39:35.734286900 - Browser launched: chrome
+2026-10-15T18:39:48.847866700 - PASSED: verifyDataScienceCategory
+2026-10-15T18:39:51.897459700 - Browser launched: chrome
+2026-10-15T18:40:00.909734500 - PASSED: verifyDatabasesCategory
+2026-10-15T18:40:04.744578 - Browser launched: chrome
+2026-10-15T18:40:12.268378100 - PASSED: verifyOnlineMBACategory
+2026-10-15T18:40:15.277294200 - Browser launched: chrome
+2026-10-15T18:40:22.191124100 - PASSED: verifyOthersCategory
+2026-10-15T18:40:25.443590100 - Browser launched: chrome
+2026-10-15T18:40:34.520987900 - PASSED: verifyProgrammingFrameworksCategory
+2026-10-15T18:40:37.812263300 - Browser launched: chrome
+2026-10-15T18:40:47.022884600 - FAILED: verifyProjectManagementCategory
+2026-10-15T18:40:47.646558900 - Test class completed.
+2026-10-15T18:45:57.145930400 - Test suite started.
+2026-10-15T18:45:57.169025600 - Test started.
+2026-10-15T18:46:01.184456200 - Browser launched: chrome
+2026-10-15T18:46:12.197333500 - PASSED: verifyProjectManagementCategory
+2026-10-15T18:46:13.025643600 - Test class completed.
+2026-10-15T18:46:25.691782200 - Test suite started.
+2026-10-15T18:46:25.720080900 - Test started.
+2026-10-15T18:46:29.655510200 - Browser launched: chrome
+2026-10-15T18:46:42.637656700 - PASSED: verifyDataScienceCategory
+2026-10-15T18:46:46.068599600 - Browser launched: chrome
+2026-10-15T18:46:55.701666800 - PASSED: verifyDatabasesCategory
+2026-10-15T18:46:59.102037600 - Browser launched: chrome
+2026-10-15T18:47:06.169719200 - PASSED: verifyOnlineMBACategory
+2026-10-15T18:47:09.397651400 - Browser launched: chrome
+2026-10-15T18:47:16.177768700 - PASSED: verifyOthersCategory
+2026-10-15T18:47:20.018988200 - Browser launched: chrome
+2026-10-15T18:47:28.715313100 - PASSED: verifyProgrammingFrameworksCategory
+2026-10-15T18:47:31.586607 - Browser launched: chrome
+2026-10-15T18:47:40.251074200 - PASSED: verifyProjectManagementCategory
+2026-10-15T18:47:41.102834800 - Test class completed.
+2026-10-15T18:48:21.723606 - Test suite started.
+2026-10-15T18:48:21.744956200 - Test started.
+2026-10-15T18:48:29.632927200 - Browser launched: chrome
+2026-10-15T18:48:30.793447800 - PASSED: verifyEmailFieldDisplayed
+2026-10-15T18:48:33.626428400 - Browser launched: chrome
+2026-10-15T18:48:34.685478800 - PASSED: verifyForgotPasswordLinkDisplayed
+2026-10-15T18:48:37.705152700 - Browser launched: chrome
+2026-10-15T18:48:38.911471300 - PASSED: verifyLoginButtonDisplayed
+2026-10-15T18:48:41.600336400 - Browser launched: chrome
+2026-10-15T18:48:42.687034500 - PASSED: verifyPasswordFieldDisplayed
+2026-10-15T18:48:45.544935200 - Browser launched: chrome
+2026-10-15T18:49:07.313012 - FAILED: verifySignUpLinkDisplayed
+2026-10-15T18:49:08.098836600 - Test class completed.
+2026-10-15T18:49:40.479306900 - Test suite started.
+2026-10-15T18:49:40.496608400 - Test started.
+2026-10-15T18:49:43.463672500 - Browser launched: chrome
+2026-10-15T18:49:46.475575700 - Test class completed.
+2026-10-15T18:51:57.935332700 - Test suite started.
+2026-10-15T18:51:57.951413700 - Test started.
+2026-10-15T18:52:03.828322700 - Test class completed.
+2026-10-15T18:52:33.445604100 - Test suite started.
+2026-10-15T18:52:33.461678300 - Test started.
+2026-10-15T18:52:59.137240700 - Test class completed.
+2026-10-15T18:58:00.178448300 - Test suite started.
+2026-10-15T18:58:00.199028700 - Test started.
+2026-10-15T18:58:05.412322700 - PASSED: verifyEmailFieldDisplayed
+2026-10-15T18:58:09.626504600 - PASSED: verifyForgotPasswordLinkDisplayed
+2026-10-15T18:58:13.494674700 - PASSED: verifyLoginButtonDisplayed
+2026-10-15T18:58:17.382049900 - PASSED: verifyPasswordFieldDisplayed
+2026-10-15T18:58:42.352875500 - Test class completed.
+2026-10-15T19:01:05.118396100 - Test suite started.
+2026-10-15T19:01:05.139510 - Test started.
+2026-10-15T19:01:28.197080500 - Test class completed.
+2026-10-15T19:03:05.523884700 - Test suite started.
+2026-10-15T19:03:05.540444500 - Test started.
+2026-10-15T19:03:28.588147600 - Test class completed.
+2026-10-15T19:04:58.010836900 - Test suite started.
+2026-10-15T19:04:58.025866800 - Test started.
+2026-10-15T19:05:24.140638500 - Test class completed.
+2026-10-15T19:07:03.906000100 - Test suite started.
+2026-10-15T19:07:03.923284900 - Test started.
+2026-10-15T19:07:33.643056 - Test class completed.
+2026-10-15T19:09:28.695006300 - Test suite started.
+2026-10-15T19:09:28.710666800 - Test started.
+2026-10-15T19:09:40.388507600 - PASSED: verifySignUpLinkDisplayed
+2026-10-15T19:09:40.399984100 - Test class completed.
+2026-10-15T19:09:55.568210800 - Test suite started.
+2026-10-15T19:09:55.584499 - Test started.
+2026-10-15T19:10:07.210761 - PASSED: verifySignUpLinkDisplayed
+2026-10-15T19:10:07.219253800 - Test class completed.
+2026-10-15T19:11:24.903195900 - Test suite started.
+2026-10-15T19:11:24.922518700 - Test started.
+2026-10-15T19:11:30.255484700 - PASSED: verifyEmailFieldDisplayed
+2026-10-15T19:11:34.173458300 - PASSED: verifyForgotPasswordLinkDisplayed
+2026-10-15T19:11:38.248109100 - PASSED: verifyLoginButtonDisplayed
+2026-10-15T19:11:42.077801 - PASSED: verifyPasswordFieldDisplayed
+2026-10-15T19:11:46.154911500 - PASSED: verifySignUpLinkDisplayed
+2026-10-15T19:11:46.156990400 - Test class completed.
+2026-10-15T19:11:56.259926500 - Test suite started.
+2026-10-15T19:11:56.277534900 - Test started.
+2026-10-15T19:12:08.675989600 - PASSED: verifyBlankCredentials
+2026-10-15T19:12:16.763931100 - PASSED: verifyIncorrectPassword
+2026-10-15T19:12:27.021654200 - PASSED: verifyInvalidEmailFormat
+2026-10-15T19:12:37.732495800 - PASSED: verifyUnregisteredEmail
+2026-10-15T19:12:37.735769700 - Test class completed.
+2026-10-15T19:12:48.021653 - Test suite started.
+2026-10-15T19:12:48.039921500 - Test started.
+2026-10-15T19:13:59.807706100 - Test suite started.
+2026-10-15T19:13:59.835965700 - Test started.
+2026-10-15T19:14:48.201271500 - Test suite started.
+2026-10-15T19:14:48.231833600 - Test started.
+2026-10-15T19:23:42.408076100 - Test suite started.
+2026-10-15T19:23:42.433336800 - Test started.
+2026-10-15T19:23:55.648473700 - PASSED: verifyEnterKeySubmission
+2026-10-15T19:24:05.502166 - PASSED: verifyForgotPasswordNavigation
+2026-10-15T19:24:13.196887400 - PASSED: verifyPasswordMasking
+2026-10-15T19:24:21.903398900 - PASSED: verifySignUpNavigation
+2026-10-15T19:24:21.909681700 - Test class completed.
+2026-10-15T19:24:53.398918200 - Test suite started.
+2026-10-15T19:24:53.426921700 - Test started.
+2026-10-15T19:25:13.834942600 - PASSED: verifyAllCoursesCategorySelection
+2026-10-15T19:25:24.969818 - PASSED: verifyAllCoursesPageLoads
+2026-10-15T19:25:43.717436400 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-15T19:25:54.362760900 - PASSED: verifyCategoryButtonsDisplayed
+2026-10-15T19:26:04.450888400 - PASSED: verifyHeadingAndIntroductoryText
+2026-10-15T19:26:20.031740400 - Test class completed.
+2026-10-15T19:26:31.956366700 - Test suite started.
+2026-10-15T19:26:31.972410 - Test started.
+2026-10-15T19:27:03.705189300 - Test class completed.
+2026-10-15T19:27:41.745827100 - Test suite started.
+2026-10-15T19:27:41.760834600 - Test started.
+2026-10-15T19:27:50.507467 - Test class completed.
+2026-10-17T10:55:37.373894900 - Test suite started.
+2026-10-17T10:55:37.403137400 - Test started.
+2026-10-17T10:56:12.172665500 - PASSED: verifyAllCoursesCategorySelection
+2026-10-17T10:56:37.915745100 - PASSED: verifyAllCoursesPageLoads
+2026-10-17T10:57:40.403850600 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-17T11:00:28.105495 - PASSED: verifyOnlineDoctorateProgramsCategory
+2026-10-17T11:00:28.155175900 - Test class completed.
+2026-10-17T11:00:42.694687100 - Test suite started.
+2026-10-17T11:00:42.723964800 - Test started.
+2026-10-17T11:01:10.049589400 - Test class completed.
+2026-10-17T11:04:09.147247500 - Test suite started.
+2026-10-17T11:04:09.164802200 - Test started.
+2026-10-17T11:04:38.232083300 - PASSED: verifyAllCoursesCategorySelection
+2026-10-17T11:04:57.723579100 - PASSED: verifyAllCoursesPageLoads
+2026-10-17T11:05:29.699967400 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-17T11:07:26.553797400 - Test suite started.
+2026-10-17T11:07:26.585370500 - Test started.
+2026-10-17T11:07:34.315037500 - PASSED: verifyEmailFieldDisplayed
+2026-10-17T11:08:16.578489300 - Test class completed.
+2026-10-17T11:08:36.949024500 - Test suite started.
+2026-10-17T11:08:36.987495400 - Test started.
+2026-10-17T11:09:20.956542200 - Test class completed.
+2026-10-17T11:09:33.925256200 - Test suite started.
+2026-10-17T11:09:33.951028400 - Test started.
+2026-10-17T11:10:18.492269500 - Test class completed.
+2026-10-17T11:10:42.886587100 - Test suite started.
+2026-10-17T11:10:42.936708900 - Test started.
+2026-10-17T11:11:13.474936600 - PASSED: verifyBlankCredentials
+2026-10-17T11:11:23.338749200 - PASSED: verifyIncorrectPassword
+2026-10-17T11:11:35.669776200 - PASSED: verifyInvalidEmailFormat
+2026-10-17T11:11:46.602162100 - PASSED: verifyUnregisteredEmail
+2026-10-17T11:11:46.606167 - Test class completed.
+2026-10-17T11:14:00.444311100 - Test suite started.
+2026-10-17T11:14:02.426860400 - Test started.
+2026-10-17T11:14:32.561324500 - PASSED: verifyEnterKeySubmission
+2026-10-17T11:14:41.001499700 - PASSED: verifyForgotPasswordNavigation
+2026-10-17T11:14:49.454429600 - PASSED: verifyPasswordMasking
+2026-10-17T11:14:59.018542400 - PASSED: verifySignUpNavigation
+2026-10-17T11:14:59.022986500 - Test class completed.
+2026-10-17T11:15:08.418786200 - Test suite started.
+2026-10-17T11:15:08.443318600 - Test started.
+2026-10-17T11:15:15.184264800 - Test class completed.
+2026-10-17T11:16:20.341483700 - Test suite started.
+2026-10-17T11:16:20.361531400 - Test started.
+2026-10-17T11:16:26.729561200 - PASSED: verifyEmailFieldDisplayed
+2026-10-17T11:16:31.329883900 - PASSED: verifyForgotPasswordLinkDisplayed
+2026-10-17T11:16:36.667159 - PASSED: verifyLoginButtonDisplayed
+2026-10-17T11:16:40.980618600 - PASSED: verifyPasswordFieldDisplayed
+2026-10-17T11:16:45.342360200 - PASSED: verifySignUpLinkDisplayed
+2026-10-17T11:16:45.345364200 - Test class completed.
+2026-10-17T11:16:55.435849300 - Test suite started.
+2026-10-17T11:16:55.457823 - Test started.
+2026-10-17T11:17:16.211335500 - PASSED: verifyAllCoursesCategorySelection
+2026-10-17T11:17:26.978798900 - PASSED: verifyAllCoursesPageLoads
+2026-10-17T11:17:43.973406200 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-17T11:36:29.679216700 - Test suite started.
+2026-10-17T11:36:29.702888100 - Test started.
+2026-10-17T11:38:24.804470300 - Test class completed.
+2026-10-17T11:43:03.246667900 - Test suite started.
+2026-10-17T11:43:03.272793500 - Test started.
+2026-10-17T11:44:33.579520200 - PASSED: verifyScrollingReachesLowerAISections
+2026-10-17T11:44:33.582043500 - Test class completed.
+2026-10-17T11:47:28.291746100 - Test suite started.
+2026-10-17T11:47:28.322264300 - Test started.
+2026-10-17T11:48:00.658567 - PASSED: verifyAICourseDetailReloadsCorrectly
+2026-10-17T11:48:27.662951300 - PASSED: verifyBackNavigationReturnsToAIListing
+2026-10-17T11:48:54.591958100 - PASSED: verifyEndToEndAICourseDiscovery
+2026-10-17T11:48:58.802241900 - PASSED: verifyScrollingReachesLowerAISections
+2026-10-17T11:48:58.804239500 - Test class completed.
+2026-10-17T11:59:03.217645200 - Test suite started.
+2026-10-17T11:59:03.246132 - Test started.
+2026-10-17T12:00:57.131765400 - Test class completed.
+2026-10-17T12:03:43.446516400 - Test suite started.
+2026-10-17T12:03:43.468528900 - Test started.
+2026-10-17T12:03:51.861246200 - PASSED: verifyAICourseDetailReloadsCorrectly
+2026-10-17T12:03:51.867801800 - Test class completed.
+2026-10-17T12:03:59.552561700 - Test suite started.
+2026-10-17T12:03:59.569558900 - Test started.
+2026-10-17T12:04:06.891140 - PASSED: verifyBackNavigationReturnsToAIListing
+2026-10-17T12:04:06.897610600 - Test class completed.
+2026-10-17T12:04:13.419227500 - Test suite started.
+2026-10-17T12:04:13.436245200 - Test started.
+2026-10-17T12:04:22.359020200 - PASSED: verifyScrollingReachesLowerAISections
+2026-10-17T12:04:22.364271 - Test class completed.
+2026-10-17T12:04:29.513244400 - Test suite started.
+2026-10-17T12:04:29.529755200 - Test started.
+2026-10-17T12:04:41.263676800 - PASSED: verifyEndToEndAICourseDiscovery
+2026-10-17T12:04:41.268688400 - Test class completed.
+2026-10-17T12:04:52.063396300 - Test suite started.
+2026-10-17T12:04:52.081168700 - Test started.
+2026-10-17T12:05:01.306062700 - PASSED: verifyAICourseDetailReloadsCorrectly
+2026-10-17T12:05:09.228157400 - PASSED: verifyBackNavigationReturnsToAIListing
+2026-10-17T12:05:15.668091600 - PASSED: verifyEndToEndAICourseDiscovery
+2026-10-17T12:05:20.764141500 - PASSED: verifyScrollingReachesLowerAISections
+2026-10-17T12:05:20.767143100 - Test class completed.
+2026-10-17T13:31:47.094613800 - Test suite started.
+2026-10-17T13:31:47.118522 - Test started.
+2026-10-17T13:32:11.431372900 - PASSED: verifyAICourseDetailReloadsCorrectly
+2026-10-17T13:32:18.647370600 - PASSED: verifyBackNavigationReturnsToAIListing
+2026-10-17T13:32:31.118040700 - PASSED: verifyEndToEndAICourseDiscovery
+2026-10-17T13:32:37.330081600 - PASSED: verifyPrimaryCourseCallToActionNavigation
+2026-10-17T13:32:42.765815200 - PASSED: verifyScrollingReachesLowerAISections
+2026-10-17T13:32:42.769292 - Test class completed.
+2026-10-17T13:35:08.832539200 - Test suite started.
+2026-10-17T13:35:08.851551300 - Test started.
+2026-10-17T13:35:15.167385100 - Test class completed.
+2026-10-17T13:35:36.380451 - Test suite started.
+2026-10-17T13:35:36.397044 - Test started.
+2026-10-17T13:36:04.535231 - Test class completed.
+2026-10-17T13:36:15.827117600 - Test suite started.
+2026-10-17T13:36:15.845344800 - Test started.
+2026-10-17T13:37:13.104001500 - Test suite started.
+2026-10-17T13:37:13.129778800 - Test started.
+2026-10-17T13:37:22.864833400 - PASSED: verifyAICourseDetailReloadsCorrectly
+2026-10-17T13:37:29.597407400 - PASSED: verifyBackNavigationReturnsToAIListing
+2026-10-17T13:38:01.066878700 - PASSED: verifyEndToEndAICourseDiscovery
+2026-10-17T13:38:06.579758300 - PASSED: verifyPrimaryCourseCallToActionNavigation
+2026-10-17T13:38:10.655168700 - PASSED: verifyScrollingReachesLowerAISections
+2026-10-17T13:38:10.658168300 - Test class completed.
+2026-10-17T13:38:20.193840900 - Test suite started.
+2026-10-17T13:38:20.211288900 - Test started.
+2026-10-17T13:38:28.684223600 - Test class completed.
+2026-10-17T13:40:42.241548300 - Test suite started.
+2026-10-17T13:40:42.264433100 - Test started.
+2026-10-17T13:40:45.176732300 - Launching browser: chrome
+2026-10-17T13:40:59.022549800 - FAILED: verifyDisplayedCourseCountOrSummary
+2026-10-17T13:41:20.140893400 - Test suite started.
+2026-10-17T13:41:20.165430300 - Test started.
+2026-10-17T13:41:23.662280500 - Launching browser: chrome
+2026-10-17T13:41:29.030750900 - FAILED: verifyAICourseDetailReloadsCorrectly
+2026-10-17T13:55:52.586160500 - Test suite started.
+2026-10-17T13:55:52.615183300 - Test started.
+2026-10-17T13:55:56.039722800 - Launching browser: chrome
+2026-10-17T13:56:01.751988700 - PASSED: verifyAICourseDetailReloadsCorrectly
+2026-10-17T13:56:03.824932800 - Launching browser: chrome
+2026-10-17T13:56:07.709907700 - PASSED: verifyBackNavigationReturnsToAIListing
+2026-10-17T13:56:09.590708700 - Launching browser: chrome
+2026-10-17T13:56:32.592415100 - SKIPPED: verifyDisplayedCourseCountOrSummary
+2026-10-17T13:56:34.907712400 - Launching browser: chrome
+2026-10-17T13:56:38.968012100 - PASSED: verifyEndToEndAICourseDiscovery
+2026-10-17T13:56:40.912869600 - Launching browser: chrome
+2026-10-17T13:56:44.914205300 - PASSED: verifyPrimaryCourseCallToActionNavigation
+2026-10-17T13:56:46.953340300 - Launching browser: chrome
+2026-10-17T13:56:49.397708 - PASSED: verifyScrollingReachesLowerAISections
+2026-10-17T13:56:49.892065300 - Test class completed.
+2026-10-17T14:04:08.497746700 - Test suite started.
+2026-10-17T14:04:08.519749900 - Test started.
+2026-10-17T14:04:11.893100100 - Launching browser: chrome
+2026-10-17T14:04:16.842806300 - PASSED: verifyAICourseDetailReloadsCorrectly
+2026-10-17T14:04:18.666718400 - Launching browser: chrome
+2026-10-17T14:04:21.457908700 - PASSED: verifyAICourseLinksRemainAccessibleAfterScrolling
+2026-10-17T14:04:23.351277600 - Launching browser: chrome
+2026-10-17T14:04:27.182278600 - PASSED: verifyBackNavigationReturnsToAIListing
+2026-10-17T14:04:28.945509300 - Launching browser: chrome
+2026-10-17T14:04:52.071673800 - SKIPPED: verifyDisplayedCourseCountOrSummary
+2026-10-17T14:04:54.070237500 - Launching browser: chrome
+2026-10-17T14:04:58.002604900 - PASSED: verifyEndToEndAICourseDiscovery
+2026-10-17T14:04:59.741617700 - Launching browser: chrome
+2026-10-17T14:05:04.690940800 - PASSED: verifyPrimaryCourseCallToActionNavigation
+2026-10-17T14:05:06.429716 - Launching browser: chrome
+2026-10-17T14:05:09.370819800 - PASSED: verifyScrollingReachesLowerAISections
+2026-10-17T14:05:09.883603500 - Test class completed.
+2026-10-17T14:06:22.004006 - Test suite started.
+2026-10-17T14:06:22.029888500 - Test started.
+2026-10-17T14:06:26.095243200 - Launching browser: chrome
+2026-10-17T14:06:31.482944400 - PASSED: verifyAICourseDetailReloadsCorrectly
+2026-10-17T14:06:34.355741500 - Launching browser: chrome
+2026-10-17T14:06:38.524279400 - FAILED: verifyAICourseLinksRemainAccessibleAfterScrolling
+2026-10-17T14:06:40.700401800 - Launching browser: chrome
+2026-10-17T14:06:45.163682800 - PASSED: verifyBackNavigationReturnsToAIListing
+2026-10-17T14:06:47.079471500 - Launching browser: chrome
+2026-10-17T14:06:51.463570500 - PASSED: verifyEndToEndAICourseDiscovery
+2026-10-17T14:06:53.269477200 - Launching browser: chrome
+2026-10-17T14:06:57.041287300 - PASSED: verifyPrimaryCourseCallToActionNavigation
+2026-10-17T14:06:58.751305800 - Launching browser: chrome
+2026-10-17T14:07:01.841380900 - PASSED: verifyScrollingReachesLowerAISections
+2026-10-17T14:07:02.325900500 - Test class completed.
+2026-10-17T14:07:13.131577800 - Test suite started.
+2026-10-17T14:07:13.148359900 - Test started.
+2026-10-17T14:07:15.792745900 - Launching browser: chrome
+2026-10-17T14:07:19.375305400 - FAILED: verifyAICourseLinksRemainAccessibleAfterScrolling
+2026-10-17T14:07:19.619394900 - Test class completed.
+2026-10-17T15:24:48.366744 - Test suite started.
+2026-10-17T15:24:48.394736800 - Test started.
+2026-10-17T15:24:57.145847500 - Launching browser: chrome
+2026-10-17T15:25:11.831955800 - PASSED: verifyAICourseDetailReloadsCorrectly
+2026-10-17T15:25:17.198653 - Launching browser: chrome
+2026-10-17T15:25:22.158638300 - PASSED: verifyAICourseLinksRemainAccessibleAfterScrolling
+2026-10-17T15:25:25.109850400 - Launching browser: chrome
+2026-10-17T15:25:32.241224600 - PASSED: verifyBackNavigationReturnsToAIListing
+2026-10-17T15:25:35.537913700 - Launching browser: chrome
+2026-10-17T15:25:43.293186200 - PASSED: verifyEndToEndAICourseDiscovery
+2026-10-17T15:25:45.450812400 - Launching browser: chrome
+2026-10-17T15:25:50.774754200 - PASSED: verifyPrimaryCourseCallToActionNavigation
+2026-10-17T15:25:52.665042900 - Launching browser: chrome
+2026-10-17T15:25:55.502928600 - PASSED: verifyScrollingReachesLowerAISections
+2026-10-17T15:25:55.889859400 - Test class completed.
+2026-10-17T15:27:56.152947700 - Test suite started.
+2026-10-17T15:27:56.178013500 - Test started.
+2026-10-17T15:28:00.314199200 - Launching browser: chrome
+2026-10-17T15:28:36.645423200 - PASSED: verifyAllCoursesCategorySelection
+2026-10-17T15:28:40.196739200 - Launching browser: chrome
+2026-10-17T15:28:50.591357 - PASSED: verifyAllCoursesPageLoads
+2026-10-17T15:28:53.003801700 - Launching browser: chrome
+2026-10-17T15:29:10.856651700 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-17T15:29:13.678062600 - Launching browser: chrome
+2026-10-17T15:29:45.439797100 - FAILED: verifyCategoryButtonsDisplayed
+2026-10-17T15:29:48.434023600 - Launching browser: chrome
+2026-10-17T15:31:35.504156100 - Test suite started.
+2026-10-17T15:31:35.544703800 - Test started.
+2026-10-17T15:31:38.656972500 - Launching browser: chrome
+2026-10-17T15:31:55.688207600 - PASSED: verifyAllCoursesCategorySelection
+2026-10-17T15:31:58.479780300 - Launching browser: chrome
+2026-10-17T15:32:09.153573600 - PASSED: verifyAllCoursesPageLoads
+2026-10-17T15:32:11.445365300 - Launching browser: chrome
+2026-10-17T15:32:28.441973600 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-17T15:32:30.892604800 - Launching browser: chrome
+2026-10-17T15:33:05.218968900 - FAILED: verifyCategoryButtonsDisplayed
+2026-10-17T15:33:07.898547600 - Launching browser: chrome
+2026-10-17T15:33:14.430618300 - FAILED: verifyHeadingAndIntroductoryText
+2026-10-17T15:33:16.152193400 - Launching browser: chrome
+2026-10-17T15:33:24.955052700 - FAILED: verifyOnlineDoctorateProgramsCategory
+2026-10-17T15:33:25.187605100 - Test class completed.
+2026-10-17T15:33:34.227447200 - Test suite started.
+2026-10-17T15:33:34.245311700 - Test started.
+2026-10-17T15:33:37.403213800 - Launching browser: chrome
+2026-10-17T15:42:37.735152900 - Test suite started.
+2026-10-17T15:42:37.768982 - Test started.
+2026-10-17T15:42:41.459591600 - Launching browser: chrome
+2026-10-17T15:42:52.051574500 - PASSED: verifyAccreditationsSection
+2026-10-17T15:42:54.233259200 - Launching browser: chrome
+2026-10-17T15:43:19.207245900 - PASSED: verifyCareerOpportunities
+2026-10-17T15:43:21.325222400 - Launching browser: chrome
+2026-10-17T15:43:29.477761 - PASSED: verifyDoctorateLandingPage
+2026-10-17T15:43:31.561607 - Launching browser: chrome
+2026-10-17T15:44:00.062544900 - FAILED: verifyDoctorateProgramCards
+2026-10-17T15:44:03.448310400 - Launching browser: chrome
+2026-10-17T15:44:34.232899800 - FAILED: verifyProgramHighlights
+2026-10-17T15:44:37.174344700 - Launching browser: chrome
+2026-10-17T15:44:47.231033700 - PASSED: verifyViewMoreNavigation
+2026-10-17T15:44:47.833372800 - Test class completed.
+2026-10-17T15:47:24.694190200 - Test suite started.
+2026-10-17T15:47:24.722507800 - Test started.
+2026-10-17T15:47:28.355664900 - Launching browser: chrome
+2026-10-17T15:47:30.681638700 - SKIPPED: verifyAccreditationsSection
+2026-10-17T15:47:33.121395 - Launching browser: chrome
+2026-10-17T15:47:33.821745 - SKIPPED: verifyCareerOpportunities
+2026-10-17T15:47:36.469961600 - Launching browser: chrome
+2026-10-17T15:47:37.042846500 - SKIPPED: verifyDoctorateLandingPage
+2026-10-17T15:47:40.345411300 - Launching browser: chrome
+2026-10-17T15:47:40.767486800 - SKIPPED: verifyDoctorateProgramCards
+2026-10-17T15:47:43.408841100 - Launching browser: chrome
+2026-10-17T15:47:43.847352100 - SKIPPED: verifyProgramHighlights
+2026-10-17T15:47:45.913490900 - Launching browser: chrome
+2026-10-17T15:47:46.344048700 - SKIPPED: verifyViewMoreNavigation
+2026-10-17T15:47:46.793900200 - Test class completed.
+2026-10-17T15:48:15.182093800 - Test suite started.
+2026-10-17T15:48:15.204072200 - Test started.
+2026-10-17T15:48:18.175238100 - Launching browser: chrome
+2026-10-17T15:49:03.488689400 - PASSED: verifyAccreditationsSection
+2026-10-17T15:49:05.757060200 - Launching browser: chrome
+2026-10-17T15:49:15.680115700 - PASSED: verifyCareerOpportunities
+2026-10-17T15:49:17.838749200 - Launching browser: chrome
+2026-10-17T15:49:24.273246700 - PASSED: verifyDoctorateLandingPage
+2026-10-17T15:49:26.360256700 - Launching browser: chrome
+2026-10-17T15:49:53.431842200 - FAILED: verifyDoctorateProgramCards
+2026-10-17T15:49:56.327779400 - Launching browser: chrome
+2026-10-17T15:50:07.837602500 - PASSED: verifyProgramHighlights
+2026-10-17T15:50:09.781527100 - Launching browser: chrome
+2026-10-17T15:50:23.842541400 - PASSED: verifyViewMoreNavigation
+2026-10-17T15:50:24.488523700 - Test class completed.
+2026-10-17T16:08:34.017312900 - Test suite started.
+2026-10-17T16:08:34.044310300 - Test started.
+2026-10-17T16:08:40.856296400 - Launching browser: chrome
+2026-10-17T16:08:52.583483300 - PASSED: verifyAccreditationsSection
+2026-10-17T16:08:55.112648700 - Launching browser: chrome
+2026-10-17T16:09:05.317876400 - PASSED: verifyCareerOpportunities
+2026-10-17T16:09:07.589778500 - Launching browser: chrome
+2026-10-17T16:09:38.077803900 - PASSED: verifyDoctorateLandingPage
+2026-10-17T16:09:41.294469500 - Launching browser: chrome
+2026-10-17T16:09:43.397231700 - PASSED: verifyDoctorateMenuDisplayed
+2026-10-17T16:09:45.944385100 - Launching browser: chrome
+2026-10-17T16:09:55.758529300 - PASSED: verifyProgramHighlights
+2026-10-17T16:09:58.294278300 - Launching browser: chrome
+2026-10-17T16:10:07.637995200 - PASSED: verifyViewMoreNavigation
+2026-10-17T16:10:08.498538200 - Test class completed.
+2026-10-17T16:23:56.049654600 - Test suite started.
+2026-10-17T16:23:56.071662700 - Test started.
+2026-10-17T16:23:59.791132200 - Launching browser: chrome
+2026-10-17T16:24:16.527943300 - PASSED: verifyAllCoursesCategorySelection
+2026-10-17T16:24:18.777512200 - Launching browser: chrome
+2026-10-17T16:24:28.139160700 - PASSED: verifyAllCoursesPageLoads
+2026-10-17T16:24:30.165645500 - Launching browser: chrome
+2026-10-17T16:24:47.670474700 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-17T16:24:50.032641500 - Launching browser: chrome
+2026-10-17T16:25:20.877941500 - FAILED: verifyCategoryButtonsDisplayed
+2026-10-17T16:26:51.422787400 - Test suite started.
+2026-10-17T16:26:51.444805500 - Test started.
+2026-10-17T18:23:56.998665700 - Test suite started.
+2026-10-17T18:23:57.042880600 - Test started.
+2026-10-17T18:24:06.859822800 - Launching browser: chrome
+2026-10-17T18:24:46.917719700 - PASSED: verifyAllCoursesCategorySelection
+2026-10-17T18:24:56.696287500 - Launching browser: chrome
+2026-10-17T18:25:09.419276600 - PASSED: verifyAllCoursesPageLoads
+2026-10-17T18:25:12.018717900 - Launching browser: chrome
+2026-10-17T18:26:14.355007500 - FAILED: verifyArtificialIntelligenceCategory
+2026-10-17T18:26:20.631197 - Launching browser: chrome
+2026-10-17T18:26:57.238151500 - FAILED: verifyCategoryButtonsDisplayed
+2026-10-17T18:27:01.464426700 - Launching browser: chrome
+2026-10-17T18:27:13.901576900 - PASSED: verifyHeadingAndIntroductoryText
+2026-10-17T18:27:16.474327200 - Launching browser: chrome
+2026-10-17T18:27:33.950522300 - PASSED: verifyOnlineDoctorateProgramsCategory
+2026-10-17T18:27:34.545632700 - Test class completed.
+2026-10-17T18:31:28.630917500 - Test suite started.
+2026-10-17T18:31:28.652723500 - Test started.
+2026-10-17T18:31:32.404216900 - Launching browser: chrome
+2026-10-17T18:31:51.466524500 - PASSED: verifyAllCoursesCategorySelection
+2026-10-17T18:31:54.068037900 - Launching browser: chrome
+2026-10-17T18:32:04.003786600 - PASSED: verifyAllCoursesPageLoads
+2026-10-17T18:32:06.333046100 - Launching browser: chrome
+2026-10-17T18:32:23.928336600 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-17T18:32:27.067808600 - Launching browser: chrome
+2026-10-17T18:32:58.809836100 - FAILED: verifyCategoryButtonsDisplayed
+2026-10-17T18:33:03.313660500 - Launching browser: chrome
+2026-10-17T18:33:12.487098600 - PASSED: verifyHeadingAndIntroductoryText
+2026-10-17T18:33:14.854061500 - Launching browser: chrome
+2026-10-17T18:48:52.955219500 - Test suite started.
+2026-10-17T18:48:52.990475300 - Test started.
+2026-10-17T18:48:58.274225600 - Launching browser: chrome
+2026-10-17T18:49:28.974908800 - PASSED: verifyAllCoursesCategorySelection
+2026-10-17T18:49:34.493966400 - Launching browser: chrome
+2026-10-17T18:49:47.105901800 - PASSED: verifyAllCoursesPageLoads
+2026-10-17T18:49:54.157751 - Launching browser: chrome
+2026-10-17T18:50:35.847551800 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-17T18:50:38.861203600 - Launching browser: chrome
+2026-10-17T18:51:11.655249600 - FAILED: verifyCategoryButtonsDisplayed
+2026-10-17T18:51:15.805389400 - Launching browser: chrome
+2026-10-17T18:51:30.573158200 - PASSED: verifyHeadingAndIntroductoryText
+2026-10-17T18:51:35.858020 - Launching browser: chrome
+2026-10-17T18:52:00.412585900 - PASSED: verifyOnlineDoctorateProgramsCategory
+2026-10-17T18:52:04.823965300 - Test class completed.
+2026-10-17T18:53:38.903054600 - Test suite started.
+2026-10-17T18:53:38.922542 - Test started.
+2026-10-17T18:53:44.098772500 - Launching browser: chrome
+2026-10-17T18:53:56.802420 - FAILED: verifyCategoryButtonsDisplayed
+2026-10-17T18:53:57.239551700 - Test class completed.
+2026-10-17T18:55:34.040374500 - Test suite started.
+2026-10-17T18:55:34.060515300 - Test started.
+2026-10-17T18:55:36.907963700 - Launching browser: chrome
+2026-10-17T18:55:46.963252700 - SKIPPED: verifyCategoryButtonsDisplayed
+2026-10-17T18:55:47.501175500 - Test class completed.
+2026-10-17T18:56:33.219500600 - Test suite started.
+2026-10-17T18:56:33.238100700 - Test started.
+2026-10-17T18:56:50.398942800 - Test suite started.
+2026-10-17T18:56:50.420801800 - Test started.
+2026-10-17T18:56:53.424354500 - Launching browser: chrome
+2026-10-17T18:57:40.774040700 - PASSED: verifyAllCoursesCategorySelection
+2026-10-17T18:57:43.452294400 - Launching browser: chrome
+2026-10-17T18:57:53.782999200 - PASSED: verifyAllCoursesPageLoads
+2026-10-17T18:57:56.050834500 - Launching browser: chrome
+2026-10-17T18:58:13.494762200 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-17T18:58:16.005277600 - Launching browser: chrome
+2026-10-17T18:58:45.681063900 - FAILED: verifyCategoryButtonsDisplayed
+2026-10-17T18:58:48.497554 - Launching browser: chrome
+2026-10-17T18:58:57.346850100 - PASSED: verifyHeadingAndIntroductoryText
+2026-10-17T18:58:59.338371300 - Launching browser: chrome
+2026-10-17T18:59:14.909402500 - PASSED: verifyOnlineDoctorateProgramsCategory
+2026-10-17T18:59:15.620103700 - Test class completed.
+2026-10-17T19:00:07.484271500 - Test suite started.
+2026-10-17T19:00:07.501959500 - Test started.
+2026-10-17T19:00:10.488220 - Launching browser: chrome
+2026-10-17T19:00:23.432793300 - FAILED: verifyAllCoursesCategorySelection
+2026-10-17T19:00:25.469467800 - Launching browser: chrome
+2026-10-17T19:00:28.662736300 - FAILED: verifyAllCoursesPageLoads
+2026-10-17T19:00:30.184039700 - Launching browser: chrome
+2026-10-17T19:00:34.918600800 - FAILED: verifyArtificialIntelligenceCategory
+2026-10-17T20:41:35.275722800 - Test suite started.
+2026-10-17T20:41:35.308737500 - Test started.
+2026-10-17T20:41:43.389503100 - Launching browser: chrome
+2026-10-17T20:42:11.819224 - PASSED: verifyAllCoursesCategorySelection
+2026-10-17T20:42:15.546858 - Launching browser: chrome
+2026-10-17T20:42:26.550457800 - PASSED: verifyAllCoursesPageLoads
+2026-10-17T20:42:30.681465100 - Launching browser: chrome
+2026-10-17T20:42:58.722418500 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-17T20:43:04.730598700 - Launching browser: chrome
+2026-10-17T20:43:16.151730100 - PASSED: verifyHeadingAndIntroductoryText
+2026-10-17T20:43:18.737043900 - Launching browser: chrome
+2026-10-17T20:43:50.576190800 - PASSED: verifyOnlineDoctorateProgramsCategory
+2026-10-17T20:43:52.754324300 - Test class completed.
+2026-10-17T20:44:08.039337900 - Test suite started.
+2026-10-17T20:44:08.064876600 - Test started.
+2026-10-17T20:44:12.543306500 - Launching browser: chrome
+2026-10-17T20:45:01.419598 - Test suite started.
+2026-10-17T20:45:01.449332100 - Test started.
+2026-10-17T20:45:05.863073200 - Launching browser: chrome
+2026-10-17T20:45:34.564952300 - FAILED: verifyDataScienceCategory
+2026-10-17T20:45:57.766486700 - SKIPPED: verifyDatabasesCategory
+2026-10-17T20:46:23.457129700 - Test suite started.
+2026-10-17T20:46:23.481351500 - Test started.
+2026-10-17T20:46:26.881884600 - Launching browser: chrome
+2026-10-17T20:49:00.358319300 - Test suite started.
+2026-10-17T20:49:00.387321300 - Test started.
+2026-10-17T20:49:03.689663400 - Launching browser: chrome
+2026-10-17T20:49:21.994427900 - SKIPPED: verifyAllCoursesPageLoads
+2026-10-17T20:49:22.461752600 - Test class completed.
+2026-10-17T20:49:44.459962400 - Test suite started.
+2026-10-17T20:49:44.484363200 - Test started.
+2026-10-17T20:49:47.497064900 - Launching browser: chrome
+2026-10-17T20:50:06.749608100 - PASSED: verifyAllCoursesPageLoads
+2026-10-17T20:50:07.671467700 - Test class completed.
+2026-10-17T20:50:15.683739700 - Test suite started.
+2026-10-17T20:50:15.699733600 - Test started.
+2026-10-17T20:50:18.807707900 - Launching browser: chrome
+2026-10-17T20:50:36.640162400 - PASSED: verifyAllCoursesCategorySelection
+2026-10-17T20:50:37.565834100 - Test class completed.
+2026-10-17T20:50:47.883195500 - Test suite started.
+2026-10-17T20:50:47.902204200 - Test started.
+2026-10-17T20:50:50.645124600 - Launching browser: chrome
+2026-10-17T20:51:26.002182600 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-17T20:51:27.271385700 - Test class completed.
+2026-10-17T20:51:39.466108200 - Test suite started.
+2026-10-17T20:51:39.487205400 - Test started.
+2026-10-17T20:51:42.651276400 - Launching browser: chrome
+2026-10-17T20:52:26.779700200 - FAILED: verifyDataScienceCategory
+2026-10-17T20:52:29.324232100 - Launching browser: chrome
+2026-10-17T20:52:45.196222700 - Test suite started.
+2026-10-17T20:52:45.219235200 - Test started.
+2026-10-17T20:52:48.068458 - Launching browser: chrome
+2026-10-17T20:52:54.925866500 - SKIPPED: verifyOnlineDoctorateProgramsCategory
+2026-10-17T20:52:55.722024 - Test class completed.
+2026-10-17T20:53:03.454217900 - Test suite started.
+2026-10-17T20:53:03.477541200 - Test started.
+2026-10-17T20:53:06.929593900 - Launching browser: chrome
+2026-10-17T20:53:13.439634 - FAILED: verifyOnlineDoctorateProgramsCategory
+2026-10-17T20:53:13.678485400 - Test class completed.
+2026-10-17T20:54:03.558327400 - Test suite started.
+2026-10-17T20:54:03.583472800 - Test started.
+2026-10-17T20:54:06.519438 - Launching browser: chrome
+2026-10-17T20:54:13.152803500 - FAILED: verifyOnlineDoctorateProgramsCategory
+2026-10-17T20:54:13.363776600 - Test class completed.
+2026-10-17T21:03:46.485837200 - Test suite started.
+2026-10-17T21:03:46.511213 - Test started.
+2026-10-17T21:03:49.521299400 - Launching browser: chrome
+2026-10-17T21:04:25.153282400 - FAILED: verifyDataScienceCategory
+2026-10-17T21:04:28.402632600 - Launching browser: chrome
+2026-10-17T21:04:44.650752600 - PASSED: verifyDatabasesCategory
+2026-10-17T21:04:47.364599900 - Launching browser: chrome
+2026-10-17T21:05:03.644278 - PASSED: verifyOnlineMBACategory
+2026-10-17T21:05:06.058027200 - Launching browser: chrome
+2026-10-17T21:05:16.620009200 - PASSED: verifyOthersCategory
+2026-10-17T21:05:18.896557200 - Launching browser: chrome
+2026-10-17T21:05:34.793550 - PASSED: verifyProgrammingFrameworksCategory
+2026-10-17T21:05:37.305543800 - Launching browser: chrome
+2026-10-17T21:06:05.245804200 - Test suite started.
+2026-10-17T21:06:05.267082900 - Test started.
+2026-10-17T21:06:08.171675600 - Launching browser: chrome
+2026-10-17T21:06:29.257038900 - FAILED: verifyDataScienceCategory
+2026-10-17T21:06:29.696634500 - Test class completed.
+2026-10-17T21:06:37.893813300 - Test suite started.
+2026-10-17T21:06:37.910197700 - Test started.
+2026-10-17T21:06:40.640617100 - Launching browser: chrome
+2026-10-17T21:15:49.688387400 - Test suite started.
+2026-10-17T21:15:49.716486 - Test started.
+2026-10-17T21:15:52.628963200 - Launching browser: chrome
+2026-10-17T21:15:53.722671600 - SKIPPED: verifyDataScienceCategory
+2026-10-17T21:15:55.475985200 - Launching browser: chrome
+2026-10-17T21:15:55.913221200 - SKIPPED: verifyDatabasesCategory
+2026-10-17T21:15:58.155509600 - Launching browser: chrome
+2026-10-17T21:15:59.146022900 - SKIPPED: verifyOnlineMBACategory
+2026-10-17T21:16:01.621844700 - Launching browser: chrome
+2026-10-17T21:16:05.867372500 - SKIPPED: verifyOthersCategory
+2026-10-17T21:16:09.275308500 - Launching browser: chrome
+2026-10-17T21:16:10.515966200 - SKIPPED: verifyProgrammingFrameworksCategory
+2026-10-17T21:16:13.120917800 - Launching browser: chrome
+2026-10-17T21:16:14.179489100 - SKIPPED: verifyProjectManagementCategory
+2026-10-17T21:16:14.789586100 - Test class completed.
+2026-10-17T21:16:41.086252600 - Test suite started.
+2026-10-17T21:16:41.105288900 - Test started.
+2026-10-17T21:16:43.920454 - Launching browser: chrome
+2026-10-17T21:17:20.335808600 - FAILED: verifyDataScienceCategory
+2026-10-17T21:17:23.437708 - Launching browser: chrome
+2026-10-17T21:17:38.706467700 - PASSED: verifyDatabasesCategory
+2026-10-17T21:17:40.983336400 - Launching browser: chrome
+2026-10-17T21:17:54.732922500 - PASSED: verifyOnlineMBACategory
+2026-10-17T21:17:57.053469100 - Launching browser: chrome
+2026-10-17T21:18:06.026347200 - PASSED: verifyOthersCategory
+2026-10-17T21:18:08.168686100 - Launching browser: chrome
+2026-10-17T21:18:37.603628300 - FAILED: verifyProgrammingFrameworksCategory
+2026-10-17T21:18:40.089690600 - Launching browser: chrome
+2026-10-17T21:19:03.735997300 - FAILED: verifyProjectManagementCategory
+2026-10-17T21:19:04.347952100 - Test class completed.
+2026-10-17T21:28:32.894546400 - Test suite started.
+2026-10-17T21:28:32.922409500 - Test started.
+2026-10-17T21:28:36.059841900 - Launching browser: chrome
+2026-10-17T21:29:10.631911300 - FAILED: verifyDataScienceCategory
+2026-10-17T21:29:13.485788900 - Launching browser: chrome
+2026-10-17T21:29:27.861519900 - PASSED: verifyDatabasesCategory
+2026-10-17T21:29:30.753422600 - Launching browser: chrome
+2026-10-17T21:29:44.293511600 - PASSED: verifyOnlineMBACategory
+2026-10-17T21:29:46.674535600 - Launching browser: chrome
+2026-10-17T21:29:55.821712500 - PASSED: verifyOthersCategory
+2026-10-17T21:29:58.081639500 - Launching browser: chrome
+2026-10-17T21:30:27.738333300 - FAILED: verifyProgrammingFrameworksCategory
+2026-10-17T21:30:30.202705 - Launching browser: chrome
+2026-10-17T21:30:53.837640400 - FAILED: verifyProjectManagementCategory
+2026-10-17T21:30:54.489519200 - Test class completed.
+2026-10-17T21:32:57.403882200 - Test suite started.
+2026-10-17T21:32:57.429499600 - Test started.
+2026-10-17T21:33:00.159026200 - Launching browser: chrome
+2026-10-17T21:33:53.947470800 - Test suite started.
+2026-10-17T21:33:53.974396600 - Test started.
+2026-10-17T21:33:56.770024800 - Launching browser: chrome
+2026-10-17T21:34:02.923253500 - FAILED: verifyAllCoursesPageLoads
+2026-10-17T21:34:03.203593800 - Test class completed.
+2026-10-18T07:12:10.361683300 - Test suite started.
+2026-10-18T07:12:10.390836200 - Test started.
+2026-10-18T07:12:27.477233500 - Launching browser: chrome
+2026-10-18T07:12:52.747374 - PASSED: verifyAllCoursesCategorySelection
+2026-10-18T07:12:56.527410800 - Launching browser: chrome
+2026-10-18T07:13:08.406030 - PASSED: verifyAllCoursesPageLoads
+2026-10-18T07:13:11.857224 - Launching browser: chrome
+2026-10-18T07:13:33.340750 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-18T07:13:36.558297500 - Launching browser: chrome
+2026-10-18T07:13:47.033454100 - PASSED: verifyHeadingAndIntroductoryText
+2026-10-18T07:13:50.531462700 - Launching browser: chrome
+2026-10-18T07:14:11.246708900 - PASSED: verifyOnlineDoctorateProgramsCategory
+2026-10-18T07:14:12.413160100 - Test class completed.
+2026-10-18T07:14:33.255966500 - Test suite started.
+2026-10-18T07:14:33.287974700 - Test started.
+2026-10-18T07:14:38.454178600 - Launching browser: chrome
+2026-10-18T07:15:58.497824500 - FAILED: verifyDataScienceCategory
+2026-10-18T07:16:03.467717300 - Launching browser: chrome
+2026-10-18T07:16:30.427311 - Test suite started.
+2026-10-18T07:16:30.492919600 - Test started.
+2026-10-18T07:16:35.281713100 - Launching browser: chrome
+2026-10-18T07:20:11.776741800 - Test suite started.
+2026-10-18T07:20:11.818299800 - Test started.
+2026-10-18T07:20:18.790698500 - Launching browser: chrome
+2026-10-18T07:20:22.164870900 - PASSED: verifyEmailFieldDisplayed
+2026-10-18T07:20:26.660533900 - Launching browser: chrome
+2026-10-18T07:20:29.598567200 - PASSED: verifyForgotPasswordLinkDisplayed
+2026-10-18T07:20:33.593989 - Launching browser: chrome
+2026-10-18T07:20:36.087381500 - PASSED: verifyLoginButtonDisplayed
+2026-10-18T07:20:39.683931700 - Launching browser: chrome
+2026-10-18T07:20:42.666813400 - PASSED: verifyPasswordFieldDisplayed
+2026-10-18T07:20:45.844663900 - Launching browser: chrome
+2026-10-18T07:20:48.358724 - PASSED: verifySignUpLinkDisplayed
+2026-10-18T07:20:49.062402300 - Test class completed.
+2026-10-18T07:21:01.032309500 - Test suite started.
+2026-10-18T07:21:01.073329400 - Test started.
+2026-10-18T07:21:05.284150 - Launching browser: chrome
+2026-10-18T07:21:32.699008900 - PASSED: verifyBlankCredentials
+2026-10-18T07:21:36.310087200 - Launching browser: chrome
+2026-10-18T07:21:44.735922800 - PASSED: verifyIncorrectPassword
+2026-10-18T07:21:47.706813500 - Launching browser: chrome
+2026-10-18T07:21:56.478607500 - PASSED: verifyInvalidEmailFormat
+2026-10-18T07:21:59.990958400 - Launching browser: chrome
+2026-10-18T07:22:07.919698500 - PASSED: verifyUnregisteredEmail
+2026-10-18T07:22:08.939007700 - Test class completed.
+2026-10-18T07:22:19.860011100 - Test suite started.
+2026-10-18T07:22:19.882135400 - Test started.
+2026-10-18T07:22:24.028930700 - Launching browser: chrome
+2026-10-18T07:22:45.733022200 - PASSED: verifyEnterKeySubmission
+2026-10-18T07:22:49.369413100 - Launching browser: chrome
+2026-10-18T07:22:54.827551700 - PASSED: verifyForgotPasswordNavigation
+2026-10-18T07:22:57.984968200 - Launching browser: chrome
+2026-10-18T07:23:04.077537300 - PASSED: verifyPasswordMasking
+2026-10-18T07:23:07.224501500 - Launching browser: chrome
+2026-10-18T07:23:12.583481600 - PASSED: verifySignUpNavigation
+2026-10-18T07:23:13.450553300 - Test class completed.
+2026-10-18T07:23:35.001197700 - Test suite started.
+2026-10-18T07:23:35.051801100 - Test started.
+2026-10-18T07:23:39.994271 - Launching browser: chrome
+2026-10-18T07:23:46.962799500 - PASSED: verifyAICourseDetailReloadsCorrectly
+2026-10-18T07:23:50.485090500 - Launching browser: chrome
+2026-10-18T07:23:54.148305500 - FAILED: verifyAICourseLinksRemainAccessibleAfterScrolling
+2026-10-18T07:23:58.383165300 - Launching browser: chrome
+2026-10-18T07:24:02.513497700 - PASSED: verifyBackNavigationReturnsToAIListing
+2026-10-18T07:24:05.756895300 - Launching browser: chrome
+2026-10-18T07:24:36.109270300 - Test suite started.
+2026-10-18T07:24:36.133933500 - Test started.
+2026-10-18T07:24:40.062523500 - Launching browser: chrome
+2026-10-18T07:30:26.248060200 - Test suite started.
+2026-10-18T07:30:26.273045300 - Test started.
+2026-10-18T07:30:29.234373900 - Launching browser: chrome
+2026-10-18T07:30:34.245499800 - PASSED: verifyAICourseDetailReloadsCorrectly
+2026-10-18T07:30:36.159776500 - Launching browser: chrome
+2026-10-18T07:30:38.620118500 - FAILED: verifyAICourseLinksRemainAccessibleAfterScrolling
+2026-10-18T07:30:40.988040600 - Launching browser: chrome
+2026-10-18T07:30:45.452767900 - PASSED: verifyBackNavigationReturnsToAIListing
+2026-10-18T07:30:47.345273900 - Launching browser: chrome
+2026-10-18T07:30:51.921494600 - PASSED: verifyEndToEndAICourseDiscovery
+2026-10-18T07:30:53.706732 - Launching browser: chrome
+2026-10-18T07:30:58.112216 - PASSED: verifyPrimaryCourseCallToActionNavigation
+2026-10-18T07:30:59.943700600 - Launching browser: chrome
+2026-10-18T07:31:02.540506100 - PASSED: verifyScrollingReachesLowerAISections
+2026-10-18T07:31:03.010176500 - Test class completed.
+2026-10-18T07:34:59.042485 - Test suite started.
+2026-10-18T07:34:59.057977500 - Test started.
+2026-10-18T07:35:01.769214900 - Launching browser: chrome
+2026-10-18T07:35:05.457317400 - PASSED: verifyAICourseLinksRemainAccessibleAfterScrolling
+2026-10-18T07:35:06.044521700 - Test class completed.
+2026-10-18T07:41:47.362245400 - Test suite started.
+2026-10-18T07:41:47.392208200 - Test started.
+2026-10-18T07:41:50.621025 - Launching browser: chrome
+2026-10-18T07:42:02.054171900 - PASSED: verifyAccreditationsSection
+2026-10-18T07:42:04.034126200 - Launching browser: chrome
+2026-10-18T07:42:12.959051800 - PASSED: verifyCareerOpportunities
+2026-10-18T07:42:14.966923200 - Launching browser: chrome
+2026-10-18T07:42:22.379795400 - PASSED: verifyDoctorateLandingPage
+2026-10-18T07:42:24.370178600 - Launching browser: chrome
+2026-10-18T07:42:25.956487900 - PASSED: verifyDoctorateMenuDisplayed
+2026-10-18T07:42:27.686179 - Launching browser: chrome
+2026-10-18T07:42:37.287730600 - PASSED: verifyProgramHighlights
+2026-10-18T07:42:39.177797200 - Launching browser: chrome
+2026-10-18T07:42:48.144564700 - PASSED: verifyViewMoreNavigation
+2026-10-18T07:42:48.731498 - Test class completed.
+2026-10-19T19:12:23.560878600 - Test suite started.
+2026-10-19T19:12:23.578552700 - Test started.
+2026-10-19T19:12:36.011872500 - Launching browser: chrome
+2026-10-19T19:13:46.007721 - PASSED: verifyAllCoursesCategorySelection
+2026-10-19T19:13:50.141133 - Launching browser: chrome
+2026-10-19T19:14:17.550259300 - PASSED: verifyAllCoursesPageLoads
+2026-10-19T19:14:19.963057200 - Launching browser: chrome
+2026-10-19T19:15:14.729556200 - SKIPPED: verifyArtificialIntelligenceCategory
+2026-10-19T19:15:17.586804900 - Launching browser: chrome
+2026-10-19T19:15:54.250825800 - SKIPPED: verifyHeadingAndIntroductoryText
+2026-10-19T19:15:56.823960600 - Launching browser: chrome
+2026-10-19T19:16:08.616299200 - SKIPPED: verifyOnlineDoctorateProgramsCategory
+2026-10-19T19:16:09.050683100 - Test class completed.
+2026-10-20T11:04:10.985594900 - Test suite started.
+2026-10-20T11:04:11.019613 - Test started.
+2026-10-20T11:04:27.248441500 - Launching browser: chrome
+2026-10-20T11:05:48.174270700 - PASSED: verifyAllCoursesCategorySelection
+2026-10-20T11:05:50.932090800 - Launching browser: chrome
+2026-10-20T11:16:27.222116100 - Test suite started.
+2026-10-20T11:16:27.253821100 - Test started.
+2026-10-20T11:16:31.319337600 - Launching browser: chrome
+2026-10-20T11:17:31.402448100 - SKIPPED: verifyAllCoursesCategorySelection
+2026-10-20T11:17:33.882587200 - Launching browser: chrome
+2026-10-20T11:18:01.098303700 - SKIPPED: verifyAllCoursesPageLoads
+2026-10-20T11:18:03.948627900 - Launching browser: chrome
+2026-10-20T11:18:05.041691600 - SKIPPED: verifyArtificialIntelligenceCategory
+2026-10-20T11:18:08.178868600 - Launching browser: chrome
+2026-10-20T11:18:09.227145700 - SKIPPED: verifyHeadingAndIntroductoryText
+2026-10-20T11:18:12.058626700 - Launching browser: chrome
+2026-10-20T11:18:13.073349100 - SKIPPED: verifyOnlineDoctorateProgramsCategory
+2026-10-20T11:18:14.044373800 - Test class completed.
+2026-10-20T11:18:29.579343 - Test suite started.
+2026-10-20T11:18:29.628816500 - Test started.
+2026-10-20T11:18:33.635830500 - Launching browser: chrome
+2026-10-20T11:19:49.518990 - Test suite started.
+2026-10-20T11:19:49.544661800 - Test started.
+2026-10-20T11:19:53.411767 - Launching browser: chrome
+2026-10-20T11:21:07.148128200 - FAILED: verifyDataScienceCategory
+2026-10-20T11:21:10.577412300 - Launching browser: chrome
+2026-10-21T22:02:49.687118300 - Test suite started.
+2026-10-21T22:02:49.713280300 - Test started.
+2026-10-21T22:03:02.962006800 - Launching browser: chrome
+2026-10-21T22:03:09.273818300 - PASSED: verifyEmailFieldDisplayed
+2026-10-21T22:03:13.326213700 - Launching browser: chrome
+2026-10-21T22:03:16.770266700 - PASSED: verifyForgotPasswordLinkDisplayed
+2026-10-21T22:03:19.201823600 - Launching browser: chrome
+2026-10-21T22:03:28.379942200 - PASSED: verifyLoginButtonDisplayed
+2026-10-21T22:03:31.396471 - Launching browser: chrome
+2026-10-21T22:03:46.896465100 - PASSED: verifyPasswordFieldDisplayed
+2026-10-21T22:03:51.644488200 - Launching browser: chrome
+2026-10-21T22:03:58.162643300 - PASSED: verifySignUpLinkDisplayed
+2026-10-21T22:04:07.809416800 - Test class completed.
+2026-10-21T22:04:11.130046900 - Launching browser: chrome
+2026-10-21T22:05:16.365406500 - PASSED: verifyAllCoursesCategorySelection
+2026-10-21T22:05:20.984338100 - Launching browser: chrome
+2026-10-21T22:05:39.912113600 - PASSED: verifyAllCoursesPageLoads
+2026-10-21T22:05:51.303821400 - Launching browser: chrome
+2026-10-21T22:07:11.666241300 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-21T22:07:17.356648500 - Launching browser: chrome
+2026-10-21T22:07:31.129267900 - PASSED: verifyHeadingAndIntroductoryText
+2026-10-21T22:07:34.832934600 - Launching browser: chrome
+2026-10-21T22:07:57.706525 - PASSED: verifyOnlineDoctorateProgramsCategory
+2026-10-21T22:07:58.962282700 - Test class completed.
+2026-10-21T22:08:00.375191 - Launching browser: chrome
+2026-10-21T22:08:06.150608 - FAILED: verifyAICourseDetailReloadsCorrectly
+2026-10-21T22:08:08.161207700 - Launching browser: chrome
+2026-10-21T22:08:10.679711300 - FAILED: verifyAICourseLinksRemainAccessibleAfterScrolling
+2026-10-21T22:08:12.397280300 - Launching browser: chrome
+2026-10-21T22:08:14.747237900 - FAILED: verifyBackNavigationReturnsToAIListing
+2026-10-21T22:08:17.183100 - Launching browser: chrome
+2026-10-21T22:08:17.420844800 - FAILED: verifyEndToEndAICourseDiscovery
+2026-10-21T22:08:20.591208700 - Launching browser: chrome
+2026-10-21T22:09:29.190582600 - Test suite started.
+2026-10-21T22:09:29.208834700 - Test started.
+2026-10-21T22:09:33.499434600 - Launching browser: chrome
+2026-10-21T22:09:56.079198300 - PASSED: verifyAICourseDetailReloadsCorrectly
+2026-10-21T22:09:56.749502900 - Test class completed.
+2026-10-21T22:10:58.621676400 - Test suite started.
+2026-10-21T22:10:58.648722700 - Test started.
+2026-10-21T22:11:03.193456100 - Launching browser: chrome
+2026-10-21T22:11:41.784532500 - FAILED: verifyDataScienceCategory
+2026-10-21T22:11:45.729404100 - Launching browser: chrome
+2026-10-21T22:12:12.350780800 - PASSED: verifyDatabasesCategory
+2026-10-21T22:12:16.609427 - Launching browser: chrome
+2026-10-21T22:12:57.801243400 - PASSED: verifyOnlineMBACategory
+2026-10-21T22:13:02.680144900 - Launching browser: chrome
+2026-10-21T22:13:21.329745400 - PASSED: verifyOthersCategory
+2026-10-21T22:13:25.970618100 - Launching browser: chrome
+2026-10-21T22:13:49.926485900 - PASSED: verifyProgrammingFrameworksCategory
+2026-10-21T22:13:53.274487700 - Launching browser: chrome
+2026-10-21T22:14:29.828899200 - FAILED: verifyProjectManagementCategory
+2026-10-21T22:14:30.745572600 - Test class completed.
+2026-10-21T22:14:43.879303300 - Test suite started.
+2026-10-21T22:14:43.903406700 - Test started.
+2026-10-21T22:14:48.008334 - Launching browser: chrome
+2026-10-21T22:15:16.587519300 - FAILED: verifyDataScienceCategory
+2026-10-21T22:15:18.295114 - Test class completed.
+2026-10-21T22:15:28.481127400 - Test suite started.
+2026-10-21T22:15:28.510131600 - Test started.
+2026-10-21T22:15:32.269342500 - Launching browser: chrome
+2026-10-21T22:16:01.106544300 - FAILED: verifyDataScienceCategory
+2026-10-21T22:16:02.130713900 - Test class completed.
+2026-10-21T22:16:49.115861100 - Test suite started.
+2026-10-21T22:16:49.143857500 - Test started.
+2026-10-21T22:16:53.654801400 - Launching browser: chrome
+2026-10-21T22:17:22.707510100 - PASSED: verifyDatabasesCategory
+2026-10-21T22:17:25.890715 - Launching browser: chrome
+2026-10-21T22:17:46.649789800 - PASSED: verifyOnlineMBACategory
+2026-10-21T22:17:49.585315600 - Launching browser: chrome
+2026-10-21T22:18:03.915586 - PASSED: verifyOthersCategory
+2026-10-21T22:18:06.726223300 - Launching browser: chrome
+2026-10-21T22:18:24.519549500 - PASSED: verifyProgrammingFrameworksCategory
+2026-10-21T22:18:27.138013 - Launching browser: chrome
+2026-10-21T22:18:55.245540300 - PASSED: verifyProjectManagementCategory
+2026-10-21T22:18:56.323416800 - Test class completed.
+2026-10-21T22:19:08.247844300 - Test suite started.
+2026-10-21T22:19:08.277789700 - Test started.
+2026-10-21T22:19:12.408255900 - Launching browser: chrome
+2026-10-21T22:19:36.229704800 - PASSED: verifyAllCoursesCategorySelection
+2026-10-21T22:19:38.667306300 - Launching browser: chrome
+2026-10-21T22:19:49.957742 - PASSED: verifyAllCoursesPageLoads
+2026-10-21T22:19:52.150112800 - Launching browser: chrome
+2026-10-21T22:20:12.173465900 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-21T22:20:14.812309300 - Launching browser: chrome
+2026-10-21T22:20:39.246964 - FAILED: verifyHeadingAndIntroductoryText
+2026-10-21T22:20:42.021616 - Launching browser: chrome
+2026-10-21T22:21:06.073535200 - FAILED: verifyOnlineDoctorateProgramsCategory
+2026-10-21T22:21:06.857140200 - Test class completed.
+2026-10-21T22:21:18.174156 - Test suite started.
+2026-10-21T22:21:18.194952 - Test started.
+2026-10-21T22:21:23.433896900 - Launching browser: chrome
+2026-10-21T22:21:53.228363700 - FAILED: verifyHeadingAndIntroductoryText
+2026-10-21T22:21:54.126115400 - Test class completed.
+2026-10-21T22:22:03.981775700 - Test suite started.
+2026-10-21T22:22:04.014737200 - Test started.
+2026-10-21T22:22:07.583206100 - Launching browser: chrome
+2026-10-21T22:22:14.219897500 - FAILED: verifyHeadingAndIntroductoryText
+2026-10-21T22:22:14.465630500 - Test class completed.
+2026-10-21T22:24:57.811169 - Test suite started.
+2026-10-21T22:24:57.838937400 - Test started.
+2026-10-21T22:25:01.410676400 - Launching browser: chrome
+2026-10-21T22:25:16.840483100 - PASSED: verifyHeadingAndIntroductoryText
+2026-10-21T22:25:17.686907 - Test class completed.
+2026-10-21T22:25:44.378186700 - Test suite started.
+2026-10-21T22:25:44.407449100 - Test started.
+2026-10-21T22:25:47.695104 - Launching browser: chrome
+2026-10-21T22:26:10.576987200 - PASSED: verifyOnlineDoctorateProgramsCategory
+2026-10-21T22:26:11.546601600 - Test class completed.
+2026-10-21T22:27:13.842590300 - Test suite started.
+2026-10-21T22:27:13.869714600 - Test started.
+2026-10-21T22:27:17.737182 - Launching browser: chrome
+2026-10-21T22:27:24.497560300 - PASSED: verifyAICourseDetailReloadsCorrectly
+2026-10-21T22:27:26.605991100 - Launching browser: chrome
+2026-10-21T22:27:30.331643200 - PASSED: verifyAICourseLinksRemainAccessibleAfterScrolling
+2026-10-21T22:27:32.265578 - Launching browser: chrome
+2026-10-21T22:27:37.101110800 - PASSED: verifyBackNavigationReturnsToAIListing
+2026-10-21T22:27:39.115509700 - Launching browser: chrome
+2026-10-21T22:27:45.060440300 - PASSED: verifyEndToEndAICourseDiscovery
+2026-10-21T22:27:47.221827300 - Launching browser: chrome
+2026-10-21T22:27:52.082292400 - PASSED: verifyPrimaryCourseCallToActionNavigation
+2026-10-21T22:27:54.164852500 - Launching browser: chrome
+2026-10-21T22:27:57.548017800 - PASSED: verifyScrollingReachesLowerAISections
+2026-10-21T22:27:58.007403500 - Test class completed.
+2026-10-21T22:30:29.314367100 - Test suite started.
+2026-10-21T22:30:29.345967600 - Test started.
+2026-10-21T22:30:33.315665800 - Launching browser: chrome
+2026-10-21T22:30:44.299576200 - PASSED: verifyEnterKeySubmission
+2026-10-21T22:30:46.581396 - Launching browser: chrome
+2026-10-21T22:30:53.004724800 - PASSED: verifyForgotPasswordNavigation
+2026-10-21T22:30:55.251992 - Launching browser: chrome
+2026-10-21T22:31:00.704284900 - PASSED: verifyPasswordMasking
+2026-10-21T22:31:02.814025800 - Launching browser: chrome
+2026-10-21T22:31:09.131993 - PASSED: verifySignUpNavigation
+2026-10-21T22:31:09.749128600 - Test class completed.
+2026-10-21T22:31:25.127082600 - Test suite started.
+2026-10-21T22:31:25.146399300 - Test started.
+2026-10-21T22:31:28.301287700 - Launching browser: chrome
+2026-10-21T22:31:53.324162500 - FAILED: verifyBlankCredentials
+2026-10-21T22:31:55.402281100 - Launching browser: chrome
+2026-10-21T22:32:01.862010100 - FAILED: verifyIncorrectPassword
+2026-10-21T22:32:04.953598900 - Launching browser: chrome
+2026-10-21T22:32:19.604544600 - PASSED: verifyInvalidEmailFormat
+2026-10-21T22:32:21.918291300 - Launching browser: chrome
+2026-10-21T22:32:30.432195200 - PASSED: verifyUnregisteredEmail
+2026-10-21T22:32:31.018288700 - Test class completed.
+2026-10-21T22:32:41.410673 - Test suite started.
+2026-10-21T22:32:41.432678600 - Test started.
+2026-10-21T22:32:44.850007900 - Launching browser: chrome
+2026-10-21T22:32:54.221193 - PASSED: verifyBlankCredentials
+2026-10-21T22:32:54.839294900 - Test class completed.
+2026-10-21T22:33:20.930202900 - Test suite started.
+2026-10-21T22:33:20.953207500 - Test started.
+2026-10-21T22:33:24.382512100 - Launching browser: chrome
+2026-10-21T22:33:37.426907700 - PASSED: verifyBlankCredentials
+2026-10-21T22:33:39.818636500 - Launching browser: chrome
+2026-10-21T22:33:45.144271300 - PASSED: verifyIncorrectPassword
+2026-10-21T22:33:47.479077600 - Launching browser: chrome
+2026-10-21T22:33:55.149571200 - PASSED: verifyInvalidEmailFormat
+2026-10-21T22:33:57.376225500 - Launching browser: chrome
+2026-10-21T22:34:04.998373700 - PASSED: verifyUnregisteredEmail
+2026-10-21T22:34:05.541164100 - Test class completed.
+2026-10-21T22:36:25.287455400 - Test suite started.
+2026-10-21T22:36:25.312216300 - Test started.
+2026-10-21T22:36:29.195258500 - Launching browser: chrome
+2026-10-21T22:36:30.845113700 - SKIPPED: verifyBlankCredentials
+2026-10-21T22:36:33.443116200 - Launching browser: chrome
+2026-10-21T22:36:35.567494100 - SKIPPED: verifyIncorrectPassword
+2026-10-21T22:36:39.425646100 - Launching browser: chrome
+2026-10-21T22:36:40.865847600 - SKIPPED: verifyInvalidEmailFormat
+2026-10-21T22:36:53.322248100 - Test suite started.
+2026-10-21T22:36:53.341743 - Test started.
+2026-10-21T22:36:56.716525700 - Launching browser: chrome
+2026-10-21T22:37:22.530508900 - PASSED: verifyBlankCredentials
+2026-10-21T22:37:25.226645700 - SKIPPED: verifyIncorrectPassword
+2026-10-21T22:37:27.155445900 - Launching browser: chrome
+2026-10-21T22:37:28.298535800 - SKIPPED: verifyInvalidEmailFormat
+2026-10-21T22:37:30.612745 - Launching browser: chrome
+2026-10-21T22:37:31.603711400 - SKIPPED: verifyUnregisteredEmail
+2026-10-21T22:37:32.040192300 - Test class completed.
+2026-10-21T22:37:44.460283600 - Test suite started.
+2026-10-21T22:37:44.481754400 - Test started.
+2026-10-21T22:37:47.649166100 - Launching browser: chrome
+2026-10-21T22:37:57.580181300 - PASSED: verifyBlankCredentials
+2026-10-21T22:37:58.164479100 - Test class completed.
+2026-10-21T22:38:11.895589600 - Test suite started.
+2026-10-21T22:38:11.911880900 - Test started.
+2026-10-21T22:38:14.888562700 - Launching browser: chrome
+2026-10-21T22:38:17.310219600 - SKIPPED: verifyEmailFieldDisplayed
+2026-10-21T22:38:19.256125700 - Launching browser: chrome
+2026-10-21T22:38:19.771184500 - SKIPPED: verifyForgotPasswordLinkDisplayed
+2026-10-21T22:38:21.873525300 - Launching browser: chrome
+2026-10-21T22:38:22.401807800 - SKIPPED: verifyLoginButtonDisplayed
+2026-10-21T22:38:24.206119200 - Launching browser: chrome
+2026-10-21T22:38:24.746829900 - SKIPPED: verifyPasswordFieldDisplayed
+2026-10-21T22:38:28.529078800 - Launching browser: chrome
+2026-10-21T22:38:32.295042100 - SKIPPED: verifySignUpLinkDisplayed
+2026-10-21T22:38:32.795515700 - Test class completed.
+2026-10-21T22:40:59.108758300 - Test suite started.
+2026-10-21T22:40:59.135858400 - Test started.
+2026-10-21T22:41:02.256677100 - Launching browser: chrome
+2026-10-21T22:41:04.499077 - PASSED: verifyEmailFieldDisplayed
+2026-10-21T22:41:06.655374500 - Launching browser: chrome
+2026-10-21T22:41:08.756334100 - PASSED: verifyForgotPasswordLinkDisplayed
+2026-10-21T22:41:10.641734300 - Launching browser: chrome
+2026-10-21T22:41:12.810564200 - PASSED: verifyLoginButtonDisplayed
+2026-10-21T22:41:14.797852800 - Launching browser: chrome
+2026-10-21T22:41:16.775997400 - PASSED: verifyPasswordFieldDisplayed
+2026-10-21T22:41:18.626246700 - Launching browser: chrome
+2026-10-21T22:41:20.591405900 - PASSED: verifySignUpLinkDisplayed
+2026-10-21T22:41:21.059335400 - Test class completed.
+2026-10-21T22:42:22.017690900 - Test suite started.
+2026-10-21T22:42:22.051088900 - Test started.
+2026-10-21T22:42:25.973267600 - Launching browser: chrome
+2026-10-21T22:42:36.266906600 - PASSED: verifyAccreditationsSection
+2026-10-21T22:42:38.496223700 - Launching browser: chrome
+2026-10-21T22:42:47.331322100 - PASSED: verifyCareerOpportunities
+2026-10-21T22:42:49.242620700 - Launching browser: chrome
+2026-10-21T22:42:55.738536300 - PASSED: verifyDoctorateLandingPage
+2026-10-21T22:42:57.818116800 - Launching browser: chrome
+2026-10-21T22:42:59.695876800 - PASSED: verifyDoctorateMenuDisplayed
+2026-10-21T22:43:02.140065600 - Launching browser: chrome
+2026-10-21T22:43:11.327096600 - PASSED: verifyProgramHighlights
+2026-10-21T22:43:13.297236200 - Launching browser: chrome
+2026-10-21T22:43:22.688526400 - PASSED: verifyViewMoreNavigation
+2026-10-21T22:43:23.194264800 - Test class completed.
+2026-10-21T22:45:38.162689600 - Test suite started.
+2026-10-21T22:45:38.197876800 - Test started.
+2026-10-21T22:45:41.633478400 - Launching browser: chrome
+2026-10-21T22:45:44.585906200 - PASSED: verifyEmailFieldDisplayed
+2026-10-21T22:45:46.628753800 - Launching browser: chrome
+2026-10-21T22:45:49.496892300 - PASSED: verifyForgotPasswordLinkDisplayed
+2026-10-21T22:45:51.396424200 - Launching browser: chrome
+2026-10-21T22:45:54.670356200 - PASSED: verifyLoginButtonDisplayed
+2026-10-21T22:45:56.584645800 - Launching browser: chrome
+2026-10-21T22:45:59.570945100 - PASSED: verifyPasswordFieldDisplayed
+2026-10-21T22:46:01.617714800 - Launching browser: chrome
+2026-10-21T22:46:04.261650800 - PASSED: verifySignUpLinkDisplayed
+2026-10-21T22:46:04.688956300 - Test class completed.
+2026-10-21T22:46:06.308323600 - Launching browser: chrome
+2026-10-21T22:47:00.450632800 - FAILED: verifyAllCoursesCategorySelection
+2026-10-21T22:47:02.953142 - Launching browser: chrome
+2026-10-21T22:47:18.000709100 - PASSED: verifyAllCoursesPageLoads
+2026-10-21T22:47:19.993327900 - Launching browser: chrome
+2026-10-21T22:48:58.648857400 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-21T22:49:00.746427700 - Launching browser: chrome
+2026-10-21T22:49:43.484834500 - PASSED: verifyHeadingAndIntroductoryText
+2026-10-21T22:49:45.737590800 - Launching browser: chrome
+2026-10-21T22:50:48.947835400 - PASSED: verifyOnlineDoctorateProgramsCategory
+2026-10-21T22:50:49.577800400 - Test class completed.
+2026-10-21T22:50:51.108968900 - Launching browser: chrome
+2026-10-21T22:51:13.648354400 - PASSED: verifyAICourseDetailReloadsCorrectly
+2026-10-21T22:51:15.833985100 - Launching browser: chrome
+2026-10-21T22:51:32.829898300 - PASSED: verifyAICourseLinksRemainAccessibleAfterScrolling
+2026-10-21T22:51:35.009930100 - Launching browser: chrome
+2026-10-21T22:51:50.823573100 - PASSED: verifyBackNavigationReturnsToAIListing
+2026-10-21T22:51:52.863274600 - Launching browser: chrome
+2026-10-21T22:52:03.771295700 - PASSED: verifyEndToEndAICourseDiscovery
+2026-10-21T22:52:05.625051100 - Launching browser: chrome
+2026-10-21T22:52:33.819664400 - PASSED: verifyPrimaryCourseCallToActionNavigation
+2026-10-21T22:52:36.280376600 - Launching browser: chrome
+2026-10-21T22:52:53.302275700 - PASSED: verifyScrollingReachesLowerAISections
+2026-10-21T22:52:53.879864900 - Test class completed.
+2026-10-21T22:52:55.299945700 - Launching browser: chrome
+2026-10-21T22:53:20.687416900 - PASSED: verifyAccreditationsSection
+2026-10-21T22:53:22.649439200 - Launching browser: chrome
+2026-10-21T22:54:11.383070700 - FAILED: verifyCareerOpportunities
+2026-10-21T22:54:13.819144100 - Launching browser: chrome
+2026-10-21T22:54:35.143551600 - FAILED: verifyDoctorateLandingPage
+2026-10-21T22:54:37.464268900 - Launching browser: chrome
+2026-10-21T22:54:58.762944800 - FAILED: verifyDoctorateMenuDisplayed
+2026-10-21T22:55:00.849968500 - Launching browser: chrome
+2026-10-21T22:55:17.368738600 - PASSED: verifyProgramHighlights
+2026-10-21T22:55:19.378796600 - Launching browser: chrome
+2026-10-21T22:55:34.204933700 - PASSED: verifyViewMoreNavigation
+2026-10-21T22:55:34.839813500 - Test class completed.
+2026-10-21T22:55:57.345465900 - Test suite started.
+2026-10-21T22:55:57.363756700 - Test started.
+2026-10-21T22:56:00.366672700 - Launching browser: chrome
+2026-10-21T22:56:25.290035100 - FAILED: verifyAccreditationsSection
+2026-10-21T22:56:25.975660400 - Test class completed.
+2026-10-21T22:56:40.058450100 - Test suite started.
+2026-10-21T22:56:40.081080800 - Test started.
+2026-10-21T22:56:43.451279700 - Launching browser: chrome
+2026-10-21T22:57:25.419719900 - PASSED: verifyAccreditationsSection
+2026-10-21T22:57:26.087913300 - Test class completed.
+2026-10-21T23:15:26.660094300 - Test suite started.
+2026-10-21T23:15:26.702086500 - Test started.
+2026-10-21T23:15:50.837231200 - Launching browser: chrome
+2026-10-21T23:16:17.437173500 - PASSED: verifyEmailFieldDisplayed
+2026-10-21T23:16:20.919895300 - Launching browser: chrome
+2026-10-21T23:16:23.975625 - PASSED: verifyForgotPasswordLinkDisplayed
+2026-10-21T23:16:26.414284800 - Launching browser: chrome
+2026-10-21T23:16:28.963270100 - PASSED: verifyLoginButtonDisplayed
+2026-10-21T23:16:31.261282600 - Launching browser: chrome
+2026-10-21T23:16:33.697922800 - PASSED: verifyPasswordFieldDisplayed
+2026-10-21T23:16:35.982630 - Launching browser: chrome
+2026-10-21T23:16:38.703101600 - PASSED: verifySignUpLinkDisplayed
+2026-10-21T23:16:39.771986500 - Test class completed.
+2026-10-21T23:16:41.913484200 - Launching browser: chrome
+2026-10-21T23:17:04.943471900 - PASSED: verifyAllCoursesCategorySelection
+2026-10-21T23:17:08.687569900 - Launching browser: chrome
+2026-10-21T23:17:21.842819900 - PASSED: verifyAllCoursesPageLoads
+2026-10-21T23:17:24.766841700 - Launching browser: chrome
+2026-10-21T23:17:46.008888900 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-21T23:17:49.420221400 - Launching browser: chrome
+2026-10-21T23:17:59.575597 - PASSED: verifyHeadingAndIntroductoryText
+2026-10-21T23:18:01.986385200 - Launching browser: chrome
+2026-10-21T23:18:21.885359400 - PASSED: verifyOnlineDoctorateProgramsCategory
+2026-10-21T23:18:22.898372500 - Test class completed.
+2026-10-21T23:18:24.822280800 - Launching browser: chrome
+2026-10-21T23:18:42.481494100 - PASSED: verifyDatabasesCategory
+2026-10-21T23:18:45.116271200 - Launching browser: chrome
+2026-10-21T23:19:09.861895 - FAILED: verifyOnlineMBACategory
+2026-10-21T23:19:12.322130800 - Launching browser: chrome
+2026-10-21T23:19:28.005155700 - SKIPPED: verifyOthersCategory
+2026-10-21T23:19:32.081404 - Launching browser: chrome
+2026-10-21T23:19:32.735681700 - SKIPPED: verifyProgrammingFrameworksCategory
+2026-10-21T23:19:35.253246700 - Launching browser: chrome
+2026-10-21T23:19:35.859403400 - SKIPPED: verifyProjectManagementCategory
+2026-10-21T23:19:36.614488900 - Test class completed.
+2026-10-21T23:19:38.415884900 - Launching browser: chrome
+2026-10-21T23:19:39.066842100 - SKIPPED: verifyAICourseDetailReloadsCorrectly
+2026-10-21T23:19:41.488548 - Launching browser: chrome
+2026-10-21T23:19:41.981237500 - SKIPPED: verifyAICourseLinksRemainAccessibleAfterScrolling
+2026-10-21T23:19:44.134326900 - Launching browser: chrome
+2026-10-21T23:19:44.917328600 - SKIPPED: verifyBackNavigationReturnsToAIListing
+2026-10-21T23:19:46.839507 - Launching browser: chrome
+2026-10-21T23:19:47.370207100 - SKIPPED: verifyEndToEndAICourseDiscovery
+2026-10-21T23:19:49.261028 - Launching browser: chrome
+2026-10-21T23:19:49.850568800 - SKIPPED: verifyPrimaryCourseCallToActionNavigation
+2026-10-21T23:19:51.662654600 - Launching browser: chrome
+2026-10-21T23:19:52.239780100 - SKIPPED: verifyScrollingReachesLowerAISections
+2026-10-21T23:19:52.783963100 - Test class completed.
+2026-10-21T23:19:54.171424 - Launching browser: chrome
+2026-10-21T23:19:54.778671200 - SKIPPED: verifyAccreditationsSection
+2026-10-21T23:19:56.732666800 - Launching browser: chrome
+2026-10-21T23:19:57.243638900 - SKIPPED: verifyCareerOpportunities
+2026-10-21T23:19:59.300055800 - Launching browser: chrome
+2026-10-21T23:19:59.956644200 - SKIPPED: verifyDoctorateLandingPage
+2026-10-21T23:20:01.801143200 - Launching browser: chrome
+2026-10-21T23:20:02.409090600 - SKIPPED: verifyDoctorateMenuDisplayed
+2026-10-21T23:20:04.642965400 - Launching browser: chrome
+2026-10-21T23:20:05.108220600 - SKIPPED: verifyProgramHighlights
+2026-10-21T23:20:07.011775 - Launching browser: chrome
+2026-10-21T23:20:07.577393300 - SKIPPED: verifyViewMoreNavigation
+2026-10-21T23:20:08.046867100 - Test class completed.
+2026-10-22T11:30:22.452814200 - Test suite started.
+2026-10-22T11:30:22.487173200 - Test started.
+2026-10-22T11:30:50.383209400 - Launching browser: chrome
+2026-10-22T11:31:33.584825 - PASSED: verifyEmailFieldDisplayed
+2026-10-22T11:31:36.859381500 - Launching browser: chrome
+2026-10-22T11:32:26.394634200 - PASSED: verifyForgotPasswordLinkDisplayed
+2026-10-22T11:32:28.841940100 - Launching browser: chrome
+2026-10-22T11:32:32.950056300 - PASSED: verifyLoginButtonDisplayed
+2026-10-22T11:32:36.187442900 - Launching browser: chrome
+2026-10-22T11:33:36.278866400 - SKIPPED: verifyPasswordFieldDisplayed
+2026-10-22T11:33:38.692859500 - Launching browser: chrome
+2026-10-22T11:34:31.027358600 - SKIPPED: verifySignUpLinkDisplayed
+2026-10-22T11:34:31.579294500 - Test class completed.
+2026-10-22T11:34:33.336176200 - Launching browser: chrome
+2026-10-22T11:36:30.089659900 - Test suite started.
+2026-10-22T11:36:30.126067600 - Test started.
+2026-10-22T11:36:34.361464800 - Launching browser: chrome
+2026-10-23T18:36:20.964042800 - Test suite started.
+2026-10-23T18:36:20.992143 - Test started.
+2026-10-23T18:36:28.405222300 - Launching browser: chrome
+2026-10-23T18:36:47.090292500 - PASSED: verifyAllCoursesCategorySelection
+2026-10-23T18:36:49.744315800 - Launching browser: chrome
+2026-10-23T18:36:59.714418500 - PASSED: verifyAllCoursesPageLoads
+2026-10-23T18:37:01.881594800 - Launching browser: chrome
+2026-10-23T18:37:20.615100300 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-23T18:37:22.735224100 - Launching browser: chrome
+2026-10-23T18:37:32.578974800 - PASSED: verifyHeadingAndIntroductoryText
+2026-10-23T18:37:34.535533 - Launching browser: chrome
+2026-10-23T18:37:51.076700800 - PASSED: verifyOnlineDoctorateProgramsCategory
+2026-10-23T18:37:51.834301800 - Test class completed.
+2026-10-23T18:37:53.380561200 - Launching browser: chrome
+2026-10-23T18:37:55.859006800 - PASSED: verifyEmailFieldDisplayed
+2026-10-23T18:37:57.678681700 - Launching browser: chrome
+2026-10-23T18:37:59.776962800 - PASSED: verifyForgotPasswordLinkDisplayed
+2026-10-23T18:38:01.598247900 - Launching browser: chrome
+2026-10-23T18:38:03.856385700 - PASSED: verifyLoginButtonDisplayed
+2026-10-23T18:38:05.716935100 - Launching browser: chrome
+2026-10-23T18:38:07.914780200 - PASSED: verifyPasswordFieldDisplayed
+2026-10-23T18:38:09.645550800 - Launching browser: chrome
+2026-10-23T18:38:11.815413100 - PASSED: verifySignUpLinkDisplayed
+2026-10-23T18:38:12.237143400 - Test class completed.
+2026-10-23T18:38:13.663601900 - Launching browser: chrome
+2026-10-23T18:38:46.352552500 - FAILED: verifyDatabasesCategory
+2026-10-23T18:38:48.564991700 - Launching browser: chrome
+2026-10-23T18:38:51.834800300 - FAILED: verifyOnlineMBACategory
+2026-10-23T18:40:34.068616200 - Test suite started.
+2026-10-23T18:40:34.094013700 - Test started.
+2026-10-23T18:40:37.340481600 - Launching browser: chrome
+2026-10-23T18:40:40.833147200 - FAILED: verifyEmailFieldDisplayed
+2026-10-23T18:59:49.916431 - Test suite started.
+2026-10-23T18:59:49.938802700 - Test started.
+2026-10-23T18:59:52.896602300 - Launching browser: chrome
+2026-10-23T18:59:56.503988400 - PASSED: verifyAICourseLinksRemainAccessibleAfterScrolling
+2026-10-23T18:59:58.965152900 - Launching browser: chrome
+2026-10-23T19:00:04.048253900 - PASSED: verifyEndToEndAICourseDiscovery
+2026-10-23T19:00:04.542732100 - Test class completed.
+2026-10-23T19:00:16.376542200 - Test suite started.
+2026-10-23T19:00:16.395170600 - Test started.
+2026-10-23T19:00:19.299913200 - Launching browser: chrome
+2026-10-23T19:00:21.610050100 - PASSED: verifyEmailFieldDisplayed
+2026-10-23T19:00:23.554653800 - Launching browser: chrome
+2026-10-23T19:00:25.696840400 - PASSED: verifyLoginButtonDisplayed
+2026-10-23T19:00:27.652286200 - Launching browser: chrome
+2026-10-23T19:00:29.816092900 - PASSED: verifyPasswordFieldDisplayed
+2026-10-23T19:00:30.243438200 - Test class completed.
+2026-10-23T19:00:31.681580100 - Launching browser: chrome
+2026-10-23T19:00:47.665645100 - PASSED: verifyAllCoursesPageLoads
+2026-10-23T19:00:48.584316700 - Test class completed.
+2026-10-23T19:02:39.326051 - Test suite started.
+2026-10-23T19:02:39.349546800 - Test started.
+2026-10-23T19:02:42.138739700 - Launching browser: chrome
+2026-10-23T19:03:21.007983400 - PASSED: verifyBackNavigationReturnsToAIListing
+2026-10-23T19:03:23.229366400 - Launching browser: chrome
+2026-10-23T19:03:27.212467 - PASSED: verifyPrimaryCourseCallToActionNavigation
+2026-10-23T19:03:27.743492600 - Test class completed.
+2026-10-23T19:05:32.573873100 - Test suite started.
+2026-10-23T19:05:32.596923200 - Test started.
+2026-10-23T19:05:35.727343300 - Launching browser: chrome
+2026-10-23T19:05:37.767545900 - PASSED: verifyEmailFieldDisplayed
+2026-10-23T19:05:39.698177 - Launching browser: chrome
+2026-10-23T19:05:41.775604800 - PASSED: verifyForgotPasswordLinkDisplayed
+2026-10-23T19:05:43.657236300 - Launching browser: chrome
+2026-10-23T19:05:45.654101 - PASSED: verifyLoginButtonDisplayed
+2026-10-23T19:05:47.634375200 - Launching browser: chrome
+2026-10-23T19:05:49.613138600 - PASSED: verifyPasswordFieldDisplayed
+2026-10-23T19:05:51.442451900 - Launching browser: chrome
+2026-10-23T19:05:53.547212 - PASSED: verifySignUpLinkDisplayed
+2026-10-23T19:05:53.940058300 - Test class completed.
+2026-10-23T19:05:55.338232 - Launching browser: chrome
+2026-10-23T19:06:04.720671700 - PASSED: verifyBlankCredentials
+2026-10-23T19:06:06.814675900 - Launching browser: chrome
+2026-10-23T19:06:12.453585300 - PASSED: verifyIncorrectPassword
+2026-10-23T19:06:14.523564 - Launching browser: chrome
+2026-10-23T19:06:22.878496400 - PASSED: verifyInvalidEmailFormat
+2026-10-23T19:06:24.866737300 - Launching browser: chrome
+2026-10-23T19:06:33.006926500 - PASSED: verifyUnregisteredEmail
+2026-10-23T19:06:33.712652700 - Test class completed.
+2026-10-23T19:06:35.156301300 - Launching browser: chrome
+2026-10-23T19:06:40.443890100 - PASSED: verifyEnterKeySubmission
+2026-10-23T19:06:42.364893700 - Launching browser: chrome
+2026-10-23T19:06:47.280404900 - PASSED: verifyForgotPasswordNavigation
+2026-10-23T19:06:49.103147100 - Launching browser: chrome
+2026-10-23T19:07:09.886908 - FAILED: verifyPasswordMasking
+2026-10-23T19:07:12.218072300 - Launching browser: chrome
+2026-10-23T19:07:25.107356400 - FAILED: verifySignUpNavigation
+2026-10-23T19:07:25.442637400 - Test class completed.
+2026-10-23T19:44:02.518904200 - Test suite started.
+2026-10-23T19:44:02.539463900 - Test started.
+2026-10-23T19:44:08.684962600 - Launching browser: chrome
+2026-10-23T19:44:12.636065400 - PASSED: verifyBackNavigationReturnsToAIListing
+2026-10-23T19:44:15.092051600 - Launching browser: chrome
+2026-10-23T19:44:19.266124800 - PASSED: verifyPrimaryCourseCallToActionNavigation
+2026-10-23T19:44:19.825867600 - Test class completed.
+2026-10-23T19:44:29.621035200 - Test suite started.
+2026-10-23T19:44:29.639005100 - Test started.
+2026-10-23T19:44:32.417723700 - Launching browser: chrome
+2026-10-23T19:44:34.439589400 - PASSED: verifyEmailFieldDisplayed
+2026-10-23T19:44:36.387753700 - Launching browser: chrome
+2026-10-23T19:44:38.501739900 - PASSED: verifyForgotPasswordLinkDisplayed
+2026-10-23T19:44:40.464464600 - Launching browser: chrome
+2026-10-23T19:44:42.627558900 - PASSED: verifyLoginButtonDisplayed
+2026-10-23T19:44:44.472480500 - Launching browser: chrome
+2026-10-23T19:44:46.706428400 - PASSED: verifyPasswordFieldDisplayed
+2026-10-23T19:44:48.453947500 - Launching browser: chrome
+2026-10-23T19:44:50.678548100 - PASSED: verifySignUpLinkDisplayed
+2026-10-23T19:44:51.175637700 - Test class completed.
+2026-10-23T19:44:52.656898900 - Launching browser: chrome
+2026-10-23T19:45:02.041915200 - PASSED: verifyBlankCredentials
+2026-10-23T19:45:04.136052400 - Launching browser: chrome
+2026-10-23T19:45:10.112768100 - PASSED: verifyIncorrectPassword
+2026-10-23T19:45:12.045727600 - Launching browser: chrome
+2026-10-23T19:45:20.917646800 - PASSED: verifyInvalidEmailFormat
+2026-10-23T19:45:22.980828100 - Launching browser: chrome
+2026-10-23T19:45:30.732314900 - PASSED: verifyUnregisteredEmail
+2026-10-23T19:45:31.355965 - Test class completed.
+2026-10-23T19:45:32.745966300 - Launching browser: chrome
+2026-10-23T19:45:37.785323200 - PASSED: verifyEnterKeySubmission
+2026-10-23T19:45:40.009478400 - Launching browser: chrome
+2026-10-23T19:45:44.600245600 - PASSED: verifyForgotPasswordNavigation
+2026-10-23T19:45:46.414601100 - Launching browser: chrome
+2026-10-23T19:50:02.270681400 - Test suite started.
+2026-10-23T19:50:02.294711500 - Test started.
+2026-10-23T19:50:05.382218300 - Launching browser: chrome
+2026-10-23T19:50:07.723437200 - PASSED: verifyEmailFieldDisplayed
+2026-10-23T19:50:09.852186300 - Launching browser: chrome
+2026-10-23T19:50:11.963389900 - PASSED: verifyLoginButtonDisplayed
+2026-10-23T19:50:13.805268500 - Launching browser: chrome
+2026-10-23T19:50:16.072422600 - PASSED: verifyPasswordFieldDisplayed
+2026-10-23T19:50:16.509786 - Test class completed.
+2026-10-23T19:50:17.891839600 - Launching browser: chrome
+2026-10-23T19:50:32.804633200 - PASSED: verifyAllCoursesPageLoads
+2026-10-23T19:50:33.726566300 - Test class completed.
+2026-10-23T19:57:21.834196100 - Test suite started.
+2026-10-23T19:57:21.864071200 - Test started.
+2026-10-23T19:57:25.161438100 - Launching browser: chrome
+2026-10-23T19:57:27.223560700 - PASSED: verifyEmailFieldDisplayed
+2026-10-23T19:57:29.197277200 - Launching browser: chrome
+2026-10-23T19:57:38.511145200 - PASSED: verifyForgotPasswordNavigation
+2026-10-23T19:57:40.878306500 - Launching browser: chrome
+2026-10-23T19:57:42.962370200 - PASSED: verifyLoginButtonDisplayed
+2026-10-23T19:57:44.715017700 - Launching browser: chrome
+2026-10-23T19:57:47.034409 - PASSED: verifyPasswordFieldDisplayed
+2026-10-23T19:57:49.001484300 - Launching browser: chrome
+2026-10-23T19:57:54.875334 - PASSED: verifySignUpNavigation
+2026-10-23T19:57:55.563710900 - Test class completed.
+2026-10-23T19:57:57.128324500 - Launching browser: chrome
+2026-10-23T19:58:03.625684800 - PASSED: verifyBlankCredentials
+2026-10-23T19:58:05.825869800 - Launching browser: chrome
+2026-10-23T19:58:11.846811900 - PASSED: verifyIncorrectPassword
+2026-10-23T19:58:13.831478500 - Launching browser: chrome
+2026-10-23T19:58:21.565599500 - PASSED: verifyInvalidEmailFormat
+2026-10-23T19:58:23.593879200 - Launching browser: chrome
+2026-10-23T19:58:31.515315300 - PASSED: verifyUnregisteredEmail
+2026-10-23T19:58:32.258652600 - Test class completed.
+2026-10-23T19:58:33.657233600 - Launching browser: chrome
+2026-10-23T19:58:45.952906 - PASSED: verifyAllCoursesCategorySelection
+2026-10-23T19:58:48.332871700 - Launching browser: chrome
+2026-10-23T19:58:57.765822200 - PASSED: verifyAllCoursesPageLoads
+2026-10-23T19:58:59.947809900 - Launching browser: chrome
+2026-10-23T19:59:23.714123300 - FAILED: verifyArtificialIntelligenceCategory
+2026-10-23T19:59:25.850179100 - Launching browser: chrome
+2026-10-23T19:59:49.873195200 - FAILED: verifyHeadingAndIntroductoryText
+2026-10-23T19:59:52.275276 - Launching browser: chrome
+2026-10-23T20:00:15.916446700 - FAILED: verifyOnlineDoctorateProgramsCategory
+2026-10-23T20:00:16.588687700 - Test class completed.
+2026-10-23T20:00:18.285176200 - Launching browser: chrome
+2026-10-23T20:00:42.228411800 - FAILED: verifyDatabasesCategory
+2026-10-23T20:00:44.244791800 - Launching browser: chrome
+2026-10-23T20:01:07.739031700 - FAILED: verifyOnlineMBACategory
+2026-10-23T20:01:09.786120600 - Launching browser: chrome
+2026-10-23T20:01:33.539605200 - FAILED: verifyOthersCategory
+2026-10-23T20:01:35.471078900 - Launching browser: chrome
+2026-10-23T20:01:59.296271400 - FAILED: verifyProgrammingFrameworksCategory
+2026-10-23T20:02:01.655045300 - Launching browser: chrome
+2026-10-23T20:02:25.748289700 - FAILED: verifyProjectManagementCategory
+2026-10-23T20:02:26.349429300 - Test class completed.
+2026-10-23T20:02:27.680142300 - Launching browser: chrome
+2026-10-23T20:02:48.999005800 - FAILED: verifyAICourseDetailReloadsCorrectly
+2026-10-23T20:02:51.340671800 - Launching browser: chrome
+2026-10-23T20:03:12.618606900 - FAILED: verifyScrollingReachesLowerAISections
+2026-10-23T20:03:13.216651500 - Test class completed.
+2026-10-23T20:07:08.620270800 - Test suite started.
+2026-10-23T20:07:08.638965400 - Test started.
+2026-10-23T20:07:11.668305900 - Launching browser: chrome
+2026-10-23T20:07:35.156907900 - PASSED: verifyOnlineDoctorateProgramsCategory
+2026-10-23T20:07:37.621992600 - Launching browser: chrome
+2026-10-23T20:07:46.662155 - PASSED: verifyHeadingAndIntroductoryText
+2026-10-23T20:07:48.681336700 - Launching browser: chrome
+2026-10-23T20:08:05.726333500 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-23T20:08:06.484329900 - Test class completed.
+2026-10-23T20:08:07.922616700 - Launching browser: chrome
+2026-10-23T20:08:24.277739600 - PASSED: verifyProjectManagementCategory
+2026-10-23T20:08:26.534720300 - Launching browser: chrome
+2026-10-23T20:08:37.157237300 - PASSED: verifyOthersCategory
+2026-10-23T20:08:39.151004600 - Launching browser: chrome
+2026-10-23T20:08:58.844011200 - PASSED: verifyOnlineMBACategory
+2026-10-23T20:09:01.252165700 - Launching browser: chrome
+2026-10-23T20:09:33.044661100 - FAILED: verifyDatabasesCategory
+2026-10-23T20:09:35.531722700 - Launching browser: chrome
+2026-10-23T20:09:59.432961300 - FAILED: verifyProgrammingFrameworksCategory
+2026-10-23T20:10:00.131128600 - Test class completed.
+2026-10-23T20:10:01.689965400 - Launching browser: chrome
+2026-10-23T20:10:22.981249800 - FAILED: verifyScrollingReachesLowerAISections
+2026-10-23T20:10:24.983520900 - Launching browser: chrome
+2026-10-23T20:10:46.271719900 - FAILED: verifyAICourseDetailReloadsCorrectly
+2026-10-23T20:10:46.905473600 - Test class completed.
+2026-10-23T20:12:09.098418200 - Test suite started.
+2026-10-23T20:12:09.116720100 - Test started.
+2026-10-23T20:12:12.012942 - Launching browser: chrome
+2026-10-23T20:12:33.387280800 - FAILED: verifyScrollingReachesLowerAISections
+2026-10-23T20:12:35.826699 - SKIPPED: verifyAICourseDetailReloadsCorrectly
+2026-10-23T20:12:36.197208400 - Test class completed.
+2026-10-23T20:12:37.709389300 - Launching browser: chrome
+2026-10-23T20:13:05.551630800 - FAILED: verifyDatabasesCategory
+2026-10-23T20:13:07.673356600 - Launching browser: chrome
+2026-10-23T20:13:28.483821300 - PASSED: verifyProgrammingFrameworksCategory
+2026-10-23T20:13:29.232924300 - Test class completed.
+2026-10-23T20:17:57.265372900 - Test suite started.
+2026-10-23T20:17:57.310497900 - Test started.
+2026-10-23T20:18:02.219719500 - Launching browser: chrome
+2026-10-23T20:18:05.229080200 - PASSED: verifyScrollingReachesLowerAISections
+2026-10-23T20:18:08.221488200 - Launching browser: chrome
+2026-10-23T20:18:15.747113800 - PASSED: verifyAICourseDetailReloadsCorrectly
+2026-10-23T20:18:16.296130100 - Test class completed.
+2026-10-23T20:18:18.259879 - Launching browser: chrome
+2026-10-23T20:18:42.535497200 - PASSED: verifyDatabasesCategory
+2026-10-23T20:18:43.741898600 - Test class completed.
+2026-10-23T20:21:55.938838300 - Test suite started.
+2026-10-23T20:21:55.974068 - Test started.
+2026-10-23T20:21:59.864715800 - Launching browser: chrome
+2026-10-23T20:22:02.623070600 - PASSED: verifyAICourseLinksRemainAccessibleAfterScrolling
+2026-10-23T20:22:05.009308100 - Launching browser: chrome
+2026-10-23T20:22:09.182829 - PASSED: verifyEndToEndAICourseDiscovery
+2026-10-23T20:22:09.857941100 - Test class completed.
+2026-10-23T20:23:05.018616500 - Test suite started.
+2026-10-23T20:23:05.060253100 - Test started.
+2026-10-23T20:23:08.535154700 - Launching browser: chrome
+2026-10-23T20:23:10.689452700 - PASSED: verifyEmailFieldDisplayed
+2026-10-23T20:23:13.129751500 - Launching browser: chrome
+2026-10-23T20:23:15.254936600 - PASSED: verifyLoginButtonDisplayed
+2026-10-23T20:23:17.698973700 - Launching browser: chrome
+2026-10-23T20:23:19.656903 - PASSED: verifyPasswordFieldDisplayed
+2026-10-23T20:23:20.307519400 - Test class completed.
+2026-10-23T20:23:21.965824300 - Launching browser: chrome
+2026-10-23T20:23:36.624086 - PASSED: verifyAllCoursesPageLoads
+2026-10-23T20:23:37.673160100 - Test class completed.
+2026-10-23T20:24:18.045573900 - Test suite started.
+2026-10-23T20:24:18.068938500 - Test started.
+2026-10-23T20:24:21.282837100 - Launching browser: chrome
+2026-10-23T20:24:25.765665200 - PASSED: verifyBackNavigationReturnsToAIListing
+2026-10-23T20:24:28.129822700 - Launching browser: chrome
+2026-10-23T20:24:32.913848500 - PASSED: verifyPrimaryCourseCallToActionNavigation
+2026-10-23T20:24:33.662307400 - Test class completed.
+2026-10-23T20:30:12.595552500 - Test suite started.
+2026-10-23T20:30:12.625071400 - Test started.
+2026-10-23T20:30:16.086690900 - Launching browser: chrome
+2026-10-23T20:30:18.298837 - PASSED: verifyEmailFieldDisplayed
+2026-10-23T20:30:20.775570400 - Launching browser: chrome
+2026-10-23T20:30:29.426421100 - PASSED: verifyForgotPasswordNavigation
+2026-10-23T20:30:32.132725100 - Launching browser: chrome
+2026-10-23T20:30:34.358504100 - PASSED: verifyLoginButtonDisplayed
+2026-10-23T20:30:36.705929100 - Launching browser: chrome
+2026-10-23T20:30:38.788335200 - PASSED: verifyPasswordFieldDisplayed
+2026-10-23T20:30:41.073104500 - Launching browser: chrome
+2026-10-23T20:30:47.017697900 - PASSED: verifySignUpNavigation
+2026-10-23T20:30:47.907363600 - Test class completed.
+2026-10-23T20:30:49.712229900 - Launching browser: chrome
+2026-10-23T20:30:55.960526800 - PASSED: verifyBlankCredentials
+2026-10-23T20:30:58.426898300 - Launching browser: chrome
+2026-10-23T20:31:04.377317500 - PASSED: verifyIncorrectPassword
+2026-10-23T20:31:06.671710600 - Launching browser: chrome
+2026-10-23T20:31:16.060005400 - PASSED: verifyInvalidEmailFormat
+2026-10-23T20:31:19.490375 - Launching browser: chrome
+2026-10-23T20:31:27.980535100 - PASSED: verifyUnregisteredEmail
+2026-10-23T20:31:29.185798200 - Test class completed.
+2026-10-23T20:31:31.025718300 - Launching browser: chrome
+2026-10-23T20:31:43.684705400 - PASSED: verifyAllCoursesCategorySelection
+2026-10-23T20:31:46.263075700 - Launching browser: chrome
+2026-10-23T20:31:55.395006800 - PASSED: verifyAllCoursesPageLoads
+2026-10-23T20:31:58.038473600 - Launching browser: chrome
+2026-10-23T20:32:22.243428600 - FAILED: verifyArtificialIntelligenceCategory
+2026-10-23T20:32:25.374509300 - Launching browser: chrome
+2026-10-23T20:32:49.004636200 - FAILED: verifyOnlineDoctorateProgramsCategory
+2026-10-23T20:32:50.126484900 - Test class completed.
+2026-10-23T20:32:52.109451700 - Launching browser: chrome
+2026-10-23T20:33:15.438773400 - FAILED: verifyDatabasesCategory
+2026-10-23T20:33:17.993062500 - Launching browser: chrome
+2026-10-23T20:33:41.669634200 - FAILED: verifyOnlineMBACategory
+2026-10-23T20:33:44.607085900 - Launching browser: chrome
+2026-10-23T20:34:08.270115200 - FAILED: verifyOthersCategory
+2026-10-23T20:34:11.213874200 - Launching browser: chrome
+2026-10-23T20:34:34.657709 - FAILED: verifyProgrammingFrameworksCategory
+2026-10-23T20:34:37.327352200 - Launching browser: chrome
+2026-10-23T20:35:00.840123800 - FAILED: verifyProjectManagementCategory
+2026-10-23T20:35:01.858812600 - Test class completed.
+2026-10-23T20:35:03.572416100 - Launching browser: chrome
+2026-10-23T20:35:24.942446700 - FAILED: verifyAICourseDetailReloadsCorrectly
+2026-10-23T20:35:27.251994500 - Launching browser: chrome
+2026-10-23T20:35:48.647102700 - FAILED: verifyScrollingReachesLowerAISections
+2026-10-23T20:35:49.412850200 - Test class completed.
+2026-10-23T20:40:16.410333400 - Test suite started.
+2026-10-23T20:40:16.436891500 - Test started.
+2026-10-23T20:40:19.977715600 - Launching browser: chrome
+2026-10-23T20:40:56.334506400 - PASSED: verifyOnlineDoctorateProgramsCategory
+2026-10-23T20:40:58.957586200 - Launching browser: chrome
+2026-10-23T20:41:15.682615500 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-23T20:41:16.544788 - Test class completed.
+2026-10-23T20:41:17.861580300 - Launching browser: chrome
+2026-10-23T20:41:33.537988800 - PASSED: verifyProjectManagementCategory
+2026-10-23T20:41:35.927742400 - Launching browser: chrome
+2026-10-23T20:41:46.158684700 - PASSED: verifyOthersCategory
+2026-10-23T20:41:48.281235 - Launching browser: chrome
+2026-10-23T20:42:28.011360800 - PASSED: verifyOnlineMBACategory
+2026-10-23T20:42:30.552274100 - Launching browser: chrome
+2026-10-23T20:42:50.182030500 - PASSED: verifyDatabasesCategory
+2026-10-23T20:42:52.302861 - Launching browser: chrome
+2026-10-23T20:43:40.960798300 - SKIPPED: verifyProgrammingFrameworksCategory
+2026-10-23T20:43:41.445145600 - Test class completed.
+2026-10-23T20:43:43.224483100 - Launching browser: chrome
+2026-10-23T20:43:45.929824700 - PASSED: verifyScrollingReachesLowerAISections
+2026-10-23T20:43:47.725031800 - Launching browser: chrome
+2026-10-23T20:43:53.198286800 - PASSED: verifyAICourseDetailReloadsCorrectly
+2026-10-23T20:43:53.695364100 - Test class completed.
+2026-10-23T20:44:59.750206900 - Test suite started.
+2026-10-23T20:44:59.770279800 - Test started.
+2026-10-23T20:45:05.742985900 - Launching browser: chrome
+2026-10-23T20:45:29.469145300 - PASSED: verifyProgrammingFrameworksCategory
+2026-10-23T20:45:30.717500600 - Test class completed.
+2026-10-23T20:49:38.803342500 - Test suite started.
+2026-10-23T20:49:38.838725700 - Test started.
+2026-10-23T20:49:42.224363800 - Launching browser: chrome
+2026-10-23T20:49:44.589385600 - PASSED: verifyEmailFieldDisplayed
+2026-10-23T20:49:46.533903400 - Launching browser: chrome
+2026-10-23T20:49:55.419410400 - PASSED: verifyForgotPasswordNavigation
+2026-10-23T20:49:57.359015700 - Launching browser: chrome
+2026-10-23T20:50:52.767091700 - PASSED: verifyLoginButtonDisplayed
+2026-10-23T20:50:54.790619300 - Launching browser: chrome
+2026-10-23T20:50:57.009601200 - PASSED: verifyPasswordFieldDisplayed
+2026-10-23T20:50:58.958546900 - Launching browser: chrome
+2026-10-23T20:51:05.280248100 - PASSED: verifySignUpNavigation
+2026-10-23T20:51:05.884765700 - Test class completed.
+2026-10-23T20:51:07.323620100 - Launching browser: chrome
+2026-10-23T20:51:12.607538600 - PASSED: verifyBlankCredentials
+2026-10-23T20:51:14.651302300 - Launching browser: chrome
+2026-10-23T20:51:20.219401300 - PASSED: verifyIncorrectPassword
+2026-10-23T20:51:22.124549500 - Launching browser: chrome
+2026-10-23T20:51:29.891318300 - PASSED: verifyInvalidEmailFormat
+2026-10-23T20:51:31.837465500 - Launching browser: chrome
+2026-10-23T20:51:39.549176 - PASSED: verifyUnregisteredEmail
+2026-10-23T20:51:40.106370800 - Test class completed.
+2026-10-23T20:51:41.517412400 - Launching browser: chrome
+2026-10-23T20:51:53.593728500 - PASSED: verifyAllCoursesCategorySelection
+2026-10-23T20:51:55.623984800 - Launching browser: chrome
+2026-10-23T20:52:03.915441200 - PASSED: verifyAllCoursesPageLoads
+2026-10-23T20:52:05.793355300 - Launching browser: chrome
+2026-10-23T20:52:35.635308800 - FAILED: verifyArtificialIntelligenceCategory
+2026-10-23T20:52:38.297331800 - Launching browser: chrome
+2026-10-23T20:53:01.809455300 - FAILED: verifyOnlineDoctorateProgramsCategory
+2026-10-23T20:53:02.392901600 - Test class completed.
+2026-10-23T20:53:03.745191 - Launching browser: chrome
+2026-10-23T20:53:27.403272500 - FAILED: verifyDatabasesCategory
+2026-10-23T20:53:29.473481600 - Launching browser: chrome
+2026-10-23T20:53:53.176838900 - FAILED: verifyOnlineMBACategory
+2026-10-23T20:53:55.255076 - Launching browser: chrome
+2026-10-23T20:54:18.749162900 - FAILED: verifyOthersCategory
+2026-10-23T20:54:20.698068800 - Launching browser: chrome
+2026-10-23T20:54:44.323677500 - FAILED: verifyProgrammingFrameworksCategory
+2026-10-23T20:54:46.522994800 - Launching browser: chrome
+2026-10-23T20:55:10.439791800 - FAILED: verifyProjectManagementCategory
+2026-10-23T20:55:11.144024500 - Test class completed.
+2026-10-23T20:55:12.535732500 - Launching browser: chrome
+2026-10-23T20:55:33.898154 - FAILED: verifyAICourseDetailReloadsCorrectly
+2026-10-23T20:55:35.813253300 - Launching browser: chrome
+2026-10-23T20:55:57.249446700 - FAILED: verifyScrollingReachesLowerAISections
+2026-10-23T20:55:57.775534600 - Test class completed.
+2026-10-23T21:02:35.426005200 - Test suite started.
+2026-10-23T21:02:35.459018300 - Test started.
+2026-10-23T21:02:39.046261100 - Launching browser: chrome
+2026-10-23T21:03:05.742257300 - PASSED: verifyOnlineDoctorateProgramsCategory
+2026-10-23T21:03:08.628331100 - Launching browser: chrome
+2026-10-23T21:03:28.611659700 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-23T21:03:29.594350700 - Test class completed.
+2026-10-23T21:03:31.265084900 - Launching browser: chrome
+2026-10-23T21:03:47.287871200 - PASSED: verifyProjectManagementCategory
+2026-10-23T21:03:49.491395900 - Launching browser: chrome
+2026-10-23T21:04:02.945484600 - PASSED: verifyOthersCategory
+2026-10-23T21:04:05.031570700 - Launching browser: chrome
+2026-10-23T21:04:26.440623700 - PASSED: verifyOnlineMBACategory
+2026-10-23T21:04:28.588730100 - Launching browser: chrome
+2026-10-23T21:04:55.329024800 - PASSED: verifyDatabasesCategory
+2026-10-23T21:04:57.552183700 - Launching browser: chrome
+2026-10-23T21:05:21.703597600 - FAILED: verifyProgrammingFrameworksCategory
+2026-10-23T21:05:24.302196300 - Test class completed.
+2026-10-23T21:05:26.041689200 - Launching browser: chrome
+2026-10-23T21:05:47.682313800 - FAILED: verifyScrollingReachesLowerAISections
+2026-10-23T21:05:50.026616900 - Launching browser: chrome
+2026-10-23T21:06:11.428309100 - FAILED: verifyAICourseDetailReloadsCorrectly
+2026-10-23T21:06:12.112503500 - Test class completed.
+2026-10-23T21:09:20.277067700 - Test suite started.
+2026-10-23T21:09:20.302066500 - Test started.
+2026-10-23T21:09:23.361528700 - Launching browser: chrome
+2026-10-23T21:09:26.725931600 - PASSED: verifyScrollingReachesLowerAISections
+2026-10-23T21:09:28.551297200 - Launching browser: chrome
+2026-10-23T21:09:35.416672100 - PASSED: verifyAICourseDetailReloadsCorrectly
+2026-10-23T21:09:36.043613500 - Test class completed.
+2026-10-23T21:09:37.405416100 - Launching browser: chrome
+2026-10-23T21:09:59.627662300 - PASSED: verifyProgrammingFrameworksCategory
+2026-10-23T21:10:00.351335200 - Test class completed.
+2026-10-23T21:48:39.009025100 - Test suite started.
+2026-10-23T21:48:39.037430100 - Test started.
+2026-10-23T21:48:45.606316900 - Launching browser: chrome
+2026-10-23T21:49:03.449941900 - PASSED: verifyAllCoursesCategorySelection
+2026-10-23T21:49:05.832170300 - Launching browser: chrome
+2026-10-23T21:49:16.242174900 - PASSED: verifyAllCoursesPageLoads
+2026-10-23T21:49:18.351921200 - Launching browser: chrome
+2026-10-23T21:49:39.328360100 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-23T21:49:41.749658100 - Launching browser: chrome
+2026-10-23T21:49:58.479422 - PASSED: verifyOnlineDoctorateProgramsCategory
+2026-10-23T21:49:59.145498 - Test class completed.
+2026-10-23T21:50:00.553976400 - Launching browser: chrome
+2026-10-23T21:50:02.977087200 - PASSED: verifyEmailFieldDisplayed
+2026-10-23T21:50:04.732400 - Launching browser: chrome
+2026-10-23T21:50:09.527922100 - PASSED: verifyForgotPasswordNavigation
+2026-10-23T21:50:11.285757100 - Launching browser: chrome
+2026-10-23T21:50:13.333301400 - PASSED: verifyLoginButtonDisplayed
+2026-10-23T21:50:15.049922700 - Launching browser: chrome
+2026-10-23T21:50:17.398482300 - PASSED: verifyPasswordFieldDisplayed
+2026-10-23T21:50:19.152615600 - Launching browser: chrome
+2026-10-23T21:50:24.469743700 - PASSED: verifySignUpNavigation
+2026-10-23T21:50:25.009280600 - Test class completed.
+2026-10-23T21:50:26.622877400 - Launching browser: chrome
+2026-10-23T21:50:44.292438800 - PASSED: verifyDatabasesCategory
+2026-10-23T21:50:46.380420400 - Launching browser: chrome
+2026-10-23T21:51:10.396486900 - FAILED: verifyOnlineMBACategory
+2026-10-23T21:51:13.308878100 - Launching browser: chrome
+2026-10-23T21:51:37.400798600 - FAILED: verifyOthersCategory
+2026-10-23T21:51:42.953174 - Launching browser: chrome
+2026-10-23T21:52:07.594753600 - FAILED: verifyProgrammingFrameworksCategory
+2026-10-23T21:52:09.915174900 - Launching browser: chrome
+2026-10-23T21:52:34.286622100 - FAILED: verifyProjectManagementCategory
+2026-10-23T21:52:34.964852100 - Test class completed.
+2026-10-23T21:52:36.595341800 - Launching browser: chrome
+2026-10-23T21:52:57.547954800 - FAILED: verifyBlankCredentials
+2026-10-23T21:52:59.896019100 - Launching browser: chrome
+2026-10-23T21:53:20.091897300 - FAILED: verifyIncorrectPassword
+2026-10-23T21:53:22.364587800 - Launching browser: chrome
+2026-10-23T21:53:45.205053300 - FAILED: verifyInvalidEmailFormat
+2026-10-23T21:53:47.366380400 - Launching browser: chrome
+2026-10-23T21:54:10.181962400 - FAILED: verifyUnregisteredEmail
+2026-10-23T21:54:11.204691200 - Test class completed.
+2026-10-23T21:54:14.199367200 - Launching browser: chrome
+2026-10-23T21:54:35.785174 - FAILED: verifyAICourseDetailReloadsCorrectly
+2026-10-23T21:54:37.976399200 - Launching browser: chrome
+2026-10-23T21:54:42.386624900 - PASSED: verifyAICourseLinksRemainAccessibleAfterScrolling
+2026-10-23T21:54:44.383577 - Launching browser: chrome
+2026-10-23T21:54:50.024365900 - PASSED: verifyBackNavigationReturnsToAIListing
+2026-10-23T21:54:52.044599100 - Launching browser: chrome
+2026-10-23T21:54:57.133910600 - PASSED: verifyEndToEndAICourseDiscovery
+2026-10-23T21:54:59.143355800 - Launching browser: chrome
+2026-10-23T21:55:06.571954200 - PASSED: verifyPrimaryCourseCallToActionNavigation
+2026-10-23T21:55:09.461928600 - Launching browser: chrome
+2026-10-23T21:55:13.119748300 - PASSED: verifyScrollingReachesLowerAISections
+2026-10-23T21:55:13.586469100 - Test class completed.
+2026-10-23T21:57:09.832276600 - Test suite started.
+2026-10-23T21:57:09.962118300 - Test started.
+2026-10-23T21:57:14.910574600 - Launching browser: chrome
+2026-10-23T21:57:37.368020500 - PASSED: verifyUnregisteredEmail
+2026-10-23T21:57:41.001938800 - Launching browser: chrome
+2026-10-23T21:57:49.626336400 - PASSED: verifyBlankCredentials
+2026-10-23T21:57:52.083100800 - Launching browser: chrome
+2026-10-23T21:58:00.075752900 - PASSED: verifyIncorrectPassword
+2026-10-23T21:58:02.430392500 - Launching browser: chrome
+2026-10-23T21:58:11.098017900 - PASSED: verifyInvalidEmailFormat
+2026-10-23T21:58:11.689252500 - Test class completed.
+2026-10-23T21:58:13.309849700 - Launching browser: chrome
+2026-10-23T21:58:32.040702500 - PASSED: verifyProjectManagementCategory
+2026-10-23T21:58:34.281355900 - Launching browser: chrome
+2026-10-23T21:58:59.383523 - FAILED: verifyOthersCategory
+2026-10-23T21:59:02.060613800 - Launching browser: chrome
+2026-10-23T21:59:26.564523500 - FAILED: verifyOnlineMBACategory
+2026-10-23T21:59:30.818047600 - Launching browser: chrome
+2026-10-23T21:59:55.899123700 - FAILED: verifyProgrammingFrameworksCategory
+2026-10-23T21:59:57.221313400 - Test class completed.
+2026-10-23T21:59:59.948734100 - Launching browser: chrome
+2026-10-23T22:00:21.426260500 - FAILED: verifyAICourseDetailReloadsCorrectly
+2026-10-23T22:00:22.102421300 - Test class completed.
+2026-10-23T22:04:38.651541 - Test suite started.
+2026-10-23T22:04:38.697670900 - Test started.
+2026-10-23T22:04:42.582748400 - Launching browser: chrome
+2026-10-23T22:04:58.444964900 - PASSED: verifyOthersCategory
+2026-10-23T22:05:01.526369200 - Launching browser: chrome
+2026-10-23T22:05:18.794463600 - PASSED: verifyOnlineMBACategory
+2026-10-23T22:05:22.311995800 - Launching browser: chrome
+2026-10-23T22:05:38.961606 - PASSED: verifyProgrammingFrameworksCategory
+2026-10-23T22:05:40.099327600 - Test class completed.
+2026-10-23T22:05:42.143738100 - Launching browser: chrome
+2026-10-23T22:05:47.952741900 - PASSED: verifyAICourseDetailReloadsCorrectly
+2026-10-23T22:05:48.577313500 - Test class completed.
+2026-10-23T22:14:45.357408600 - Test suite started.
+2026-10-23T22:14:45.381743600 - Test started.
+2026-10-23T22:14:48.272970900 - Launching browser: chrome
+2026-10-23T22:14:57.455961500 - PASSED: verifyBlankCredentials
+2026-10-23T22:14:59.570259500 - Launching browser: chrome
+2026-10-23T22:15:05.847853500 - PASSED: verifyIncorrectPassword
+2026-10-23T22:15:07.906953100 - Launching browser: chrome
+2026-10-23T22:15:16.119613200 - PASSED: verifyInvalidEmailFormat
+2026-10-23T22:15:18.041856700 - Launching browser: chrome
+2026-10-23T22:15:25.709377200 - PASSED: verifyUnregisteredEmail
+2026-10-23T22:15:26.291853700 - Test class completed.
+2026-10-23T22:19:27.809794500 - Test suite started.
+2026-10-23T22:19:27.838890600 - Test started.
+2026-10-23T22:19:31.703195800 - Launching browser: chrome
+2026-10-23T22:19:33.759193900 - PASSED: verifyEmailFieldDisplayed
+2026-10-23T22:19:36.374853100 - Launching browser: chrome
+2026-10-23T22:19:45.417575700 - PASSED: verifyForgotPasswordNavigation
+2026-10-23T22:19:48.724361400 - Launching browser: chrome
+2026-10-23T22:19:51.351490900 - PASSED: verifyLoginButtonDisplayed
+2026-10-23T22:19:54.518938400 - Launching browser: chrome
+2026-10-23T22:19:57.024517800 - PASSED: verifyPasswordFieldDisplayed
+2026-10-23T22:19:59.703676300 - Launching browser: chrome
+2026-10-23T22:20:05.157526900 - PASSED: verifySignUpNavigation
+2026-10-23T22:20:06.058660800 - Test class completed.
+2026-10-23T22:20:08.126824500 - Launching browser: chrome
+2026-10-23T22:20:21.000862800 - PASSED: verifyAllCoursesCategorySelection
+2026-10-23T22:20:23.960501 - Launching browser: chrome
+2026-10-23T22:20:33.597788900 - PASSED: verifyAllCoursesPageLoads
+2026-10-23T22:20:36.780864700 - Launching browser: chrome
+2026-10-23T22:20:55.855119500 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-23T22:20:59.140316500 - Launching browser: chrome
+2026-10-23T22:21:14.955720600 - PASSED: verifyOnlineDoctorateProgramsCategory
+2026-10-23T22:21:16.256353500 - Test class completed.
+2026-10-23T22:21:17.924140200 - Launching browser: chrome
+2026-10-23T22:21:22.938187600 - PASSED: verifyAICourseDetailReloadsCorrectly
+2026-10-23T22:21:25.409865500 - Launching browser: chrome
+2026-10-23T22:21:28.003641700 - PASSED: verifyAICourseLinksRemainAccessibleAfterScrolling
+2026-10-23T22:21:30.243063 - Launching browser: chrome
+2026-10-23T22:21:34.780748400 - PASSED: verifyBackNavigationReturnsToAIListing
+2026-10-23T22:21:37.325575300 - Launching browser: chrome
+2026-10-23T22:21:40.548077 - PASSED: verifyEndToEndAICourseDiscovery
+2026-10-23T22:21:42.913325200 - Launching browser: chrome
+2026-10-23T22:22:04.356664 - FAILED: verifyPrimaryCourseCallToActionNavigation
+2026-10-23T22:22:07.193226300 - Launching browser: chrome
+2026-10-23T22:22:28.548430500 - FAILED: verifyScrollingReachesLowerAISections
+2026-10-23T22:22:29.450231700 - Test class completed.
+2026-10-23T22:22:29.582385500 - Test started.
+2026-10-23T22:22:37.276041500 - Launching browser: edge
+2026-10-23T22:22:55.287300500 - FAILED: verifyEmailFieldDisplayed
+2026-10-23T22:22:58.845637800 - Launching browser: edge
+2026-10-23T22:23:19.013036600 - FAILED: verifyForgotPasswordNavigation
+2026-10-23T22:23:22.913097 - Launching browser: edge
+2026-10-23T22:23:40.777909700 - FAILED: verifyLoginButtonDisplayed
+2026-10-23T22:23:44.209993 - Launching browser: edge
+2026-10-23T22:24:02.456407600 - FAILED: verifyPasswordFieldDisplayed
+2026-10-23T22:24:06.048620800 - Launching browser: edge
+2026-10-23T22:24:26.414751 - FAILED: verifySignUpNavigation
+2026-10-23T22:24:28.061939700 - Test class completed.
+2026-10-23T22:24:30.523894800 - Launching browser: edge
+2026-10-23T22:24:54.835775800 - FAILED: verifyAllCoursesCategorySelection
+2026-10-23T22:24:58.895324700 - Launching browser: edge
+2026-10-23T22:25:23.200106100 - FAILED: verifyAllCoursesPageLoads
+2026-10-23T22:25:26.970280300 - Launching browser: edge
+2026-10-23T22:25:50.742021 - FAILED: verifyArtificialIntelligenceCategory
+2026-10-23T22:25:54.712499600 - Launching browser: edge
+2026-10-23T22:26:14.487801300 - PASSED: verifyOnlineDoctorateProgramsCategory
+2026-10-23T22:26:16.478132300 - Test class completed.
+2026-10-23T22:26:18.476213400 - Launching browser: edge
+2026-10-23T22:26:23.460056900 - PASSED: verifyAICourseDetailReloadsCorrectly
+2026-10-23T22:26:25.923139700 - Launching browser: edge
+2026-10-23T22:26:30.314694600 - PASSED: verifyAICourseLinksRemainAccessibleAfterScrolling
+2026-10-23T22:26:33.133008300 - Launching browser: edge
+2026-10-23T22:26:38.082922500 - PASSED: verifyBackNavigationReturnsToAIListing
+2026-10-23T22:26:41.292754700 - Launching browser: edge
+2026-10-23T22:26:45.709731800 - PASSED: verifyEndToEndAICourseDiscovery
+2026-10-23T22:26:48.561146300 - Launching browser: edge
+2026-10-23T22:26:53.029010 - PASSED: verifyPrimaryCourseCallToActionNavigation
+2026-10-23T22:26:55.550457 - Launching browser: edge
+2026-10-23T22:26:58.285759 - PASSED: verifyScrollingReachesLowerAISections
+2026-10-23T22:26:58.983420500 - Test class completed.
+2026-10-23T22:26:59.077670800 - Test started.
+2026-10-23T22:27:06.233983800 - Launching browser: firefox
+2026-10-23T22:27:11.414217200 - PASSED: verifyEmailFieldDisplayed
+2026-10-23T22:27:19.272596100 - Launching browser: firefox
+2026-10-23T22:27:26.593551300 - PASSED: verifyForgotPasswordNavigation
+2026-10-23T22:27:34.981430700 - Launching browser: firefox
+2026-10-23T22:27:38.684857100 - PASSED: verifyLoginButtonDisplayed
+2026-10-23T22:27:46.657451600 - Launching browser: firefox
+2026-10-23T22:27:49.961419900 - PASSED: verifyPasswordFieldDisplayed
+2026-10-23T22:27:57.827304700 - Launching browser: firefox
+2026-10-23T22:28:18.987678 - FAILED: verifySignUpNavigation
+2026-10-23T22:28:21.332846 - Test class completed.
+2026-10-23T22:28:26.546675300 - Launching browser: firefox
+2026-10-23T22:28:46.148798300 - PASSED: verifyAllCoursesCategorySelection
+2026-10-23T22:28:54.340287700 - Launching browser: firefox
+2026-10-23T22:29:18.597930300 - FAILED: verifyAllCoursesPageLoads
+2026-10-23T22:29:26.146908900 - Launching browser: firefox
+2026-10-23T22:30:02.872210500 - FAILED: verifyArtificialIntelligenceCategory
+2026-10-23T22:30:11.199262900 - Launching browser: firefox
+2026-10-23T22:30:35.801006200 - FAILED: verifyOnlineDoctorateProgramsCategory
+2026-10-23T22:30:38.403879700 - Test class completed.
+2026-10-23T22:30:44.075424200 - Launching browser: firefox
+2026-10-23T22:31:05.992969700 - FAILED: verifyAICourseDetailReloadsCorrectly
+2026-10-23T22:31:14.044105700 - Launching browser: firefox
+2026-10-23T22:31:25.005655100 - PASSED: verifyAICourseLinksRemainAccessibleAfterScrolling
+2026-10-23T22:31:33.663092200 - Launching browser: firefox
+2026-10-23T22:31:37.663392800 - PASSED: verifyBackNavigationReturnsToAIListing
+2026-10-23T22:31:45.500665900 - Launching browser: firefox
+2026-10-23T22:31:51.160868700 - PASSED: verifyEndToEndAICourseDiscovery
+2026-10-23T22:31:59.878003500 - Launching browser: firefox
+2026-10-23T22:32:04.320244400 - PASSED: verifyPrimaryCourseCallToActionNavigation
+2026-10-23T22:32:12.584338 - Launching browser: firefox
+2026-10-23T22:32:16.284912700 - PASSED: verifyScrollingReachesLowerAISections
+2026-10-23T22:32:18.576097700 - Test class completed.
+2026-10-23T22:39:22.405138600 - Test suite started.
+2026-10-23T22:39:22.428518500 - Test started.
+2026-10-23T22:39:27.419316300 - Launching browser: chrome
+2026-10-23T22:39:30.301987300 - PASSED: verifyScrollingReachesLowerAISections
+2026-10-23T22:39:32.993484400 - Launching browser: chrome
+2026-10-23T22:39:37.773211800 - PASSED: verifyPrimaryCourseCallToActionNavigation
+2026-10-23T22:39:38.277701500 - Test class completed.
+2026-10-23T22:39:38.390859200 - Test started.
+2026-10-23T22:39:41.085604500 - Launching browser: edge
+2026-10-23T22:39:45.011717400 - PASSED: verifyEmailFieldDisplayed
+2026-10-23T22:39:50.050034900 - Launching browser: edge
+2026-10-23T22:39:53.099214 - PASSED: verifyPasswordFieldDisplayed
+2026-10-23T22:39:55.595052400 - Launching browser: edge
+2026-10-23T22:40:06.798579600 - PASSED: verifySignUpNavigation
+2026-10-23T22:40:09.710023 - Launching browser: edge
+2026-10-23T22:40:16.497628500 - PASSED: verifyForgotPasswordNavigation
+2026-10-23T22:40:19.846183500 - Launching browser: edge
+2026-10-23T22:40:22.931638600 - PASSED: verifyLoginButtonDisplayed
+2026-10-23T22:40:23.549759600 - Test class completed.
+2026-10-23T22:40:25.709643800 - Launching browser: edge
+2026-10-23T22:40:37.413692200 - PASSED: verifyAllCoursesPageLoads
+2026-10-23T22:40:40.276312900 - Launching browser: edge
+2026-10-23T22:41:01.159138800 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-23T22:41:04.513238 - Launching browser: edge
+2026-10-23T22:41:17.601312100 - PASSED: verifyAllCoursesCategorySelection
+2026-10-23T22:41:18.468136500 - Test class completed.
+2026-10-23T22:41:18.492827600 - Test started.
+2026-10-23T22:41:27.483199400 - Launching browser: firefox
+2026-10-23T22:41:34.077297400 - FAILED: verifyAICourseDetailReloadsCorrectly
+2026-10-23T22:41:37.018086900 - Test class completed.
+2026-10-23T22:41:43.753496500 - Launching browser: firefox
+2026-10-23T22:41:51.389340600 - PASSED: verifySignUpNavigation
+2026-10-23T22:41:53.602661100 - Test class completed.
+2026-10-23T22:42:00.677465 - Launching browser: firefox
+2026-10-23T22:42:23.272007300 - PASSED: verifyOnlineDoctorateProgramsCategory
+2026-10-23T22:42:33.468049700 - Launching browser: firefox
+2026-10-23T22:42:48.751144300 - PASSED: verifyAllCoursesPageLoads
+2026-10-23T22:42:59.200489700 - Launching browser: firefox
+2026-10-23T22:43:25.698326 - FAILED: verifyArtificialIntelligenceCategory
+2026-10-23T22:43:28.368676100 - Test class completed.
+2026-10-23T22:46:04.370248300 - Test suite started.
+2026-10-23T22:46:04.395185900 - Test started.
+2026-10-23T22:46:11.890829600 - Launching browser: firefox
+2026-10-23T22:46:20.260444900 - PASSED: verifyAICourseDetailReloadsCorrectly
+2026-10-23T22:46:22.795742400 - Test class completed.
+2026-10-23T22:46:28.598504 - Launching browser: firefox
+2026-10-23T22:46:51.483102400 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-23T22:46:55.436846300 - Test class completed.
+2026-10-23T22:49:44.999357 - Test suite started.
+2026-10-23T22:49:45.020175800 - Test started.
+2026-10-23T22:49:50.984541800 - Launching browser: chrome
+2026-10-23T22:49:53.108085100 - PASSED: verifyEmailFieldDisplayed
+2026-10-23T22:49:54.971591300 - Launching browser: chrome
+2026-10-23T22:50:03.812276700 - PASSED: verifyForgotPasswordNavigation
+2026-10-23T22:50:05.716945300 - Launching browser: chrome
+2026-10-23T22:50:07.913507900 - PASSED: verifyLoginButtonDisplayed
+2026-10-23T22:50:09.665883100 - Launching browser: chrome
+2026-10-23T22:50:11.866666100 - PASSED: verifyPasswordFieldDisplayed
+2026-10-23T22:50:13.632428700 - Launching browser: chrome
+2026-10-23T22:50:19.643254 - PASSED: verifySignUpNavigation
+2026-10-23T22:50:20.157476600 - Test class completed.
+2026-10-23T22:50:21.840500200 - Launching browser: chrome
+2026-10-23T22:50:30.318261600 - PASSED: verifyBlankCredentials
+2026-10-23T22:50:34.982489100 - Launching browser: chrome
+2026-10-23T22:50:42.647635200 - PASSED: verifyIncorrectPassword
+2026-10-23T22:50:46.071720500 - Launching browser: chrome
+2026-10-23T22:50:55.442245400 - PASSED: verifyInvalidEmailFormat
+2026-10-23T22:50:58.829172800 - Launching browser: chrome
+2026-10-23T22:51:22.655579 - FAILED: verifyUnregisteredEmail
+2026-10-23T22:51:23.320495800 - Test class completed.
+2026-10-23T22:51:23.401026500 - Test started.
+2026-10-23T22:51:24.905472300 - Launching browser: chrome
+2026-10-23T22:51:48.790615200 - FAILED: verifyAllCoursesCategorySelection
+2026-10-23T22:51:50.749919400 - Launching browser: chrome
+2026-10-23T22:52:14.438512600 - FAILED: verifyAllCoursesPageLoads
+2026-10-23T22:52:16.602693900 - Launching browser: chrome
+2026-10-23T22:52:41.550583300 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-23T22:52:43.741476700 - Launching browser: chrome
+2026-10-23T22:53:29.761263200 - FAILED: verifyOnlineDoctorateProgramsCategory
+2026-10-23T22:53:30.515674900 - Test class completed.
+2026-10-23T22:53:32.198030700 - Launching browser: chrome
+2026-10-23T22:53:57.051988900 - FAILED: verifyDatabasesCategory
+2026-10-23T22:53:59.138671400 - Launching browser: chrome
+2026-10-23T22:54:41.718975 - Test suite started.
+2026-10-23T22:54:41.741967400 - Test started.
+2026-10-23T22:54:46.612900900 - Launching browser: chrome
+2026-10-23T22:54:46.614911600 - Launching browser: chrome
+2026-10-23T22:54:46.766741100 - Launching browser: chrome
+2026-10-23T22:59:18.405940100 - Test suite started.
+2026-10-23T22:59:18.437960200 - Test started.
+2026-10-23T22:59:29.166626400 - Launching browser: chrome
+2026-10-23T22:59:29.179862200 - Launching browser: chrome
+2026-10-23T22:59:29.196422800 - Launching browser: chrome
+2026-10-23T22:59:37.947754 - PASSED: verifyEmailFieldDisplayed
+2026-10-23T22:59:46.455252300 - PASSED: verifyAICourseDetailReloadsCorrectly
+2026-10-23T22:59:56.178492600 - PASSED: verifyAllCoursesCategorySelection
+2026-10-23T23:00:00.543957400 - Launching browser: chrome
+2026-10-23T23:00:00.728690500 - Launching browser: chrome
+2026-10-23T23:00:05.332193600 - Launching browser: chrome
+2026-10-23T23:00:14.640971800 - PASSED: verifyAICourseLinksRemainAccessibleAfterScrolling
+2026-10-23T23:00:15.283632500 - PASSED: verifyForgotPasswordNavigation
+2026-10-23T23:00:20.551101800 - PASSED: verifyAllCoursesPageLoads
+2026-10-23T23:00:21.652166600 - Launching browser: chrome
+2026-10-23T23:00:21.851383 - Launching browser: chrome
+2026-10-23T23:00:26.150745400 - PASSED: verifyLoginButtonDisplayed
+2026-10-23T23:00:29.175876100 - PASSED: verifyBackNavigationReturnsToAIListing
+2026-10-23T23:00:31.185508700 - Launching browser: chrome
+2026-10-23T23:00:31.395402900 - Launching browser: chrome
+2026-10-23T23:00:36.108319 - Launching browser: chrome
+2026-10-23T23:00:41.288976900 - PASSED: verifyPasswordFieldDisplayed
+2026-10-23T23:00:43.314882800 - PASSED: verifyEndToEndAICourseDiscovery
+2026-10-23T23:00:47.851018 - Launching browser: chrome
+2026-10-23T23:00:48.055472300 - Launching browser: chrome
+2026-10-23T23:00:59.269406800 - PASSED: verifySignUpNavigation
+2026-10-23T23:01:00.593294600 - PASSED: verifyPrimaryCourseCallToActionNavigation
+2026-10-23T23:01:02.730491700 - Test class completed.
+2026-10-23T23:01:03.422505200 - PASSED: verifyArtificialIntelligenceCategory
+2026-10-23T23:01:06.086925900 - Launching browser: chrome
+2026-10-23T23:01:08.802574500 - Launching browser: chrome
+2026-10-23T23:01:10.699697200 - PASSED: verifyScrollingReachesLowerAISections
+2026-10-23T23:01:12.106715500 - Test class completed.
+2026-10-23T23:01:21.920458300 - PASSED: verifyOnlineDoctorateProgramsCategory
+2026-10-23T23:01:22.818966700 - Test class completed.

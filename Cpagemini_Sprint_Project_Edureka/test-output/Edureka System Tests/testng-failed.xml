@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Edureka System Tests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="System Tests(failed)">
+    <classes>
+      <class name="com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setUp"/>
+          <include name="verifyBackNavigationReturnsToAIListing"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="verifyEndToEndAICourseDiscovery"/>
+          <include name="afterClass"/>
+          <include name="verifyScrollingReachesLowerAISections"/>
+          <include name="verifyAICourseDetailReloadsCorrectly"/>
+          <include name="verifyAICourseLinksRemainAccessibleAfterScrolling"/>
+          <include name="beforeClass"/>
+          <include name="verifyPrimaryCourseCallToActionNavigation"/>
+        </methods>
+      </class> <!-- com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1 -->
+      <class name="com.edureka.AllCourses.AllCoursesTestScript2">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyProjectManagementCategory"/>
+          <include name="beforeTest"/>
+          <include name="verifyOthersCategory"/>
+          <include name="verifyOnlineMBACategory"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="verifyProgrammingFrameworksCategory"/>
+        </methods>
+      </class> <!-- com.edureka.AllCourses.AllCoursesTestScript2 -->
+      <class name="com.edureka.OnlineDoctorate.OnlineDoctorateTestScript1">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeTest"/>
+          <include name="verifyDoctorateLandingPage"/>
+          <include name="verifyProgramHighlights"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="verifyAccreditationsSection"/>
+          <include name="verifyCareerOpportunities"/>
+          <include name="beforeClass"/>
+          <include name="verifyDoctorateMenuDisplayed"/>
+          <include name="verifyViewMoreNavigation"/>
+        </methods>
+      </class> <!-- com.edureka.OnlineDoctorate.OnlineDoctorateTestScript1 -->
+    </classes>
+  </test> <!-- System Tests(failed) -->
+</suite> <!-- Failed suite [Edureka System Tests] -->

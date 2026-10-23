@@ -1,0 +1,608 @@
+<html>
+<head>
+<title>TestNG:  Edge Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Edge Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/8/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 23 22:22:29 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>269 seconds (269404 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.edureka.login.LoginTestScript1.verifyPasswordFieldDisplayed()'><b>verifyPasswordFieldDisplayed</b><br>Test class: com.edureka.login.LoginTestScript1<br/>
+<a href="#Output-247855428" onClick='toggleBox("Output-247855428", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-247855428" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-247855428">
+Starting test: Verify password field visibility<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //button[normalize-space()=&apos;Log In&apos; or normalize-space()=&apos;Log in&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[normalize-space()=&apos;Log In&apos; or normalize-space()=&apos;Log in&apos;]&quot;}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 155.0.4283.62, fedcm:accounts: true, goog:processID: 6720, ms:edgeOptions: {debuggerAddress: localhost:45915}, msedge: {msedgedriverVersion: 155.0.4283.62 (aa3a7406ba8c..., userDataDir: C:\Users\pavit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:45915/devtoo..., se:cdpVersion: 155.0.4283.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d84aa1efc508b95bd32f01a87486205
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at objRepo.LoginPage.openLoginPage(LoginPage.java:85)
+	at com.edureka.login.LoginTestScript1.verifyPasswordFieldDisplayed(LoginTestScript1.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace247855428", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace247855428'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //button[normalize-space()=&apos;Log In&apos; or normalize-space()=&apos;Log in&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[normalize-space()=&apos;Log In&apos; or normalize-space()=&apos;Log in&apos;]&quot;}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 155.0.4283.62, fedcm:accounts: true, goog:processID: 6720, ms:edgeOptions: {debuggerAddress: localhost:45915}, msedge: {msedgedriverVersion: 155.0.4283.62 (aa3a7406ba8c..., userDataDir: C:\Users\pavit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:45915/devtoo..., se:cdpVersion: 155.0.4283.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d84aa1efc508b95bd32f01a87486205
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at objRepo.LoginPage.openLoginPage(LoginPage.java:85)
+	at com.edureka.login.LoginTestScript1.verifyPasswordFieldDisplayed(LoginTestScript1.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>17</td>
+<td>com.edureka.login.LoginTestScript1@7817fd62</td></tr>
+<tr>
+<td title='com.edureka.login.LoginTestScript1.verifyEmailFieldDisplayed()'><b>verifyEmailFieldDisplayed</b><br>Test class: com.edureka.login.LoginTestScript1<br/>
+<a href="#Output-1392109755" onClick='toggleBox("Output-1392109755", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1392109755" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1392109755">
+Starting test: Verify email field visibility<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //button[normalize-space()=&apos;Log In&apos; or normalize-space()=&apos;Log in&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[normalize-space()=&apos;Log In&apos; or normalize-space()=&apos;Log in&apos;]&quot;}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 155.0.4283.62, fedcm:accounts: true, goog:processID: 22532, ms:edgeOptions: {debuggerAddress: localhost:42352}, msedge: {msedgedriverVersion: 155.0.4283.62 (aa3a7406ba8c..., userDataDir: C:\Users\pavit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:42352/devtoo..., se:cdpVersion: 155.0.4283.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2172c77003ff1053ec79acfdd439a9fa
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at objRepo.LoginPage.openLoginPage(LoginPage.java:85)
+	at com.edureka.login.LoginTestScript1.verifyEmailFieldDisplayed(LoginTestScript1.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1392109755", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1392109755'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //button[normalize-space()=&apos;Log In&apos; or normalize-space()=&apos;Log in&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[normalize-space()=&apos;Log In&apos; or normalize-space()=&apos;Log in&apos;]&quot;}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 155.0.4283.62, fedcm:accounts: true, goog:processID: 22532, ms:edgeOptions: {debuggerAddress: localhost:42352}, msedge: {msedgedriverVersion: 155.0.4283.62 (aa3a7406ba8c..., userDataDir: C:\Users\pavit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:42352/devtoo..., se:cdpVersion: 155.0.4283.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2172c77003ff1053ec79acfdd439a9fa
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at objRepo.LoginPage.openLoginPage(LoginPage.java:85)
+	at com.edureka.login.LoginTestScript1.verifyEmailFieldDisplayed(LoginTestScript1.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>17</td>
+<td>com.edureka.login.LoginTestScript1@7817fd62</td></tr>
+<tr>
+<td title='com.edureka.login.LoginTestScript1.verifyForgotPasswordNavigation()'><b>verifyForgotPasswordNavigation</b><br>Test class: com.edureka.login.LoginTestScript1</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //button[normalize-space()=&apos;Log In&apos; or normalize-space()=&apos;Log in&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[normalize-space()=&apos;Log In&apos; or normalize-space()=&apos;Log in&apos;]&quot;}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 155.0.4283.62, fedcm:accounts: true, goog:processID: 12572, ms:edgeOptions: {debuggerAddress: localhost:57681}, msedge: {msedgedriverVersion: 155.0.4283.62 (aa3a7406ba8c..., userDataDir: C:\Users\pavit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57681/devtoo..., se:cdpVersion: 155.0.4283.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df98a9c00394ee557e009c0e3b331104
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at objRepo.LoginPage.openLoginPage(LoginPage.java:85)
+	at com.edureka.login.LoginTestScript1.verifyForgotPasswordNavigation(LoginTestScript1.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1844941220", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1844941220'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //button[normalize-space()=&apos;Log In&apos; or normalize-space()=&apos;Log in&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[normalize-space()=&apos;Log In&apos; or normalize-space()=&apos;Log in&apos;]&quot;}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 155.0.4283.62, fedcm:accounts: true, goog:processID: 12572, ms:edgeOptions: {debuggerAddress: localhost:57681}, msedge: {msedgedriverVersion: 155.0.4283.62 (aa3a7406ba8c..., userDataDir: C:\Users\pavit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57681/devtoo..., se:cdpVersion: 155.0.4283.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df98a9c00394ee557e009c0e3b331104
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at objRepo.LoginPage.openLoginPage(LoginPage.java:85)
+	at com.edureka.login.LoginTestScript1.verifyForgotPasswordNavigation(LoginTestScript1.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>19</td>
+<td>com.edureka.login.LoginTestScript1@7817fd62</td></tr>
+<tr>
+<td title='com.edureka.AllCourses.AllCoursesTestScript1.verifyAllCoursesCategorySelection()'><b>verifyAllCoursesCategorySelection</b><br>Test class: com.edureka.AllCourses.AllCoursesTestScript1</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.cssSelector: a[href*=&apos;/all-courses&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href*=&apos;/all-courses&apos;]&quot;}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 155.0.4283.62, fedcm:accounts: true, goog:processID: 23328, ms:edgeOptions: {debuggerAddress: localhost:25668}, msedge: {msedgedriverVersion: 155.0.4283.62 (aa3a7406ba8c..., userDataDir: C:\Users\pavit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:25668/devtoo..., se:cdpVersion: 155.0.4283.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e42dc06dfc3df27f6f2b45d52c1572df
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at objRepo.AllCoursesPage.openAllCoursesPage(AllCoursesPage.java:44)
+	at com.edureka.AllCourses.AllCoursesTestScript1.verifyAllCoursesCategorySelection(AllCoursesTestScript1.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1517251756", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1517251756'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.cssSelector: a[href*=&apos;/all-courses&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href*=&apos;/all-courses&apos;]&quot;}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 155.0.4283.62, fedcm:accounts: true, goog:processID: 23328, ms:edgeOptions: {debuggerAddress: localhost:25668}, msedge: {msedgedriverVersion: 155.0.4283.62 (aa3a7406ba8c..., userDataDir: C:\Users\pavit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:25668/devtoo..., se:cdpVersion: 155.0.4283.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e42dc06dfc3df27f6f2b45d52c1572df
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at objRepo.AllCoursesPage.openAllCoursesPage(AllCoursesPage.java:44)
+	at com.edureka.AllCourses.AllCoursesTestScript1.verifyAllCoursesCategorySelection(AllCoursesTestScript1.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>23</td>
+<td>com.edureka.AllCourses.AllCoursesTestScript1@8297b3a</td></tr>
+<tr>
+<td title='com.edureka.login.LoginTestScript1.verifySignUpNavigation()'><b>verifySignUpNavigation</b><br>Test class: com.edureka.login.LoginTestScript1</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //button[normalize-space()=&apos;Log In&apos; or normalize-space()=&apos;Log in&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[normalize-space()=&apos;Log In&apos; or normalize-space()=&apos;Log in&apos;]&quot;}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 155.0.4283.62, fedcm:accounts: true, goog:processID: 22952, ms:edgeOptions: {debuggerAddress: localhost:21060}, msedge: {msedgedriverVersion: 155.0.4283.62 (aa3a7406ba8c..., userDataDir: C:\Users\pavit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:21060/devtoo..., se:cdpVersion: 155.0.4283.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 467fd86935f18db50fab16218960d8ee
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at objRepo.LoginPage.openLoginPage(LoginPage.java:85)
+	at com.edureka.login.LoginTestScript1.verifySignUpNavigation(LoginTestScript1.java:88)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1007151152", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1007151152'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //button[normalize-space()=&apos;Log In&apos; or normalize-space()=&apos;Log in&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[normalize-space()=&apos;Log In&apos; or normalize-space()=&apos;Log in&apos;]&quot;}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 155.0.4283.62, fedcm:accounts: true, goog:processID: 22952, ms:edgeOptions: {debuggerAddress: localhost:21060}, msedge: {msedgedriverVersion: 155.0.4283.62 (aa3a7406ba8c..., userDataDir: C:\Users\pavit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:21060/devtoo..., se:cdpVersion: 155.0.4283.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 467fd86935f18db50fab16218960d8ee
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at objRepo.LoginPage.openLoginPage(LoginPage.java:85)
+	at com.edureka.login.LoginTestScript1.verifySignUpNavigation(LoginTestScript1.java:88)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>19</td>
+<td>com.edureka.login.LoginTestScript1@7817fd62</td></tr>
+<tr>
+<td title='com.edureka.AllCourses.AllCoursesTestScript1.verifyArtificialIntelligenceCategory()'><b>verifyArtificialIntelligenceCategory</b><br>Test class: com.edureka.AllCourses.AllCoursesTestScript1</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.cssSelector: a[href*=&apos;/all-courses&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href*=&apos;/all-courses&apos;]&quot;}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 155.0.4283.62, fedcm:accounts: true, goog:processID: 24556, ms:edgeOptions: {debuggerAddress: localhost:16403}, msedge: {msedgedriverVersion: 155.0.4283.62 (aa3a7406ba8c..., userDataDir: C:\Users\pavit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:16403/devtoo..., se:cdpVersion: 155.0.4283.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: caa7fcb5513b3dc70b9a2d788dae7bea
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at objRepo.AllCoursesPage.openAllCoursesPage(AllCoursesPage.java:44)
+	at com.edureka.AllCourses.AllCoursesTestScript1.verifyArtificialIntelligenceCategory(AllCoursesTestScript1.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace53752060", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace53752060'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.cssSelector: a[href*=&apos;/all-courses&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href*=&apos;/all-courses&apos;]&quot;}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 155.0.4283.62, fedcm:accounts: true, goog:processID: 24556, ms:edgeOptions: {debuggerAddress: localhost:16403}, msedge: {msedgedriverVersion: 155.0.4283.62 (aa3a7406ba8c..., userDataDir: C:\Users\pavit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:16403/devtoo..., se:cdpVersion: 155.0.4283.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: caa7fcb5513b3dc70b9a2d788dae7bea
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at objRepo.AllCoursesPage.openAllCoursesPage(AllCoursesPage.java:44)
+	at com.edureka.AllCourses.AllCoursesTestScript1.verifyArtificialIntelligenceCategory(AllCoursesTestScript1.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>23</td>
+<td>com.edureka.AllCourses.AllCoursesTestScript1@8297b3a</td></tr>
+<tr>
+<td title='com.edureka.AllCourses.AllCoursesTestScript1.verifyAllCoursesPageLoads()'><b>verifyAllCoursesPageLoads</b><br>Test class: com.edureka.AllCourses.AllCoursesTestScript1</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.cssSelector: a[href*=&apos;/all-courses&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href*=&apos;/all-courses&apos;]&quot;}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 155.0.4283.62, fedcm:accounts: true, goog:processID: 22888, ms:edgeOptions: {debuggerAddress: localhost:16314}, msedge: {msedgedriverVersion: 155.0.4283.62 (aa3a7406ba8c..., userDataDir: C:\Users\pavit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:16314/devtoo..., se:cdpVersion: 155.0.4283.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b7472d9f93841a3a22090af1a2b8dd38
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at objRepo.AllCoursesPage.openAllCoursesPage(AllCoursesPage.java:44)
+	at com.edureka.AllCourses.AllCoursesTestScript1.verifyAllCoursesPageLoads(AllCoursesTestScript1.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1502050508", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1502050508'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.cssSelector: a[href*=&apos;/all-courses&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href*=&apos;/all-courses&apos;]&quot;}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 155.0.4283.62, fedcm:accounts: true, goog:processID: 22888, ms:edgeOptions: {debuggerAddress: localhost:16314}, msedge: {msedgedriverVersion: 155.0.4283.62 (aa3a7406ba8c..., userDataDir: C:\Users\pavit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:16314/devtoo..., se:cdpVersion: 155.0.4283.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b7472d9f93841a3a22090af1a2b8dd38
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at objRepo.AllCoursesPage.openAllCoursesPage(AllCoursesPage.java:44)
+	at com.edureka.AllCourses.AllCoursesTestScript1.verifyAllCoursesPageLoads(AllCoursesTestScript1.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>23</td>
+<td>com.edureka.AllCourses.AllCoursesTestScript1@8297b3a</td></tr>
+<tr>
+<td title='com.edureka.login.LoginTestScript1.verifyLoginButtonDisplayed()'><b>verifyLoginButtonDisplayed</b><br>Test class: com.edureka.login.LoginTestScript1<br/>
+<a href="#Output-969407243" onClick='toggleBox("Output-969407243", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-969407243" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-969407243">
+Starting test: Verify login button visibility<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //button[normalize-space()=&apos;Log In&apos; or normalize-space()=&apos;Log in&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[normalize-space()=&apos;Log In&apos; or normalize-space()=&apos;Log in&apos;]&quot;}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 155.0.4283.62, fedcm:accounts: true, goog:processID: 24684, ms:edgeOptions: {debuggerAddress: localhost:13010}, msedge: {msedgedriverVersion: 155.0.4283.62 (aa3a7406ba8c..., userDataDir: C:\Users\pavit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:13010/devtoo..., se:cdpVersion: 155.0.4283.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5daf289e1654f9a649042e4727d9a898
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at objRepo.LoginPage.openLoginPage(LoginPage.java:85)
+	at com.edureka.login.LoginTestScript1.verifyLoginButtonDisplayed(LoginTestScript1.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace969407243", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace969407243'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //button[normalize-space()=&apos;Log In&apos; or normalize-space()=&apos;Log in&apos;] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[normalize-space()=&apos;Log In&apos; or normalize-space()=&apos;Log in&apos;]&quot;}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 155.0.4283.62, fedcm:accounts: true, goog:processID: 24684, ms:edgeOptions: {debuggerAddress: localhost:13010}, msedge: {msedgedriverVersion: 155.0.4283.62 (aa3a7406ba8c..., userDataDir: C:\Users\pavit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:13010/devtoo..., se:cdpVersion: 155.0.4283.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5daf289e1654f9a649042e4727d9a898
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at objRepo.LoginPage.openLoginPage(LoginPage.java:85)
+	at com.edureka.login.LoginTestScript1.verifyLoginButtonDisplayed(LoginTestScript1.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>17</td>
+<td>com.edureka.login.LoginTestScript1@7817fd62</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1.verifyScrollingReachesLowerAISections()'><b>verifyScrollingReachesLowerAISections</b><br>Test class: com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1</td>
+<td></td>
+<td>1</td>
+<td>com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@2362f559</td></tr>
+<tr>
+<td title='com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1.verifyPrimaryCourseCallToActionNavigation()'><b>verifyPrimaryCourseCallToActionNavigation</b><br>Test class: com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1</td>
+<td></td>
+<td>3</td>
+<td>com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@2362f559</td></tr>
+<tr>
+<td title='com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1.verifyAICourseLinksRemainAccessibleAfterScrolling()'><b>verifyAICourseLinksRemainAccessibleAfterScrolling</b><br>Test class: com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1</td>
+<td></td>
+<td>2</td>
+<td>com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@2362f559</td></tr>
+<tr>
+<td title='com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1.verifyAICourseDetailReloadsCorrectly()'><b>verifyAICourseDetailReloadsCorrectly</b><br>Test class: com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1</td>
+<td></td>
+<td>3</td>
+<td>com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@2362f559</td></tr>
+<tr>
+<td title='com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1.verifyEndToEndAICourseDiscovery()'><b>verifyEndToEndAICourseDiscovery</b><br>Test class: com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1</td>
+<td></td>
+<td>3</td>
+<td>com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@2362f559</td></tr>
+<tr>
+<td title='com.edureka.AllCourses.AllCoursesTestScript1.verifyOnlineDoctorateProgramsCategory()'><b>verifyOnlineDoctorateProgramsCategory</b><br>Test class: com.edureka.AllCourses.AllCoursesTestScript1<br/>
+<a href="#Output-369270319" onClick='toggleBox("Output-369270319", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-369270319" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-369270319">
+TC_AC_06 completed: The listing reflects the selected category according to the application's configured mapping.<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>com.edureka.AllCourses.AllCoursesTestScript1@8297b3a</td></tr>
+<tr>
+<td title='com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1.verifyBackNavigationReturnsToAIListing()'><b>verifyBackNavigationReturnsToAIListing</b><br>Test class: com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1</td>
+<td></td>
+<td>3</td>
+<td>com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@2362f559</td></tr>
+</table><p>
+</body>
+</html>
