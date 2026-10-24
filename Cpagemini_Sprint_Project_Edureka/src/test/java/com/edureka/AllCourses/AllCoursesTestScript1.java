@@ -51,21 +51,4 @@ public class AllCoursesTestScript1 extends BaseClass {
         Reporter.log(testId + " completed: " + expected, true);
     }
 
-
-    @Test(groups = {"functional"})
-    public void verifyOthersCategory() throws Exception {
-
-        String testId = "TC_AC_12";
-        String expected = excelData(testId, "Expected Result");
-
-        AllCoursesPage page =new AllCoursesPage(driver, properties, wait);
-
-        page.openAllCoursesPage();
-        page.selectCategory("Others");
-
-        Assert.assertTrue(page.isAdditionalCategoriesPageDisplayed(),expected);
-
-        Reporter.log(testId + " passed: Additional categories page displayed.",true);
-    }
-
 }

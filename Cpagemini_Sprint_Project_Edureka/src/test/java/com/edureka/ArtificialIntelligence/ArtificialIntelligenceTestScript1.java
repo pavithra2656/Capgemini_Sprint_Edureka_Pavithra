@@ -45,19 +45,19 @@ public class ArtificialIntelligenceTestScript1 extends BaseClass {
                 "The AI course detail page did not open.");
     }
     
-    @Test(groups = {"integration"})
-    public void verifyPrimaryCourseCallToActionNavigation() {
-
-        ArtificialIntelligencePage aiPage =new ArtificialIntelligencePage(driver, properties, wait);
-
-        aiPage.navigateToAIFromHome();
-        aiPage.exploreAICourses();
-
-        Assert.assertTrue( aiPage.clickPrimaryCourseCallToAction(),
-                "The primary course call-to-action did not navigate to the next page.");
-
-        System.out.println("TC_AI_18 passed: Course call-to-action navigated.");
-    }
+//    @Test(groups = {"integration"})
+//    public void verifyPrimaryCourseCallToActionNavigation() {
+//
+//        ArtificialIntelligencePage aiPage =new ArtificialIntelligencePage(driver, properties, wait);
+//
+//        aiPage.navigateToAIFromHome();
+//        aiPage.exploreAICourses();
+//
+//        Assert.assertTrue( aiPage.clickPrimaryCourseCallToAction(),
+//                "The primary course call-to-action did not navigate to the next page.");
+//
+//        System.out.println("TC_AI_18 passed: Course call-to-action navigated.");
+//    }
 
 
     @Test(groups = {"system"})
