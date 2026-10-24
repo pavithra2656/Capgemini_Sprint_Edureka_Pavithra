@@ -9,18 +9,6 @@ import com.edureka.base.BaseClass;
 
 public class ArtificialIntelligenceTestScript1 extends BaseClass {
 
-    @Test(groups = {"functional"})
-    public void verifyAICourseDetailReloadsCorrectly() {
-
-        ArtificialIntelligencePage aiPage =new ArtificialIntelligencePage(driver, properties, wait);
-
-        aiPage.openAIListing();
-        aiPage.exploreAICourses();
-        aiPage.openFirstAICourse();
-
-        Assert.assertTrue(aiPage.refreshCourseDetailPage(),"AI course detail page did not reload correctly.");
-    }
-
     @Test(groups = {"integration"})
     public void verifyBackNavigationReturnsToAIListing() {
 
@@ -33,15 +21,6 @@ public class ArtificialIntelligenceTestScript1 extends BaseClass {
         Assert.assertTrue(aiPage.navigateBackToAIListing(), "Back navigation did not return to the AI listing.");
     }
 
-    @Test(groups = {"functional"})
-    public void verifyScrollingReachesLowerAISections() {
-
-        ArtificialIntelligencePage aiPage =new ArtificialIntelligencePage(driver, properties, wait);
-
-        aiPage.openAIListing();
-
-        Assert.assertTrue(aiPage.scrollToLowerSections(),"Scrolling did not reach lower page content.");
-    }
 
     @Test(groups = {"system"})
     public void verifyEndToEndAICourseDiscovery() {

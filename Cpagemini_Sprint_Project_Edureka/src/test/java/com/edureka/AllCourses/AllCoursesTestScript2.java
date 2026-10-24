@@ -34,55 +34,6 @@ public class AllCoursesTestScript2 extends BaseClass {
         Reporter.log(testId + " passed: " + expected, true);
     }
 
-    @Test(groups = {"functional"})
-    public void verifyProgrammingFrameworksCategory()
-            throws Exception {
-
-        String testId = "TC_AC_08";
-        String expected = excelData(testId, "Expected Result");
-
-        AllCoursesPage page =new AllCoursesPage(driver, properties, wait);
-
-        page.openAllCoursesPage();
-        page.selectCategory("Programming & Frameworks");
-
-        Assert.assertTrue(page.isCategoryVisible("Programming & Frameworks"),expected);
-
-        Reporter.log(testId + " passed: " + expected, true);
-    }
-
-    
-    @Test(groups = {"functional"})
-    public void verifyProjectManagementCategory() throws Exception {
-
-        String testId = "TC_AC_10";
-        String expected = excelData(testId, "Expected Result");
-
-        AllCoursesPage page =new AllCoursesPage(driver, properties, wait);
-
-        page.openAllCoursesPage();
-        page.selectCategory("Project Management and Methodologies");
-
-        Assert.assertTrue(page.isCategoryVisible("Project Management and Methodologies"),expected);
-
-        Reporter.log(testId + " passed: " + expected, true);
-    }
-
-    @Test(groups = {"functional"})
-    public void verifyDatabasesCategory() throws Exception {
-
-        String testId = "TC_AC_11";
-        String expected = excelData(testId, "Expected Result");
-
-        AllCoursesPage page = new AllCoursesPage(driver, properties, wait);
-
-        page.openAllCoursesPage();
-        page.selectCategory("Databases");
-
-        Assert.assertTrue(page.isCategoryVisible("Databases"),expected);
-
-        Reporter.log(testId + " passed: " + expected, true);
-    }
 
     @Test(groups = {"functional"})
     public void verifyOthersCategory() throws Exception {

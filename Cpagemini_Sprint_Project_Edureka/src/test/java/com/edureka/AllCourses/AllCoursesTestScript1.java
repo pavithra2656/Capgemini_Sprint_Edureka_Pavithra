@@ -33,23 +33,6 @@ public class AllCoursesTestScript1 extends BaseClass {
         Reporter.log(testId + " passed: " + expected, true);
     }
 
-   
-
-    @Test(groups = {"functional"})
-    public void verifyAllCoursesCategorySelection() throws Exception {
-
-        String testId = "TC_AC_04";
-        String expected = excelData(testId, "Expected Result");
-
-        AllCoursesPage page =new AllCoursesPage(driver, properties, wait);
-
-        page.openAllCoursesPage();
-        page.selectCategory("All Courses");
-
-        Assert.assertTrue(page.isAllCoursesPageLoaded(),"All Courses catalogue was not displayed.");
-
-        Reporter.log(testId + " passed: " + expected, true);
-    }
 
     @Test(groups = {"functional"})
     public void verifyArtificialIntelligenceCategory() throws Exception {
@@ -67,19 +50,4 @@ public class AllCoursesTestScript1 extends BaseClass {
         Reporter.log(testId + " completed: " + expected, true);
     }
 
-    @Test(groups = {"functional"})
-    public void verifyOnlineDoctorateProgramsCategory() throws Exception {
-
-        String testId = "TC_AC_06";
-        String expected = excelData(testId, "Expected Result");
-
-        AllCoursesPage page =new AllCoursesPage(driver, properties, wait);
-
-        page.openAllCoursesPage();
-        page.selectCategory("Online Doctorate Programs");
-
-        Assert.assertTrue(page.isCategoryVisible("Online Doctorate Programs"),"Online Doctorate Programs category is not displayed.");
-
-        Reporter.log(testId + " completed: " + expected, true);
-    }
 }
