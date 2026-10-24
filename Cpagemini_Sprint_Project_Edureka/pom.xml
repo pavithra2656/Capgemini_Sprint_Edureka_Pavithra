@@ -61,7 +61,7 @@
                         <version>3.5.4</version>
                         <configuration>
                             <suiteXmlFiles>
-                                <suiteXmlFile>Batch_Execution.xml</suiteXmlFile>
+                                <suiteXmlFile>Batch.xml</suiteXmlFile>
                             </suiteXmlFiles>
                         </configuration>
                     </plugin>
