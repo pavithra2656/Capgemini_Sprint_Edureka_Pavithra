@@ -12,10 +12,8 @@
 
         <classes>
             <class name="com.edureka.login.LoginTestScript1"/>
-            <class name="com.edureka.login.LoginTestScript2"/>
 
             <class name="com.edureka.AllCourses.AllCoursesTestScript1"/>
-            <class name="com.edureka.AllCourses.AllCoursesTestScript2"/>
 
             <class name="com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1"/>
 
