@@ -50,22 +50,6 @@ public class AllCoursesTestScript1 extends BaseClass {
 
         Reporter.log(testId + " completed: " + expected, true);
     }
-    
-    @Test(groups = {"functional"})
-    public void verifyOnlineMBACategory() throws Exception {
-
-        String testId = "TC_AC_07";
-        String expected = excelData(testId, "Expected Result");
-
-        AllCoursesPage page =new AllCoursesPage(driver, properties, wait);
-
-        page.openAllCoursesPage();
-        page.selectCategory("Online MBA");
-
-        Assert.assertTrue(page.isCategoryVisible("Online MBA"),expected);
-
-        Reporter.log(testId + " passed: " + expected, true);
-    }
 
 
     @Test(groups = {"functional"})

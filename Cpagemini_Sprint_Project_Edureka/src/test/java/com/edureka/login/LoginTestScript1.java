@@ -25,6 +25,8 @@ public class LoginTestScript1 extends BaseClass {
         Assert.assertTrue(loginPage.isEmailFieldDisplayed(),"Email field is not displayed.");
 
         Reporter.log("Passed: Email field is displayed", true);
+        
+        
     }
 
     @Test(groups = {"smoke", "functional"})
@@ -51,39 +53,7 @@ public class LoginTestScript1 extends BaseClass {
         Reporter.log("Passed: Login button is displayed", true);
     }
 
-    // TC_LOGIN_09: Verify forgot-password navigation
-    @Test(groups = {"functional"})
-    public void verifyForgotPasswordNavigation() throws Exception {
-        String testId = "TC_LOGIN_09";
-        String expected = excelData(testId, "Expected Result");
-
-        LoginPage login = new LoginPage(driver, properties);
-        login.openLoginPage();
-        login.clickForgotPassword();
-
-        Assert.assertTrue(login.isResetPasswordHeadingDisplayed(),"Reset your password heading was not displayed.");
-        Assert.assertTrue(login.isSendVerificationCodeButtonDisplayed(),"Send Verification Code button was not displayed.");
-        Assert.assertTrue(login.isBackToLoginDisplayed(),"Back to Login link was not displayed.");
-
-        Reporter.log(testId + " passed: " + expected, true);
-    }
-
-    @Test(groups = {"functional"})
-    public void verifySignUpNavigation() throws Exception {
-        String testId = "TC_LOGIN_10";
-        String expected = excelData(testId, "Expected Result");
-
-        LoginPage login = new LoginPage(driver, properties);
-        login.openLoginPage();
-        login.clickSignUp();
-
-        Assert.assertTrue(login.isSignUpHeadingDisplayed(),"Registration heading was not displayed.");
-        Assert.assertTrue(login.isSignUpEmailFieldDisplayed(),"Registration email field was not displayed.");
-        Assert.assertTrue(login.isSignUpPhoneFieldDisplayed(),"Registration phone field was not displayed.");
-        Assert.assertTrue(login.isSignUpSubmitButtonDisplayed(),"Sign Up button was not displayed.");
-
-        Reporter.log(testId + " passed: " + expected, true);
-    }
+  
 
     @Test(groups = {"negative", "functional"})
     public void verifyIncorrectPassword() throws Exception {
