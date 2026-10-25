@@ -1,6 +1,6 @@
-
 package com.edureka.base;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
@@ -44,6 +44,7 @@ public class BaseClass {
 	public LoginPage loginPage;
 	public AllCoursesPage page;
 	public ArtificialIntelligencePage aiPage;
+
 	private static final int IMPLICIT_WAIT_SECONDS = 10;
 	private static final int EXPLICIT_WAIT_SECONDS = 20;
 	private static final int PAGE_LOAD_TIMEOUT_SECONDS = 60;
@@ -55,13 +56,19 @@ public class BaseClass {
 
 	@BeforeTest(alwaysRun = true)
 	public void beforeTest() {
-		Reporter.log("Test started.");
+		Reporter.log("Test started.", true);
 	}
 
 	@BeforeClass(alwaysRun = true)
 	public void beforeClass() throws IOException {
 		prop = new CommonData();
 		excel = new ExcelUtilities();
+
+		properties = new Properties();
+
+		try (FileInputStream fis = new FileInputStream("./src/main/resources/CommonData.properties")) {
+			properties.load(fis);
+		}
 
 		Reporter.log("Before class", true);
 	}
@@ -77,7 +84,6 @@ public class BaseClass {
 		}
 
 		switch (selectedBrowser.trim().toLowerCase()) {
-
 		case "chrome":
 			ChromeOptions chromeOptions = new ChromeOptions();
 			driver = new ChromeDriver(chromeOptions);
@@ -116,27 +122,27 @@ public class BaseClass {
 
 	@AfterMethod(alwaysRun = true)
 	public void tearDown(ITestResult result) {
-
 		try {
 			if (result.getStatus() == ITestResult.FAILURE) {
-
-				Reporter.log("FAILED: " + result.getMethod().getMethodName());
+				Reporter.log("FAILED: " + result.getMethod().getMethodName(), true);
 
 				if (driver != null) {
 					try {
-						ScreenShot.captureScreenshot(driver, result.getMethod().getMethodName(), properties);
+						String screenshotPath = ScreenShot.captureScreenshot(driver, result.getMethod().getMethodName(),
+								properties);
+
+						Reporter.log("Screenshot saved: " + screenshotPath, true);
+
 					} catch (Exception e) {
 						Reporter.log("Screenshot capture failed: " + e.getMessage(), true);
 					}
 				}
 
 			} else if (result.getStatus() == ITestResult.SUCCESS) {
-
 				Reporter.log("PASSED: " + result.getMethod().getMethodName(), true);
 
 			} else if (result.getStatus() == ITestResult.SKIP) {
-
-				Reporter.log("SKIPPED: " + result.getMethod().getMethodName());
+				Reporter.log("SKIPPED: " + result.getMethod().getMethodName(), true);
 			}
 
 		} finally {
@@ -144,8 +150,10 @@ public class BaseClass {
 				try {
 					driver.quit();
 					Reporter.log("Browser closed successfully.", true);
+
 				} catch (Exception e) {
 					Reporter.log("Browser cleanup message: " + e.getMessage(), true);
+
 				} finally {
 					driver = null;
 					wait = null;
@@ -158,5 +166,4 @@ public class BaseClass {
 	public void afterClass() {
 		Reporter.log("Test class completed.", true);
 	}
-
 }

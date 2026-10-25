@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Test suite started.]]>
@@ -14,13 +14,7 @@
       <![CDATA[Launching browser: chrome]]>
     </line>
     <line>
-      <![CDATA[PASSED: verifyAICourseLinksRemainAccessibleAfterScrolling]]>
-    </line>
-    <line>
-      <![CDATA[Browser closed successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Launching browser: chrome]]>
+      <![CDATA[ passed ]]>
     </line>
     <line>
       <![CDATA[PASSED: verifyBackNavigationReturnsToAIListing]]>
@@ -32,7 +26,10 @@
       <![CDATA[Launching browser: chrome]]>
     </line>
     <line>
-      <![CDATA[PASSED: verifyEndToEndAICourseDiscovery]]>
+      <![CDATA[ passed ]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: verifyPrimaryCourseCallToActionNavigation]]>
     </line>
     <line>
       <![CDATA[Browser closed successfully.]]>
@@ -41,40 +38,37 @@
       <![CDATA[Test class completed.]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-10-25T12:27:50 IST" name="Default suite" finished-at="2026-10-25T12:28:09 IST" duration-ms="19120">
+  <suite started-at="2026-10-25T14:03:56 IST" name="Failed suite [Failed suite [Suite]]" finished-at="2026-10-25T14:04:14 IST" duration-ms="18186">
     <groups>
-      <group name="system">
-        <method signature="ArtificialIntelligenceTestScript1.verifyAICourseLinksRemainAccessibleAfterScrolling()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" name="verifyAICourseLinksRemainAccessibleAfterScrolling" class="com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1"/>
-        <method signature="ArtificialIntelligenceTestScript1.verifyEndToEndAICourseDiscovery()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" name="verifyEndToEndAICourseDiscovery" class="com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1"/>
-      </group> <!-- system -->
       <group name="integration">
         <method signature="ArtificialIntelligenceTestScript1.verifyBackNavigationReturnsToAIListing()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" name="verifyBackNavigationReturnsToAIListing" class="com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1"/>
+        <method signature="ArtificialIntelligenceTestScript1.verifyPrimaryCourseCallToActionNavigation()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" name="verifyPrimaryCourseCallToActionNavigation" class="com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1"/>
       </group> <!-- integration -->
     </groups>
-    <test started-at="2026-10-25T12:27:50 IST" name="Default test" finished-at="2026-10-25T12:28:09 IST" duration-ms="19120">
+    <test started-at="2026-10-25T14:03:56 IST" name="Test(failed)(failed)" finished-at="2026-10-25T14:04:14 IST" duration-ms="18186">
       <class name="com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:27:50 IST" name="beforeSuite" finished-at="2026-10-25T12:27:50 IST" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T14:03:55 IST" name="beforeSuite" finished-at="2026-10-25T14:03:56 IST" duration-ms="45" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test suite started.]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:27:50 IST" name="beforeTest" finished-at="2026-10-25T12:27:50 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T14:03:56 IST" name="beforeTest" finished-at="2026-10-25T14:03:56 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test started.]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:27:50 IST" name="beforeClass" finished-at="2026-10-25T12:27:50 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T14:03:56 IST" name="beforeClass" finished-at="2026-10-25T14:03:56 IST" duration-ms="10" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Before class]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:27:50 IST" name="setUp" finished-at="2026-10-25T12:27:54 IST" duration-ms="3626" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T14:03:56 IST" name="setUp" finished-at="2026-10-25T14:04:02 IST" duration-ms="6017" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -88,50 +82,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyAICourseLinksRemainAccessibleAfterScrolling()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:27:54 IST" name="verifyAICourseLinksRemainAccessibleAfterScrolling" finished-at="2026-10-25T12:27:56 IST" duration-ms="2459" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAICourseLinksRemainAccessibleAfterScrolling -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:27:56 IST" name="tearDown" finished-at="2026-10-25T12:27:57 IST" duration-ms="562" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAICourseLinksRemainAccessibleAfterScrolling status=SUCCESS method=ArtificialIntelligenceTestScript1.verifyAICourseLinksRemainAccessibleAfterScrolling()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="verifyBackNavigationReturnsToAIListing()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T14:04:02 IST" name="verifyBackNavigationReturnsToAIListing" finished-at="2026-10-25T14:04:06 IST" duration-ms="3878" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[PASSED: verifyAICourseLinksRemainAccessibleAfterScrolling]]>
+              <![CDATA[ passed ]]>
             </line>
-            <line>
-              <![CDATA[Browser closed successfully.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:27:57 IST" name="setUp" finished-at="2026-10-25T12:27:59 IST" duration-ms="2343" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Launching browser: chrome]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyBackNavigationReturnsToAIListing()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:27:59 IST" name="verifyBackNavigationReturnsToAIListing" finished-at="2026-10-25T12:28:03 IST" duration-ms="3958" status="PASS">
-          <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBackNavigationReturnsToAIListing -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:28:03 IST" name="tearDown" finished-at="2026-10-25T12:28:04 IST" duration-ms="421" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T14:04:06 IST" name="tearDown" finished-at="2026-10-25T14:04:06 IST" duration-ms="878" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyBackNavigationReturnsToAIListing status=SUCCESS method=ArtificialIntelligenceTestScript1.verifyBackNavigationReturnsToAIListing()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274] output={null}]]]>
+                <![CDATA[[TestResult name=verifyBackNavigationReturnsToAIListing status=SUCCESS method=ArtificialIntelligenceTestScript1.verifyBackNavigationReturnsToAIListing()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274] output= passed ]]]>
               </value>
             </param>
           </params>
@@ -144,7 +106,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:28:04 IST" name="setUp" finished-at="2026-10-25T12:28:06 IST" duration-ms="2205" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T14:04:06 IST" name="setUp" finished-at="2026-10-25T14:04:10 IST" duration-ms="3319" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -158,28 +120,31 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyEndToEndAICourseDiscovery()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:28:06 IST" name="verifyEndToEndAICourseDiscovery" finished-at="2026-10-25T12:28:09 IST" duration-ms="2971" status="PASS">
+        <test-method signature="verifyPrimaryCourseCallToActionNavigation()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T14:04:10 IST" name="verifyPrimaryCourseCallToActionNavigation" finished-at="2026-10-25T14:04:13 IST" duration-ms="3307" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[ passed ]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- verifyEndToEndAICourseDiscovery -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:28:09 IST" name="tearDown" finished-at="2026-10-25T12:28:09 IST" duration-ms="465" status="PASS">
+        </test-method> <!-- verifyPrimaryCourseCallToActionNavigation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T14:04:13 IST" name="tearDown" finished-at="2026-10-25T14:04:14 IST" duration-ms="612" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyEndToEndAICourseDiscovery status=SUCCESS method=ArtificialIntelligenceTestScript1.verifyEndToEndAICourseDiscovery()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274] output={null}]]]>
+                <![CDATA[[TestResult name=verifyPrimaryCourseCallToActionNavigation status=SUCCESS method=ArtificialIntelligenceTestScript1.verifyPrimaryCourseCallToActionNavigation()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274] output= passed ]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[PASSED: verifyEndToEndAICourseDiscovery]]>
+              <![CDATA[PASSED: verifyPrimaryCourseCallToActionNavigation]]>
             </line>
             <line>
               <![CDATA[Browser closed successfully.]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:28:09 IST" name="afterClass" finished-at="2026-10-25T12:28:09 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T14:04:14 IST" name="afterClass" finished-at="2026-10-25T14:04:14 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test class completed.]]>
@@ -187,6 +152,6 @@
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test(failed)(failed) -->
+  </suite> <!-- Failed suite [Failed suite [Suite]] -->
 </testng-results>

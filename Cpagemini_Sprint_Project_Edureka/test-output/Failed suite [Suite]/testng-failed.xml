@@ -3,27 +3,15 @@
 <suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)(failed)">
     <classes>
-      <class name="com.edureka.AllCourses.AllCoursesTestScript2">
-        <methods>
-          <include name="beforeTest"/>
-          <include name="setUp"/>
-          <include name="verifyOthersCategory"/>
-          <include name="verifyOnlineMBACategory"/>
-          <include name="tearDown"/>
-          <include name="beforeSuite"/>
-          <include name="afterClass"/>
-          <include name="verifyProgrammingFrameworksCategory"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- com.edureka.AllCourses.AllCoursesTestScript2 -->
       <class name="com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1">
         <methods>
-          <include name="beforeTest"/>
           <include name="setUp"/>
+          <include name="beforeTest"/>
+          <include name="verifyBackNavigationReturnsToAIListing"/>
           <include name="tearDown"/>
           <include name="beforeSuite"/>
           <include name="afterClass"/>
-          <include name="verifyAICourseDetailReloadsCorrectly"/>
+          <include name="verifyPrimaryCourseCallToActionNavigation"/>
           <include name="beforeClass"/>
         </methods>
       </class> <!-- com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1 -->

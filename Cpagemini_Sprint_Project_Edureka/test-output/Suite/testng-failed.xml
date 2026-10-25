@@ -3,43 +3,16 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.edureka.login.LoginTestScript2">
-        <methods>
-          <include name="verifyUnregisteredEmail"/>
-          <include name="beforeTest"/>
-          <include name="setUp"/>
-          <include name="verifyBlankCredentials"/>
-          <include name="tearDown"/>
-          <include name="beforeSuite"/>
-          <include name="afterClass"/>
-          <include name="verifyIncorrectPassword"/>
-          <include name="verifyInvalidEmailFormat"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- com.edureka.login.LoginTestScript2 -->
-      <class name="com.edureka.AllCourses.AllCoursesTestScript2">
-        <methods>
-          <include name="beforeTest"/>
-          <include name="setUp"/>
-          <include name="verifyProjectManagementCategory"/>
-          <include name="verifyOthersCategory"/>
-          <include name="tearDown"/>
-          <include name="verifyOnlineMBACategory"/>
-          <include name="beforeSuite"/>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
-          <include name="verifyProgrammingFrameworksCategory"/>
-        </methods>
-      </class> <!-- com.edureka.AllCourses.AllCoursesTestScript2 -->
       <class name="com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1">
         <methods>
-          <include name="beforeTest"/>
           <include name="setUp"/>
+          <include name="beforeTest"/>
+          <include name="verifyBackNavigationReturnsToAIListing"/>
           <include name="tearDown"/>
           <include name="beforeSuite"/>
           <include name="afterClass"/>
-          <include name="verifyAICourseDetailReloadsCorrectly"/>
           <include name="beforeClass"/>
+          <include name="verifyPrimaryCourseCallToActionNavigation"/>
         </methods>
       </class> <!-- com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1 -->
     </classes>
