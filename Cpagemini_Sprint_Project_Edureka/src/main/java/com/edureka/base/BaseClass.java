@@ -1,12 +1,8 @@
 
 package com.edureka.base;
 
-import java.io.FileInputStream;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.time.Duration;
-import java.time.LocalDateTime;
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
@@ -29,143 +25,138 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
+import com.edureka.utilities.CommonData;
+import com.edureka.utilities.ExcelUtilities;
 import com.edureka.utilities.ScreenShot;
+
+import objRepo.AllCoursesPage;
+import objRepo.ArtificialIntelligencePage;
+import objRepo.LoginPage;
 
 public class BaseClass {
 
-    protected WebDriver driver;
-    protected Properties properties;
-    protected WebDriverWait wait;
+	protected WebDriver driver;
+	protected Properties properties;
+	protected WebDriverWait wait;
+	protected ExcelUtilities excel;
+	protected CommonData prop;
 
-    private static final int IMPLICIT_WAIT_SECONDS = 3;
-    private static final int EXPLICIT_WAIT_SECONDS = 20;
-    private static final int PAGE_LOAD_TIMEOUT_SECONDS = 60;
+	public LoginPage loginPage;
+	public AllCoursesPage page;
+	public ArtificialIntelligencePage aiPage;
+	private static final int IMPLICIT_WAIT_SECONDS = 10;
+	private static final int EXPLICIT_WAIT_SECONDS = 20;
+	private static final int PAGE_LOAD_TIMEOUT_SECONDS = 60;
 
-    @BeforeSuite(alwaysRun = true)
-    public void beforeSuite() {
-        logReport("Test suite started.");
-    }
+	@BeforeSuite(alwaysRun = true)
+	public void beforeSuite() {
+		Reporter.log("Test suite started.", true);
+	}
 
-    @BeforeTest(alwaysRun = true)
-    public void beforeTest() {
-        logReport("Test started.");
-    }
+	@BeforeTest(alwaysRun = true)
+	public void beforeTest() {
+		Reporter.log("Test started.");
+	}
 
-    @BeforeClass(alwaysRun = true)
-    public void beforeClass() throws IOException {
-        loadProperties();
-    }
+	@BeforeClass(alwaysRun = true)
+	public void beforeClass() throws IOException {
+		prop = new CommonData();
+		excel = new ExcelUtilities();
 
-    private void loadProperties() throws IOException {
-        properties = new Properties();
+		Reporter.log("Before class", true);
+	}
 
-        String propertyFile = System.getProperty("user.dir")+ "/src/main/resources/CommonData.properties";
+	@Parameters("browser")
+	@BeforeMethod(alwaysRun = true)
+	public void setUp(@Optional("chrome") String browser) throws IOException {
 
-        try (FileInputStream fis = new FileInputStream(propertyFile)) {
-            properties.load(fis);
-        }
-    }
+		String selectedBrowser = browser;
 
-    @Parameters("browser")
-    @BeforeMethod(alwaysRun = true)
-    public void setUp(@Optional("chrome") String browser)
-            throws IOException {
+		if (selectedBrowser == null || selectedBrowser.isBlank()) {
+			selectedBrowser = properties.getProperty("browser", "chrome");
+		}
 
-        loadProperties();
+		switch (selectedBrowser.trim().toLowerCase()) {
 
-        String selectedBrowser = browser;
+		case "chrome":
+			ChromeOptions chromeOptions = new ChromeOptions();
+			driver = new ChromeDriver(chromeOptions);
+			break;
 
-        if (selectedBrowser == null || selectedBrowser.isBlank()) {
-            selectedBrowser = properties.getProperty("browser", "chrome");
-        }
+		case "edge":
+			EdgeOptions edgeOptions = new EdgeOptions();
+			driver = new EdgeDriver(edgeOptions);
+			break;
 
-        switch (selectedBrowser.trim().toLowerCase()) {
+		case "firefox":
+			FirefoxOptions firefoxOptions = new FirefoxOptions();
+			driver = new FirefoxDriver(firefoxOptions);
+			break;
 
-            case "chrome":
-                ChromeOptions chromeOptions = new ChromeOptions();
-                driver = new ChromeDriver(chromeOptions);
-                break;
+		default:
+			throw new IllegalArgumentException("Unsupported browser: " + selectedBrowser);
+		}
 
-            case "edge":
-                EdgeOptions edgeOptions = new EdgeOptions();
-                driver = new EdgeDriver(edgeOptions);
-                break;
+		driver.manage().window().maximize();
 
-            case "firefox":
-                FirefoxOptions firefoxOptions = new FirefoxOptions();
-                driver = new FirefoxDriver(firefoxOptions);
-                break;
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(IMPLICIT_WAIT_SECONDS));
 
-            default:
-                throw new IllegalArgumentException("Unsupported browser: " + selectedBrowser);
-        }
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(PAGE_LOAD_TIMEOUT_SECONDS));
 
-        driver.manage().window().maximize();
+		loginPage = new LoginPage(driver);
+		page = new AllCoursesPage(driver);
+		aiPage = new ArtificialIntelligencePage(driver);
 
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(IMPLICIT_WAIT_SECONDS));
+		wait = new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT_SECONDS));
 
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(PAGE_LOAD_TIMEOUT_SECONDS));
+		Reporter.log("Launching browser: " + selectedBrowser, true);
 
-        wait = new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT_SECONDS));
+		driver.get(prop.getData("url"));
+	}
 
-        logReport("Launching browser: " + selectedBrowser);
+	@AfterMethod(alwaysRun = true)
+	public void tearDown(ITestResult result) {
 
-        driver.get(properties.getProperty("url"));
-    }
+		try {
+			if (result.getStatus() == ITestResult.FAILURE) {
 
-    @AfterMethod(alwaysRun = true)
-    public void tearDown(ITestResult result) {
+				Reporter.log("FAILED: " + result.getMethod().getMethodName());
 
-        try {
-            if (result.getStatus() == ITestResult.FAILURE) {
+				if (driver != null) {
+					try {
+						ScreenShot.captureScreenshot(driver, result.getMethod().getMethodName(), properties);
+					} catch (Exception e) {
+						Reporter.log("Screenshot capture failed: " + e.getMessage(), true);
+					}
+				}
 
-                logReport("FAILED: "+ result.getMethod().getMethodName());
+			} else if (result.getStatus() == ITestResult.SUCCESS) {
 
-                if (driver != null) {
-                    try {
-                        ScreenShot.captureScreenshot(driver,result.getMethod().getMethodName(),properties);
-                    } catch (Exception e) {
-                        Reporter.log("Screenshot capture failed: "+ e.getMessage(), true);
-                    }
-                }
+				Reporter.log("PASSED: " + result.getMethod().getMethodName(), true);
 
-            } else if (result.getStatus() == ITestResult.SUCCESS) {
+			} else if (result.getStatus() == ITestResult.SKIP) {
 
-                logReport("PASSED: "+ result.getMethod().getMethodName());
+				Reporter.log("SKIPPED: " + result.getMethod().getMethodName());
+			}
 
-            } else if (result.getStatus() == ITestResult.SKIP) {
+		} finally {
+			if (driver != null) {
+				try {
+					driver.quit();
+					Reporter.log("Browser closed successfully.", true);
+				} catch (Exception e) {
+					Reporter.log("Browser cleanup message: " + e.getMessage(), true);
+				} finally {
+					driver = null;
+					wait = null;
+				}
+			}
+		}
+	}
 
-                logReport("SKIPPED: "+ result.getMethod().getMethodName());
-            }
+	@AfterClass(alwaysRun = true)
+	public void afterClass() {
+		Reporter.log("Test class completed.", true);
+	}
 
-        } finally {
-            // Close the browser only once, after screenshot capture.
-            if (driver != null) {
-                try {
-                    driver.quit();
-                    Reporter.log("Browser closed successfully.", true);
-                } catch (Exception e) {
-                    Reporter.log("Browser cleanup message: " + e.getMessage(), true);
-                } finally {
-                    driver = null;
-                    wait = null;
-                }
-            }
-        }
-    }
-
-    @AfterClass(alwaysRun = true)
-    public void afterClass() {
-        logReport("Test class completed.");
-    }
-
-    public synchronized void logReport(String message) {
-        try (PrintWriter writer =new PrintWriter(new FileWriter("report.log", true))) {
-
-            writer.println(LocalDateTime.now() + " - " + message);
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 }

@@ -1,238 +1,224 @@
 
 package objRepo;
 
+import java.io.IOException;
+import java.time.Duration;
 import java.util.List;
-import java.util.Properties;
-import org.openqa.selenium.TimeoutException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.edureka.utilities.CommonData;
+
 public class ArtificialIntelligencePage {
 
-    private WebDriver driver;
-    private WebDriverWait wait;
-    private Properties properties;
+	private WebDriver driver;
+	private WebDriverWait wait;
+	private CommonData prop = new CommonData();
 
-    private final By aiNavigationLink = By.xpath("//*[self::a or self::div]"+ "[@data-category='Artificial Intelligence']"+ "[self::a or .//a]");
+	@FindBy(xpath = "//*[self::h1 or self::h2][contains(normalize-space(.), 'Artificial Intelligence')]")
+	private WebElement aiHeading;
 
-    private final By aiHeading = By.xpath("//*[self::h1 or self::h2]"+ "[contains(normalize-space(.), 'Artificial Intelligence')]");
+	@FindBy(xpath = "//a[contains(normalize-space(.), 'Explore Artificial Intelligence Courses')]")
+	private WebElement exploreAIButton;
 
-    private final By exploreAIButton = By.xpath("//a[contains(normalize-space(.)," +"'Explore Artificial Intelligence Courses')]");
+	@FindBy(css = "a[data-category='Artificial Intelligence'][data-title][href]")
+	private List<WebElement> aiCourseLinks;
 
-    private final By aiCourseLinks = By.cssSelector("a[data-category='Artificial Intelligence'][data-title][href]");
-    
-    private final By viewProgramButtons = By.xpath("//button[contains(@class,'popularcourses_view_program_btn') " +"and normalize-space()='View Program']");
-    
-    private final By courseSummaryCandidates = By.xpath(
-    	    "//*[self::p or self::span or self::div or self::h2 or self::h3]" +
-    	    "[not(*) and " +"contains(translate(normalize-space(.)," +
-    	    "'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'course')]" );
+	@FindBy(css = "[data-category='Artificial Intelligence'] a")
+	private List<WebElement> aiNavigationLinks;
 
-    public ArtificialIntelligencePage(
-            WebDriver driver,
-            Properties properties,
-            WebDriverWait wait) {
+	@FindBy(xpath = "//button[contains(@class,'popularcourses_view_program_btn') and normalize-space()='View Program']")
+	private List<WebElement> viewProgramButtons;
 
-        this.driver = driver;
-        this.properties = properties;
-        this.wait = wait;
-    }
+	@FindBy(tagName = "body")
+	private WebElement body;
 
-
-    public void openAIListing() {
-
-        driver.get(properties.getProperty("url"));
-
-        By aiLink = By.cssSelector("div[data-category='Artificial Intelligence'] a");
-
-        wait.until(ExpectedConditions.elementToBeClickable(aiLink)).click();
-
-        wait.until(ExpectedConditions.urlContains("/artificial-intelligence-certification-courses"));
-
-        wait.until(ExpectedConditions.visibilityOfElementLocated(aiHeading));
-    }
-
-
-
-	public void navigateToAIFromHome() {
-	    driver.get(properties.getProperty("url"));
-	
-	    By aiLink = By.cssSelector("[data-category='Artificial Intelligence'] a");
-	
-	    wait.until(ExpectedConditions.elementToBeClickable(aiLink)).click();
-	
-	    wait.until(ExpectedConditions.urlContains("/artificial-intelligence-certification-courses"));
-	
-	    wait.until(ExpectedConditions.visibilityOfElementLocated(aiHeading));
+	public ArtificialIntelligencePage(WebDriver driver) {
+		this.driver = driver;
+		wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+		PageFactory.initElements(driver, this);
 	}
 
+	public void openAIListing() throws IOException {
+		driver.get(prop.getData("url"));
 
-    public boolean isAIListingDisplayed() {
-        return wait.until(ExpectedConditions.visibilityOfElementLocated(aiHeading)).isDisplayed();
-    }
+		WebElement aiLink = wait.until(ExpectedConditions.elementToBeClickable(aiNavigationLinks.get(0)));
 
-    public void exploreAICourses() {
-        wait.until(ExpectedConditions.elementToBeClickable(exploreAIButton)).click();
-    }
+		aiLink.click();
 
-    private WebElement getFirstAICourseLink() {
-        List<WebElement> links = wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(aiCourseLinks));
+		wait.until(ExpectedConditions.urlContains("/artificial-intelligence-certification-courses"));
 
-        for (WebElement link : links) {
-            if (link.isDisplayed()&& link.getAttribute("href") != null&& !link.getAttribute("href").isBlank()) {
-                return link;
-            }
-        }
+		wait.until(ExpectedConditions.visibilityOf(aiHeading));
+	}
 
-        throw new AssertionError("No visible AI course link was found.");
-    }
+	public void navigateToAIFromHome() throws IOException {
+		driver.get(prop.getData("url"));
 
-    public String getFirstAICourseTitle() {
-        return getFirstAICourseLink().getAttribute("data-title");
-    }
+		WebElement aiLink = wait.until(ExpectedConditions.elementToBeClickable(aiNavigationLinks.get(0)));
 
+		aiLink.click();
 
+		wait.until(ExpectedConditions.urlContains("/artificial-intelligence-certification-courses"));
 
-    public void openFirstAICourse() {
+		wait.until(ExpectedConditions.visibilityOf(aiHeading));
+	}
 
-        By courseLinks = By.cssSelector("a[data-category='Artificial Intelligence']"+ "[data-title][href]");
+	public boolean isAIListingDisplayed() {
+		return wait.until(ExpectedConditions.visibilityOf(aiHeading)).isDisplayed();
+	}
 
-        WebElement courseLink = wait.until( ExpectedConditions.elementToBeClickable(courseLinks));
+	public void exploreAICourses() {
+		wait.until(ExpectedConditions.elementToBeClickable(exploreAIButton)).click();
+	}
 
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block:'center'});",courseLink);
+	private WebElement getFirstAICourseLink() {
+		List<WebElement> links = wait.until(ExpectedConditions.visibilityOfAllElements(aiCourseLinks));
 
-        String originalWindow = driver.getWindowHandle();
+		for (WebElement link : links) {
+			String href = link.getAttribute("href");
 
-        courseLink.click();
+			if (link.isDisplayed() && href != null && !href.isBlank()) {
+				return link;
+			}
+		}
 
-        wait.until(ExpectedConditions.numberOfWindowsToBe(2));
+		throw new AssertionError("No visible AI course link was found.");
+	}
 
-        for (String windowHandle : driver.getWindowHandles()) {
-            if (!windowHandle.equals(originalWindow)) {
-                driver.switchTo().window(windowHandle);
-                break;
-            }
-        }
+	public String getFirstAICourseTitle() {
+		return getFirstAICourseLink().getAttribute("data-title");
+	}
 
-        wait.until(d ->((JavascriptExecutor) d).executeScript("return document.readyState").equals("complete"));
+	public void openFirstAICourse() {
+		WebElement courseLink = wait.until(ExpectedConditions.elementToBeClickable(getFirstAICourseLink()));
 
-        System.out.println("Opened AI course URL: "+ driver.getCurrentUrl());
-    }
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block:'center'});", courseLink);
 
+		String originalWindow = driver.getWindowHandle();
 
+		courseLink.click();
 
-    public boolean refreshCourseDetailPage() {
-        String originalUrl = driver.getCurrentUrl();
+		wait.until(ExpectedConditions.numberOfWindowsToBe(2));
 
-        driver.navigate().refresh();
+		for (String windowHandle : driver.getWindowHandles()) {
+			if (!windowHandle.equals(originalWindow)) {
+				driver.switchTo().window(windowHandle);
+				break;
+			}
+		}
 
-        wait.until(ExpectedConditions.urlToBe(originalUrl));
+		wait.until(d -> ((JavascriptExecutor) d).executeScript("return document.readyState").equals("complete"));
 
-        wait.until(d -> ((JavascriptExecutor) d).executeScript("return document.readyState").equals("complete"));
+		System.out.println("Opened AI course URL: " + driver.getCurrentUrl());
+	}
 
-        return driver.getCurrentUrl().equals(originalUrl)&& !driver.findElement(By.tagName("body")).getText().trim().isEmpty();
-    }
+	public boolean refreshCourseDetailPage() {
+		String originalUrl = driver.getCurrentUrl();
 
-    public boolean navigateBackToAIListing() {
+		driver.navigate().refresh();
 
-        String courseWindow = driver.getWindowHandle();
+		wait.until(ExpectedConditions.urlToBe(originalUrl));
 
-        driver.close();
+		wait.until(d -> ((JavascriptExecutor) d).executeScript("return document.readyState").equals("complete"));
 
-        for (String windowHandle : driver.getWindowHandles()) {
-            driver.switchTo().window(windowHandle);
-            break;
-        }
+		return driver.getCurrentUrl().equals(originalUrl)
+				&& !wait.until(ExpectedConditions.visibilityOf(body)).getText().trim().isEmpty();
+	}
 
-        wait.until(ExpectedConditions.urlContains("/artificial-intelligence-certification-courses"));
+	public boolean navigateBackToAIListing() {
+		driver.close();
 
-        return isAIListingDisplayed();
-    }
+		for (String windowHandle : driver.getWindowHandles()) {
+			driver.switchTo().window(windowHandle);
+			break;
+		}
 
-    public boolean scrollToLowerSections() {
-        JavascriptExecutor js = (JavascriptExecutor) driver;
+		wait.until(ExpectedConditions.urlContains("/artificial-intelligence-certification-courses"));
 
-        long initialHeight = ((Number) js.executeScript("return document.documentElement.scrollHeight")).longValue();
+		return isAIListingDisplayed();
+	}
 
-        js.executeScript("window.scrollTo(0, document.documentElement.scrollHeight);");
+	public boolean scrollToLowerSections() {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
 
-        wait.until(d -> ((Number) ((JavascriptExecutor) d).executeScript("return window.scrollY")).longValue() > 0);
+		long initialHeight = ((Number) js.executeScript("return document.documentElement.scrollHeight")).longValue();
 
-        long scrollPosition = ((Number) js.executeScript("return window.scrollY")).longValue();
+		js.executeScript("window.scrollTo(0, document.documentElement.scrollHeight);");
 
-        return scrollPosition > 0 && initialHeight > 0;
-    }
+		wait.until(d -> ((Number) ((JavascriptExecutor) d).executeScript("return window.scrollY")).longValue() > 0);
 
+		long scrollPosition = ((Number) js.executeScript("return window.scrollY")).longValue();
+
+		return scrollPosition > 0 && initialHeight > 0;
+	}
 
 	public boolean verifyCourseLinksAfterScrolling() {
-	
-	    JavascriptExecutor js = (JavascriptExecutor) driver;
-	
-	    js.executeScript("window.scrollTo(0, document.documentElement.scrollHeight);");
-	
-	    wait.until(d -> ((JavascriptExecutor) d).executeScript("return document.readyState").equals("complete"));
-	
-	    Number scrollPosition = (Number) js.executeScript("return window.scrollY;" );
-	
-	    if (scrollPosition == null || scrollPosition.doubleValue() <= 0) {
-	        return false;
-	    }
-	
-	    List<WebElement> links = driver.findElements(aiCourseLinks);
-	
-	    for (WebElement link : links) {
-	        try {
-	            String href = link.getAttribute("href");
-	
-	            if (link.isDisplayed()&& link.isEnabled()&& href != null&& !href.isBlank()) {
-	                return true;
-	            }
-	
-	        } catch (org.openqa.selenium.StaleElementReferenceException e) {
-	        }
-	    }
-	
-	    return false;
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+
+		js.executeScript("window.scrollTo(0, document.documentElement.scrollHeight);");
+
+		wait.until(d -> ((JavascriptExecutor) d).executeScript("return document.readyState").equals("complete"));
+
+		Number scrollPosition = (Number) js.executeScript("return window.scrollY;");
+
+		if (scrollPosition == null || scrollPosition.doubleValue() <= 0) {
+			return false;
+		}
+
+		List<WebElement> links = driver
+				.findElements(By.cssSelector("a[data-category='Artificial Intelligence'][data-title][href]"));
+
+		for (WebElement link : links) {
+			try {
+				String href = link.getAttribute("href");
+
+				if (link.isDisplayed() && link.isEnabled() && href != null && !href.isBlank()) {
+					return true;
+				}
+			} catch (org.openqa.selenium.StaleElementReferenceException e) {
+			}
+		}
+
+		return false;
 	}
 
+	public String getCurrentUrl() {
+		return driver.getCurrentUrl();
+	}
 
-    public String getCurrentUrl() {
-        return driver.getCurrentUrl();
-    }
-    
-    public boolean clickPrimaryCourseCallToAction() {
+	public boolean clickPrimaryCourseCallToAction() {
+		String listingUrl = driver.getCurrentUrl();
+		String originalWindow = driver.getWindowHandle();
 
-        String listingUrl = driver.getCurrentUrl();
-        String originalWindow = driver.getWindowHandle();
+		WebElement button = wait.until(ExpectedConditions.elementToBeClickable(viewProgramButtons.get(0)));
 
-        WebElement button = wait.until(ExpectedConditions.elementToBeClickable(viewProgramButtons));
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block:'center'});", button);
 
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block:'center'});", button);
+		button.click();
 
-        button.click();
+		try {
+			wait.until(d -> !d.getCurrentUrl().equals(listingUrl) || d.getWindowHandles().size() > 1);
+		} catch (TimeoutException e) {
+			return false;
+		}
 
-        try {
-            wait.until(d ->!d.getCurrentUrl().equals(listingUrl)|| d.getWindowHandles().size() > 1);
-        } catch (TimeoutException e) {
-            return false;
-        }
+		for (String handle : driver.getWindowHandles()) {
+			if (!handle.equals(originalWindow)) {
+				driver.switchTo().window(handle);
+				break;
+			}
+		}
 
-        for (String handle : driver.getWindowHandles()) {
-            if (!handle.equals(originalWindow)) {
-                driver.switchTo().window(handle);
-                break;
-            }
-        }
+		wait.until(d -> ((JavascriptExecutor) d).executeScript("return document.readyState").equals("complete"));
 
-        wait.until(d ->((JavascriptExecutor) d).executeScript("return document.readyState").equals("complete"));
-
-        return !driver.getCurrentUrl().equals(listingUrl)
-            && !driver.getCurrentUrl().isBlank();
-    }
-    
- 
+		return !driver.getCurrentUrl().equals(listingUrl) && !driver.getCurrentUrl().isBlank();
+	}
 }

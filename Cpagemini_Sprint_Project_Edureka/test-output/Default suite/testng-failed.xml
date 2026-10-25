@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.edureka.OnlineDoctorate.OnlineDoctorateTestScript1">
+      <class name="com.edureka.AllCourses.AllCoursesTestScript1">
         <methods>
-          <include name="setUp"/>
           <include name="beforeTest"/>
+          <include name="setUp"/>
           <include name="tearDown"/>
           <include name="beforeSuite"/>
-          <include name="verifyAccreditationsSection"/>
           <include name="afterClass"/>
+          <include name="verifyArtificialIntelligenceCategory"/>
           <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.edureka.OnlineDoctorate.OnlineDoctorateTestScript1 -->
+      </class> <!-- com.edureka.AllCourses.AllCoursesTestScript1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

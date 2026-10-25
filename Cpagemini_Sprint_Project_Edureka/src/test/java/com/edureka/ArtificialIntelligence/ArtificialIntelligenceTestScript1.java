@@ -1,76 +1,71 @@
 
 package com.edureka.ArtificialIntelligence;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import java.io.IOException;
 
-import objRepo.ArtificialIntelligencePage;
+import org.testng.Assert;
+import org.testng.Reporter;
+import org.testng.annotations.Test;
 import com.edureka.base.BaseClass;
 
 public class ArtificialIntelligenceTestScript1 extends BaseClass {
 
-    @Test(groups = {"integration"})
-    public void verifyBackNavigationReturnsToAIListing() {
+	@Test(groups = { "integration" })
+	public void verifyBackNavigationReturnsToAIListing() throws IOException {
 
-        ArtificialIntelligencePage aiPage =new ArtificialIntelligencePage(driver, properties, wait);
+		aiPage.openAIListing();
+		aiPage.exploreAICourses();
+		aiPage.openFirstAICourse();
 
-        aiPage.openAIListing();
-        aiPage.exploreAICourses();
-        aiPage.openFirstAICourse();
+		Assert.assertTrue(aiPage.navigateBackToAIListing(), "Back navigation did not return to the AI listing.");
+		Reporter.log( " passed ", true);
+		
+	}
 
-        Assert.assertTrue(aiPage.navigateBackToAIListing(), "Back navigation did not return to the AI listing.");
-    }
+	@Test(groups = { "system" })
+	public void verifyEndToEndAICourseDiscovery() throws IOException {
 
+		aiPage.navigateToAIFromHome();
 
-    @Test(groups = {"system"})
-    public void verifyEndToEndAICourseDiscovery() {
+		Assert.assertTrue(aiPage.isAIListingDisplayed(), "AI listing did not open from the homepage.");
 
-        ArtificialIntelligencePage aiPage =new ArtificialIntelligencePage(driver, properties, wait);
+		aiPage.exploreAICourses();
 
-        aiPage.navigateToAIFromHome();
+		String courseTitle = aiPage.getFirstAICourseTitle();
 
-        Assert.assertTrue(aiPage.isAIListingDisplayed(),"AI listing did not open from the homepage.");
+		Assert.assertNotNull(courseTitle, "AI course title is missing.");
 
-        aiPage.exploreAICourses();
+		Assert.assertFalse(courseTitle.trim().isEmpty(), "AI course title is empty.");
 
-        String courseTitle = aiPage.getFirstAICourseTitle();
+		aiPage.openFirstAICourse();
 
-        Assert.assertNotNull(courseTitle,"AI course title is missing.");
+		Assert.assertFalse(aiPage.getCurrentUrl().contains("/artificial-intelligence-certification-courses"),"The AI course detail page did not open.");
+		
+		Reporter.log( " passed ", true);
+	}
 
-        Assert.assertFalse(courseTitle.trim().isEmpty(),"AI course title is empty.");
+	@Test(groups = { "integration" })
+	public void verifyPrimaryCourseCallToActionNavigation() throws IOException {
 
-        aiPage.openFirstAICourse();
+		aiPage.navigateToAIFromHome();
+		aiPage.exploreAICourses();
 
-        Assert.assertFalse(aiPage.getCurrentUrl().contains("/artificial-intelligence-certification-courses"),
-                "The AI course detail page did not open.");
-    }
-    
-//    @Test(groups = {"integration"})
-//    public void verifyPrimaryCourseCallToActionNavigation() {
-//
-//        ArtificialIntelligencePage aiPage =new ArtificialIntelligencePage(driver, properties, wait);
-//
-//        aiPage.navigateToAIFromHome();
-//        aiPage.exploreAICourses();
-//
-//        Assert.assertTrue( aiPage.clickPrimaryCourseCallToAction(),
-//                "The primary course call-to-action did not navigate to the next page.");
-//
-//        System.out.println("TC_AI_18 passed: Course call-to-action navigated.");
-//    }
+		Assert.assertTrue(aiPage.clickPrimaryCourseCallToAction(),"The primary course call-to-action did not navigate to the next page.");
 
+		System.out.println("TC_AI_18 passed: Course call-to-action navigated.");
+		
+		Reporter.log( " passed ", true);
+	}
 
-    @Test(groups = {"system"})
-    public void verifyAICourseLinksRemainAccessibleAfterScrolling() {
+	@Test(groups = { "system" })
+	public void verifyAICourseLinksRemainAccessibleAfterScrolling() throws IOException {
 
-        ArtificialIntelligencePage aiPage =new ArtificialIntelligencePage(driver, properties, wait);
+		aiPage.navigateToAIFromHome();
+		aiPage.exploreAICourses();
 
-        aiPage.navigateToAIFromHome();
-        aiPage.exploreAICourses();
+		Assert.assertTrue(aiPage.verifyCourseLinksAfterScrolling(),"AI course links were not accessible after scrolling.");
+		
+		Reporter.log( " passed ", true);
+	}
 
-        Assert.assertTrue(aiPage.verifyCourseLinksAfterScrolling(),
-                "AI course links were not accessible after scrolling.");
-    }
-
- 
 }

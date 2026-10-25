@@ -1,117 +1,105 @@
+
 package com.edureka.login;
+
+import java.io.IOException;
 
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.edureka.base.BaseClass;
-import com.edureka.utilities.ExcelUtilities;
-
-import objRepo.LoginPage;
 
 public class LoginTestScript1 extends BaseClass {
 
-    private String excelData(String testId, String column) throws Exception {
-        return ExcelUtilities.getDataByKey( "Test Cases", "TC_ID", testId, column);
-    }
+	@Test(groups = { "smoke", "functional" })
+	public void verifyEmailFieldDisplayed() throws IOException {
 
-    @Test(groups = {"smoke", "functional"})
-    public void verifyEmailFieldDisplayed() {
-        Reporter.log("Starting test: Verify email field visibility", true);
+		Reporter.log("Starting test: Verify email field visibility", true);
 
-        LoginPage loginPage = new LoginPage(driver, properties);
-        loginPage.openLoginPage();
+		loginPage.openLoginPage();
 
-        Assert.assertTrue(loginPage.isEmailFieldDisplayed(),"Email field is not displayed.");
+		Assert.assertTrue(loginPage.isEmailFieldDisplayed(), "Email field is not displayed.");
 
-        Reporter.log("Passed: Email field is displayed", true);
-        
-        
-    }
+		Reporter.log("Passed: Email field is displayed", true);
+	}
 
-    @Test(groups = {"smoke", "functional"})
-    public void verifyPasswordFieldDisplayed() {
-        Reporter.log("Starting test: Verify password field visibility", true);
+	@Test(groups = { "smoke", "functional" })
+	public void verifyPasswordFieldDisplayed() throws IOException {
 
-        LoginPage loginPage = new LoginPage(driver, properties);
-        loginPage.openLoginPage();
+		Reporter.log("Starting test: Verify password field visibility", true);
 
-        Assert.assertTrue(loginPage.isPasswordFieldDisplayed(),"Password field is not displayed.");
+		loginPage.openLoginPage();
 
-        Reporter.log("Passed: Password field is displayed", true);
-    }
+		Assert.assertTrue(loginPage.isPasswordFieldDisplayed(), "Password field is not displayed.");
 
-    @Test(groups = {"smoke", "functional"})
-    public void verifyLoginButtonDisplayed() {
-        Reporter.log("Starting test: Verify login button visibility", true);
+		Reporter.log("Passed: Password field is displayed", true);
+	}
 
-        LoginPage loginPage = new LoginPage(driver, properties);
-        loginPage.openLoginPage();
+	@Test(groups = { "smoke", "functional" })
+	public void verifyLoginButtonDisplayed() throws IOException {
 
-        Assert.assertTrue(loginPage.isLoginButtonDisplayed(),"Login button is not displayed.");
+		Reporter.log("Starting test: Verify login button visibility", true);
 
-        Reporter.log("Passed: Login button is displayed", true);
-    }
+		loginPage.openLoginPage();
 
-  
+		Assert.assertTrue(loginPage.isLoginButtonDisplayed(), "Login button is not displayed.");
 
-    @Test(groups = {"negative", "functional"})
-    public void verifyIncorrectPassword() throws Exception {
-        String testId = "TC_LOGIN_03";
-        String expected = excelData(testId, "Expected Result");
+		Reporter.log("Passed: Login button is displayed", true);
+	}
 
-        String email = properties.getProperty("validEmail");
-        String password = properties.getProperty("invalidPassword");
+	@Test(groups = { "negative", "functional" })
+	public void verifyIncorrectPassword() throws Exception {
 
-        Assert.assertNotNull(email,"Configure validEmail in CommonData.properties.");
-        Assert.assertFalse(email.trim().isEmpty(),"Configure validEmail in CommonData.properties.");
-        Assert.assertNotNull(password,"Configure invalidPassword in CommonData.properties.");
+		String email = prop.getData("validEmail");
+		String password = excel.getData("login", 1, 1);
 
-        LoginPage login = new LoginPage(driver, properties);
-        login.openLoginPage();
-        login.enterEmail(email);
-        login.enterPassword(password);
-        login.clickLogin();
+		Assert.assertNotNull(email, "Configure validEmail in CommonData.properties.");
 
-        Assert.assertTrue(login.isLoginPopupDisplayed(), expected);
-        Reporter.log(testId + " completed: " + expected, true);
-    }
+		Assert.assertFalse(email.trim().isEmpty(), "Configure validEmail in CommonData.properties.");
 
-    // TC_LOGIN_05: Verify blank credentials
-    @Test(groups = {"negative", "functional"})
-    public void verifyBlankCredentials() throws Exception {
-        String testId = "TC_LOGIN_05";
-        String expected = excelData(testId, "Expected Result");
+		Assert.assertFalse(password.trim().isEmpty(), "Invalid password is missing in Excel.");
 
-        LoginPage login = new LoginPage(driver, properties);
-        login.openLoginPage();
-        login.enterEmail("");
-        login.enterPassword("");
-        login.clickLogin();
+		loginPage.openLoginPage();
 
-        Assert.assertTrue(login.isLoginPopupDisplayed(), expected);
-        Reporter.log(testId + " completed: " + expected, true);
-    }
+		loginPage.enterEmail(email);
+		loginPage.enterPassword(password);
+		loginPage.clickLogin();
 
-    @Test(groups = {"negative", "functional"})
-    public void verifyInvalidEmailFormat() throws Exception {
-        String testId = "TC_LOGIN_06";
-        String testData = excelData(testId, "Test Data");
-        String expected = excelData(testId, "Expected Result");
+		Assert.assertTrue(loginPage.isLoginPopupDisplayed(), "Login popup is not visible.");
 
-        Assert.assertNotNull(testData,"Test Data is missing for " + testId + " in Edureka_TestCases.xlsx.");
+		Reporter.log("TC_LOGIN_03 completed", true);
+	}
 
-        String[] data = testData.split(";", -1);
-        String email = data[0].trim();
-        String password = data.length > 1 ? data[1].trim() : "";
+	@Test(groups = { "negative", "functional" })
+	public void verifyBlankCredentials() throws Exception {
 
-        LoginPage login = new LoginPage(driver, properties);
-        login.openLoginPage();
-        login.enterEmail(email);
-        login.enterPassword(password);
-        login.clickLogin();
+		loginPage.openLoginPage();
 
-        Assert.assertTrue(login.isLoginPopupDisplayed(), expected);
-        Reporter.log(testId + " completed: " + expected, true);
-    }
+		loginPage.enterEmail("");
+		loginPage.enterPassword("");
+		loginPage.clickLogin();
+
+		Assert.assertTrue(loginPage.isLoginPopupDisplayed(), "Login popup is not visible.");
+
+		Reporter.log("TC_LOGIN_05 completed", true);
+	}
+
+	@Test(groups = { "negative", "functional" })
+	public void verifyInvalidEmailFormat() throws Exception {
+
+		String email = excel.getData("login", 0, 1);
+		String password = excel.getData("login", 1, 1);
+
+		Assert.assertFalse(email.trim().isEmpty(), "Invalid email is missing in Excel.");
+
+		loginPage.openLoginPage();
+
+		loginPage.enterEmail(email);
+		loginPage.enterPassword(password);
+		loginPage.clickLogin();
+
+		Assert.assertTrue(loginPage.isLoginPopupDisplayed(), "Login popup is not visible.");
+
+		Reporter.log("TC_LOGIN_06 completed", true);
+	}
 }

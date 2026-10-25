@@ -1,321 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Starting test: Verify email field visibility]]>
+      <![CDATA[Test suite started.]]>
     </line>
     <line>
-      <![CDATA[Passed: Email field is displayed]]>
+      <![CDATA[Test started.]]>
     </line>
     <line>
-      <![CDATA[Browser closed successfully.]]>
+      <![CDATA[Before class]]>
     </line>
     <line>
-      <![CDATA[Browser closed successfully.]]>
+      <![CDATA[Launching browser: chrome]]>
     </line>
     <line>
-      <![CDATA[TC_AC_04 passed: The overall course catalogue is displayed across the available pages.]]>
-    </line>
-    <line>
-      <![CDATA[Browser closed successfully.]]>
-    </line>
-    <line>
-      <![CDATA[TC_LOGIN_09 passed: Password recovery page/form is displayed.]]>
+      <![CDATA[PASSED: verifyAICourseLinksRemainAccessibleAfterScrolling]]>
     </line>
     <line>
       <![CDATA[Browser closed successfully.]]>
     </line>
     <line>
-      <![CDATA[Browser closed successfully.]]>
+      <![CDATA[Launching browser: chrome]]>
     </line>
     <line>
-      <![CDATA[TC_AC_01 passed: The All Courses page loads and its main content is displayed without an application error.]]>
-    </line>
-    <line>
-      <![CDATA[Starting test: Verify login button visibility]]>
-    </line>
-    <line>
-      <![CDATA[Passed: Login button is displayed]]>
+      <![CDATA[PASSED: verifyBackNavigationReturnsToAIListing]]>
     </line>
     <line>
       <![CDATA[Browser closed successfully.]]>
     </line>
     <line>
-      <![CDATA[Browser closed successfully.]]>
+      <![CDATA[Launching browser: chrome]]>
     </line>
     <line>
-      <![CDATA[Starting test: Verify password field visibility]]>
-    </line>
-    <line>
-      <![CDATA[Browser closed successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Passed: Password field is displayed]]>
+      <![CDATA[PASSED: verifyEndToEndAICourseDiscovery]]>
     </line>
     <line>
       <![CDATA[Browser closed successfully.]]>
     </line>
     <line>
-      <![CDATA[Browser closed successfully.]]>
-    </line>
-    <line>
-      <![CDATA[TC_LOGIN_10 passed: Registration page/form is displayed.]]>
-    </line>
-    <line>
-      <![CDATA[Browser closed successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Browser closed successfully.]]>
-    </line>
-    <line>
-      <![CDATA[TC_AC_05 completed: The listing reflects the Artificial Intelligence category according to the application's configured mapping.]]>
-    </line>
-    <line>
-      <![CDATA[Browser closed successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Browser closed successfully.]]>
-    </line>
-    <line>
-      <![CDATA[TC_AC_06 completed: The listing reflects the selected category according to the application's configured mapping.]]>
-    </line>
-    <line>
-      <![CDATA[Browser closed successfully.]]>
+      <![CDATA[Test class completed.]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-10-23T22:59:18 IST" name="Edureka Parallel Suite" finished-at="2026-10-23T23:01:22 IST" duration-ms="124409">
+  <suite started-at="2026-10-25T12:27:50 IST" name="Default suite" finished-at="2026-10-25T12:28:09 IST" duration-ms="19120">
     <groups>
-      <group name="functional">
-        <method signature="AllCoursesTestScript1.verifyAllCoursesCategorySelection()[pri:0, instance:com.edureka.AllCourses.AllCoursesTestScript1@3c41ed1d]" name="verifyAllCoursesCategorySelection" class="com.edureka.AllCourses.AllCoursesTestScript1"/>
-        <method signature="AllCoursesTestScript1.verifyAllCoursesPageLoads()[pri:0, instance:com.edureka.AllCourses.AllCoursesTestScript1@3c41ed1d]" name="verifyAllCoursesPageLoads" class="com.edureka.AllCourses.AllCoursesTestScript1"/>
-        <method signature="AllCoursesTestScript1.verifyArtificialIntelligenceCategory()[pri:0, instance:com.edureka.AllCourses.AllCoursesTestScript1@3c41ed1d]" name="verifyArtificialIntelligenceCategory" class="com.edureka.AllCourses.AllCoursesTestScript1"/>
-        <method signature="AllCoursesTestScript1.verifyOnlineDoctorateProgramsCategory()[pri:0, instance:com.edureka.AllCourses.AllCoursesTestScript1@3c41ed1d]" name="verifyOnlineDoctorateProgramsCategory" class="com.edureka.AllCourses.AllCoursesTestScript1"/>
-        <method signature="ArtificialIntelligenceTestScript1.verifyAICourseDetailReloadsCorrectly()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" name="verifyAICourseDetailReloadsCorrectly" class="com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1"/>
-        <method signature="ArtificialIntelligenceTestScript1.verifyScrollingReachesLowerAISections()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" name="verifyScrollingReachesLowerAISections" class="com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1"/>
-        <method signature="LoginTestScript1.verifyEmailFieldDisplayed()[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" name="verifyEmailFieldDisplayed" class="com.edureka.login.LoginTestScript1"/>
-        <method signature="LoginTestScript1.verifyForgotPasswordNavigation()[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" name="verifyForgotPasswordNavigation" class="com.edureka.login.LoginTestScript1"/>
-        <method signature="LoginTestScript1.verifyLoginButtonDisplayed()[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" name="verifyLoginButtonDisplayed" class="com.edureka.login.LoginTestScript1"/>
-        <method signature="LoginTestScript1.verifyPasswordFieldDisplayed()[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" name="verifyPasswordFieldDisplayed" class="com.edureka.login.LoginTestScript1"/>
-        <method signature="LoginTestScript1.verifySignUpNavigation()[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" name="verifySignUpNavigation" class="com.edureka.login.LoginTestScript1"/>
-      </group> <!-- functional -->
       <group name="system">
-        <method signature="ArtificialIntelligenceTestScript1.verifyAICourseLinksRemainAccessibleAfterScrolling()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" name="verifyAICourseLinksRemainAccessibleAfterScrolling" class="com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1"/>
-        <method signature="ArtificialIntelligenceTestScript1.verifyEndToEndAICourseDiscovery()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" name="verifyEndToEndAICourseDiscovery" class="com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1"/>
+        <method signature="ArtificialIntelligenceTestScript1.verifyAICourseLinksRemainAccessibleAfterScrolling()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" name="verifyAICourseLinksRemainAccessibleAfterScrolling" class="com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1"/>
+        <method signature="ArtificialIntelligenceTestScript1.verifyEndToEndAICourseDiscovery()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" name="verifyEndToEndAICourseDiscovery" class="com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1"/>
       </group> <!-- system -->
       <group name="integration">
-        <method signature="ArtificialIntelligenceTestScript1.verifyBackNavigationReturnsToAIListing()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" name="verifyBackNavigationReturnsToAIListing" class="com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1"/>
-        <method signature="ArtificialIntelligenceTestScript1.verifyPrimaryCourseCallToActionNavigation()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" name="verifyPrimaryCourseCallToActionNavigation" class="com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1"/>
+        <method signature="ArtificialIntelligenceTestScript1.verifyBackNavigationReturnsToAIListing()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" name="verifyBackNavigationReturnsToAIListing" class="com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1"/>
       </group> <!-- integration -->
-      <group name="smoke">
-        <method signature="AllCoursesTestScript1.verifyAllCoursesPageLoads()[pri:0, instance:com.edureka.AllCourses.AllCoursesTestScript1@3c41ed1d]" name="verifyAllCoursesPageLoads" class="com.edureka.AllCourses.AllCoursesTestScript1"/>
-        <method signature="LoginTestScript1.verifyEmailFieldDisplayed()[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" name="verifyEmailFieldDisplayed" class="com.edureka.login.LoginTestScript1"/>
-        <method signature="LoginTestScript1.verifyLoginButtonDisplayed()[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" name="verifyLoginButtonDisplayed" class="com.edureka.login.LoginTestScript1"/>
-        <method signature="LoginTestScript1.verifyPasswordFieldDisplayed()[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" name="verifyPasswordFieldDisplayed" class="com.edureka.login.LoginTestScript1"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-10-23T22:59:18 IST" name="Parallel Module Tests" finished-at="2026-10-23T23:01:22 IST" duration-ms="124409">
-      <class name="com.edureka.AllCourses.AllCoursesTestScript1">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.edureka.AllCourses.AllCoursesTestScript1@3c41ed1d]" started-at="2026-10-23T22:59:18 IST" name="beforeClass" finished-at="2026-10-23T22:59:18 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.edureka.AllCourses.AllCoursesTestScript1@3c41ed1d]" started-at="2026-10-23T22:59:18 IST" name="setUp" finished-at="2026-10-23T22:59:31 IST" duration-ms="13127" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyAllCoursesCategorySelection()[pri:0, instance:com.edureka.AllCourses.AllCoursesTestScript1@3c41ed1d]" started-at="2026-10-23T22:59:31 IST" name="verifyAllCoursesCategorySelection" finished-at="2026-10-23T22:59:56 IST" duration-ms="24440" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[TC_AC_04 passed: The overall course catalogue is displayed across the available pages.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyAllCoursesCategorySelection -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.edureka.AllCourses.AllCoursesTestScript1@3c41ed1d]" started-at="2026-10-23T22:59:56 IST" name="tearDown" finished-at="2026-10-23T22:59:57 IST" duration-ms="1237" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAllCoursesCategorySelection status=SUCCESS method=AllCoursesTestScript1.verifyAllCoursesCategorySelection()[pri:0, instance:com.edureka.AllCourses.AllCoursesTestScript1@3c41ed1d] output=TC_AC_04 passed: The overall course catalogue is displayed across the available pages.]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Browser closed successfully.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.edureka.AllCourses.AllCoursesTestScript1@3c41ed1d]" started-at="2026-10-23T22:59:57 IST" name="setUp" finished-at="2026-10-23T23:00:02 IST" duration-ms="5059" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyAllCoursesPageLoads()[pri:0, instance:com.edureka.AllCourses.AllCoursesTestScript1@3c41ed1d]" started-at="2026-10-23T23:00:02 IST" name="verifyAllCoursesPageLoads" finished-at="2026-10-23T23:00:20 IST" duration-ms="18040" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[TC_AC_01 passed: The All Courses page loads and its main content is displayed without an application error.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyAllCoursesPageLoads -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.edureka.AllCourses.AllCoursesTestScript1@3c41ed1d]" started-at="2026-10-23T23:00:20 IST" name="tearDown" finished-at="2026-10-23T23:00:28 IST" duration-ms="8010" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAllCoursesPageLoads status=SUCCESS method=AllCoursesTestScript1.verifyAllCoursesPageLoads()[pri:0, instance:com.edureka.AllCourses.AllCoursesTestScript1@3c41ed1d] output=TC_AC_01 passed: The All Courses page loads and its main content is displayed without an application error.]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Browser closed successfully.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.edureka.AllCourses.AllCoursesTestScript1@3c41ed1d]" started-at="2026-10-23T23:00:28 IST" name="setUp" finished-at="2026-10-23T23:00:32 IST" duration-ms="4184" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyArtificialIntelligenceCategory()[pri:0, instance:com.edureka.AllCourses.AllCoursesTestScript1@3c41ed1d]" started-at="2026-10-23T23:00:32 IST" name="verifyArtificialIntelligenceCategory" finished-at="2026-10-23T23:01:03 IST" duration-ms="30687" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[TC_AC_05 completed: The listing reflects the Artificial Intelligence category according to the application's configured mapping.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyArtificialIntelligenceCategory -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.edureka.AllCourses.AllCoursesTestScript1@3c41ed1d]" started-at="2026-10-23T23:01:03 IST" name="tearDown" finished-at="2026-10-23T23:01:06 IST" duration-ms="2973" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyArtificialIntelligenceCategory status=SUCCESS method=AllCoursesTestScript1.verifyArtificialIntelligenceCategory()[pri:0, instance:com.edureka.AllCourses.AllCoursesTestScript1@3c41ed1d] output=TC_AC_05 completed: The listing reflects the Artificial Intelligence category according to the application's configured mapping.]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Browser closed successfully.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.edureka.AllCourses.AllCoursesTestScript1@3c41ed1d]" started-at="2026-10-23T23:01:06 IST" name="setUp" finished-at="2026-10-23T23:01:10 IST" duration-ms="3608" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyOnlineDoctorateProgramsCategory()[pri:0, instance:com.edureka.AllCourses.AllCoursesTestScript1@3c41ed1d]" started-at="2026-10-23T23:01:10 IST" name="verifyOnlineDoctorateProgramsCategory" finished-at="2026-10-23T23:01:21 IST" duration-ms="11915" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[TC_AC_06 completed: The listing reflects the selected category according to the application's configured mapping.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyOnlineDoctorateProgramsCategory -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.edureka.AllCourses.AllCoursesTestScript1@3c41ed1d]" started-at="2026-10-23T23:01:21 IST" name="tearDown" finished-at="2026-10-23T23:01:22 IST" duration-ms="898" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyOnlineDoctorateProgramsCategory status=SUCCESS method=AllCoursesTestScript1.verifyOnlineDoctorateProgramsCategory()[pri:0, instance:com.edureka.AllCourses.AllCoursesTestScript1@3c41ed1d] output=TC_AC_06 completed: The listing reflects the selected category according to the application's configured mapping.]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Browser closed successfully.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.edureka.AllCourses.AllCoursesTestScript1@3c41ed1d]" started-at="2026-10-23T23:01:22 IST" name="afterClass" finished-at="2026-10-23T23:01:22 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.edureka.AllCourses.AllCoursesTestScript1 -->
+    <test started-at="2026-10-25T12:27:50 IST" name="Default test" finished-at="2026-10-25T12:28:09 IST" duration-ms="19120">
       <class name="com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" started-at="2026-10-23T22:59:18 IST" name="beforeClass" finished-at="2026-10-23T22:59:18 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:27:50 IST" name="beforeSuite" finished-at="2026-10-25T12:27:50 IST" duration-ms="20" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Test suite started.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:27:50 IST" name="beforeTest" finished-at="2026-10-25T12:27:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:27:50 IST" name="beforeClass" finished-at="2026-10-25T12:27:50 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before class]]>
+            </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" started-at="2026-10-23T22:59:18 IST" name="setUp" finished-at="2026-10-23T22:59:32 IST" duration-ms="13938" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:27:50 IST" name="setUp" finished-at="2026-10-25T12:27:54 IST" duration-ms="3626" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyAICourseDetailReloadsCorrectly()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" started-at="2026-10-23T22:59:32 IST" name="verifyAICourseDetailReloadsCorrectly" finished-at="2026-10-23T22:59:46 IST" duration-ms="13882" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAICourseDetailReloadsCorrectly -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" started-at="2026-10-23T22:59:46 IST" name="tearDown" finished-at="2026-10-23T22:59:50 IST" duration-ms="4172" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAICourseDetailReloadsCorrectly status=SUCCESS method=ArtificialIntelligenceTestScript1.verifyAICourseDetailReloadsCorrectly()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Browser closed successfully.]]>
+              <![CDATA[Launching browser: chrome]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" started-at="2026-10-23T22:59:50 IST" name="setUp" finished-at="2026-10-23T23:00:08 IST" duration-ms="17875" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyAICourseLinksRemainAccessibleAfterScrolling()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" started-at="2026-10-23T23:00:08 IST" name="verifyAICourseLinksRemainAccessibleAfterScrolling" finished-at="2026-10-23T23:00:14 IST" duration-ms="6121" status="PASS">
+        <test-method signature="verifyAICourseLinksRemainAccessibleAfterScrolling()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:27:54 IST" name="verifyAICourseLinksRemainAccessibleAfterScrolling" finished-at="2026-10-25T12:27:56 IST" duration-ms="2459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAICourseLinksRemainAccessibleAfterScrolling -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" started-at="2026-10-23T23:00:14 IST" name="tearDown" finished-at="2026-10-23T23:00:18 IST" duration-ms="3748" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:27:56 IST" name="tearDown" finished-at="2026-10-25T12:27:57 IST" duration-ms="562" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAICourseLinksRemainAccessibleAfterScrolling status=SUCCESS method=ArtificialIntelligenceTestScript1.verifyAICourseLinksRemainAccessibleAfterScrolling()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAICourseLinksRemainAccessibleAfterScrolling status=SUCCESS method=ArtificialIntelligenceTestScript1.verifyAICourseLinksRemainAccessibleAfterScrolling()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
+              <![CDATA[PASSED: verifyAICourseLinksRemainAccessibleAfterScrolling]]>
+            </line>
+            <line>
               <![CDATA[Browser closed successfully.]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" started-at="2026-10-23T23:00:18 IST" name="setUp" finished-at="2026-10-23T23:00:23 IST" duration-ms="4936" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:27:57 IST" name="setUp" finished-at="2026-10-25T12:27:59 IST" duration-ms="2343" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -324,27 +118,33 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Launching browser: chrome]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyBackNavigationReturnsToAIListing()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" started-at="2026-10-23T23:00:23 IST" name="verifyBackNavigationReturnsToAIListing" finished-at="2026-10-23T23:00:29 IST" duration-ms="5845" status="PASS">
+        <test-method signature="verifyBackNavigationReturnsToAIListing()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:27:59 IST" name="verifyBackNavigationReturnsToAIListing" finished-at="2026-10-25T12:28:03 IST" duration-ms="3958" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBackNavigationReturnsToAIListing -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" started-at="2026-10-23T23:00:29 IST" name="tearDown" finished-at="2026-10-23T23:00:32 IST" duration-ms="3768" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:28:03 IST" name="tearDown" finished-at="2026-10-25T12:28:04 IST" duration-ms="421" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyBackNavigationReturnsToAIListing status=SUCCESS method=ArtificialIntelligenceTestScript1.verifyBackNavigationReturnsToAIListing()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d] output={null}]]]>
+                <![CDATA[[TestResult name=verifyBackNavigationReturnsToAIListing status=SUCCESS method=ArtificialIntelligenceTestScript1.verifyBackNavigationReturnsToAIListing()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
+              <![CDATA[PASSED: verifyBackNavigationReturnsToAIListing]]>
+            </line>
+            <line>
               <![CDATA[Browser closed successfully.]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" started-at="2026-10-23T23:00:32 IST" name="setUp" finished-at="2026-10-23T23:00:37 IST" duration-ms="4330" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:28:04 IST" name="setUp" finished-at="2026-10-25T12:28:06 IST" duration-ms="2205" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -353,276 +153,40 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Launching browser: chrome]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyEndToEndAICourseDiscovery()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" started-at="2026-10-23T23:00:37 IST" name="verifyEndToEndAICourseDiscovery" finished-at="2026-10-23T23:00:43 IST" duration-ms="6016" status="PASS">
+        <test-method signature="verifyEndToEndAICourseDiscovery()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:28:06 IST" name="verifyEndToEndAICourseDiscovery" finished-at="2026-10-25T12:28:09 IST" duration-ms="2971" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEndToEndAICourseDiscovery -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" started-at="2026-10-23T23:00:43 IST" name="tearDown" finished-at="2026-10-23T23:00:44 IST" duration-ms="1490" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:28:09 IST" name="tearDown" finished-at="2026-10-25T12:28:09 IST" duration-ms="465" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyEndToEndAICourseDiscovery status=SUCCESS method=ArtificialIntelligenceTestScript1.verifyEndToEndAICourseDiscovery()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d] output={null}]]]>
+                <![CDATA[[TestResult name=verifyEndToEndAICourseDiscovery status=SUCCESS method=ArtificialIntelligenceTestScript1.verifyEndToEndAICourseDiscovery()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Browser closed successfully.]]>
+              <![CDATA[PASSED: verifyEndToEndAICourseDiscovery]]>
             </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" started-at="2026-10-23T23:00:44 IST" name="setUp" finished-at="2026-10-23T23:00:50 IST" duration-ms="5564" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyPrimaryCourseCallToActionNavigation()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" started-at="2026-10-23T23:00:50 IST" name="verifyPrimaryCourseCallToActionNavigation" finished-at="2026-10-23T23:01:00 IST" duration-ms="10228" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPrimaryCourseCallToActionNavigation -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" started-at="2026-10-23T23:01:00 IST" name="tearDown" finished-at="2026-10-23T23:01:03 IST" duration-ms="2798" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyPrimaryCourseCallToActionNavigation status=SUCCESS method=ArtificialIntelligenceTestScript1.verifyPrimaryCourseCallToActionNavigation()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
             <line>
               <![CDATA[Browser closed successfully.]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" started-at="2026-10-23T23:01:03 IST" name="setUp" finished-at="2026-10-23T23:01:07 IST" duration-ms="3793" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyScrollingReachesLowerAISections()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" started-at="2026-10-23T23:01:07 IST" name="verifyScrollingReachesLowerAISections" finished-at="2026-10-23T23:01:10 IST" duration-ms="3516" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyScrollingReachesLowerAISections -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" started-at="2026-10-23T23:01:10 IST" name="tearDown" finished-at="2026-10-23T23:01:12 IST" duration-ms="1407" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyScrollingReachesLowerAISections status=SUCCESS method=ArtificialIntelligenceTestScript1.verifyScrollingReachesLowerAISections()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@28701274]" started-at="2026-10-25T12:28:09 IST" name="afterClass" finished-at="2026-10-25T12:28:09 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Browser closed successfully.]]>
+              <![CDATA[Test class completed.]]>
             </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1@54d9d12d]" started-at="2026-10-23T23:01:12 IST" name="afterClass" finished-at="2026-10-23T23:01:12 IST" duration-ms="2" status="PASS">
-          <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.edureka.ArtificialIntelligence.ArtificialIntelligenceTestScript1 -->
-      <class name="com.edureka.login.LoginTestScript1">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" started-at="2026-10-23T22:59:18 IST" name="beforeSuite" finished-at="2026-10-23T22:59:18 IST" duration-ms="93" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" started-at="2026-10-23T22:59:18 IST" name="beforeTest" finished-at="2026-10-23T22:59:18 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" started-at="2026-10-23T22:59:18 IST" name="beforeClass" finished-at="2026-10-23T22:59:18 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" started-at="2026-10-23T22:59:18 IST" name="setUp" finished-at="2026-10-23T22:59:32 IST" duration-ms="13867" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyEmailFieldDisplayed()[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" started-at="2026-10-23T22:59:32 IST" name="verifyEmailFieldDisplayed" finished-at="2026-10-23T22:59:37 IST" duration-ms="5456" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Starting test: Verify email field visibility]]>
-            </line>
-            <line>
-              <![CDATA[Passed: Email field is displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyEmailFieldDisplayed -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" started-at="2026-10-23T22:59:37 IST" name="tearDown" finished-at="2026-10-23T22:59:51 IST" duration-ms="13140" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyEmailFieldDisplayed status=SUCCESS method=LoginTestScript1.verifyEmailFieldDisplayed()[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef] output=Starting test: Verify email field visibility]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Browser closed successfully.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" started-at="2026-10-23T22:59:51 IST" name="setUp" finished-at="2026-10-23T23:00:02 IST" duration-ms="11547" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyForgotPasswordNavigation()[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" started-at="2026-10-23T23:00:02 IST" name="verifyForgotPasswordNavigation" finished-at="2026-10-23T23:00:15 IST" duration-ms="12644" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[TC_LOGIN_09 passed: Password recovery page/form is displayed.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyForgotPasswordNavigation -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" started-at="2026-10-23T23:00:15 IST" name="tearDown" finished-at="2026-10-23T23:00:18 IST" duration-ms="2991" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyForgotPasswordNavigation status=SUCCESS method=LoginTestScript1.verifyForgotPasswordNavigation()[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef] output=TC_LOGIN_09 passed: Password recovery page/form is displayed.]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Browser closed successfully.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" started-at="2026-10-23T23:00:18 IST" name="setUp" finished-at="2026-10-23T23:00:23 IST" duration-ms="5326" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyLoginButtonDisplayed()[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" started-at="2026-10-23T23:00:23 IST" name="verifyLoginButtonDisplayed" finished-at="2026-10-23T23:00:26 IST" duration-ms="2545" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Starting test: Verify login button visibility]]>
-            </line>
-            <line>
-              <![CDATA[Passed: Login button is displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyLoginButtonDisplayed -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" started-at="2026-10-23T23:00:26 IST" name="tearDown" finished-at="2026-10-23T23:00:28 IST" duration-ms="2060" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyLoginButtonDisplayed status=SUCCESS method=LoginTestScript1.verifyLoginButtonDisplayed()[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef] output=Starting test: Verify login button visibility]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Browser closed successfully.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" started-at="2026-10-23T23:00:28 IST" name="setUp" finished-at="2026-10-23T23:00:32 IST" duration-ms="4339" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyPasswordFieldDisplayed()[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" started-at="2026-10-23T23:00:32 IST" name="verifyPasswordFieldDisplayed" finished-at="2026-10-23T23:00:41 IST" duration-ms="8734" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Starting test: Verify password field visibility]]>
-            </line>
-            <line>
-              <![CDATA[Passed: Password field is displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyPasswordFieldDisplayed -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" started-at="2026-10-23T23:00:41 IST" name="tearDown" finished-at="2026-10-23T23:00:44 IST" duration-ms="3601" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyPasswordFieldDisplayed status=SUCCESS method=LoginTestScript1.verifyPasswordFieldDisplayed()[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef] output=Starting test: Verify password field visibility]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Browser closed successfully.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" started-at="2026-10-23T23:00:44 IST" name="setUp" finished-at="2026-10-23T23:00:50 IST" duration-ms="5209" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifySignUpNavigation()[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" started-at="2026-10-23T23:00:50 IST" name="verifySignUpNavigation" finished-at="2026-10-23T23:00:59 IST" duration-ms="9168" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[TC_LOGIN_10 passed: Registration page/form is displayed.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifySignUpNavigation -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" started-at="2026-10-23T23:00:59 IST" name="tearDown" finished-at="2026-10-23T23:01:02 IST" duration-ms="3460" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifySignUpNavigation status=SUCCESS method=LoginTestScript1.verifySignUpNavigation()[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef] output=TC_LOGIN_10 passed: Registration page/form is displayed.]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Browser closed successfully.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.edureka.login.LoginTestScript1@206a70ef]" started-at="2026-10-23T23:01:02 IST" name="afterClass" finished-at="2026-10-23T23:01:02 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.edureka.login.LoginTestScript1 -->
-    </test> <!-- Parallel Module Tests -->
-  </suite> <!-- Edureka Parallel Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

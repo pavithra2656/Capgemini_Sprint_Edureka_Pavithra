@@ -6,49 +6,33 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.edureka.base.BaseClass;
-import com.edureka.utilities.ExcelUtilities;
-
-import objRepo.AllCoursesPage;
 
 public class AllCoursesTestScript1 extends BaseClass {
 
-    private String excelData(String testId, String column)
-            throws Exception {
-        return ExcelUtilities.getDataByKey(
-                "Test Cases", "TC_ID", testId, column);
-    }
-    
-    
-    @Test(groups = {"smoke", "functional"})
-    public void verifyAllCoursesPageLoads() throws Exception {
+	@Test(groups = { "smoke", "functional" })
+	public void verifyAllCoursesPageLoads() throws Exception {
 
-        String testId = "TC_AC_01";
-        String expected = excelData(testId, "Expected Result");
+		String testId = "TC_AC_01";
 
-        AllCoursesPage page =new AllCoursesPage(driver, properties, wait);
+		page.openAllCoursesPage();
 
-        page.openAllCoursesPage();
+		Assert.assertTrue(page.isAllCoursesPageLoaded(), "All Courses page did not load");
 
-        Assert.assertTrue(page.isAllCoursesPageLoaded(),"All Courses page did not load. Expected: " + expected);
+		Reporter.log(testId + " passed ", true);
+	}
 
-        Reporter.log(testId + " passed: " + expected, true);
-    }
+	@Test(groups = { "functional" })
+	public void verifyArtificialIntelligenceCategory() throws Exception {
 
+		String testId = "TC_AC_05";
 
-    @Test(groups = {"functional"})
-    public void verifyArtificialIntelligenceCategory() throws Exception {
+		page.openAllCoursesPage();
+		page.selectCategory(excel.getData("allcourses", 1, 0));
 
-        String testId = "TC_AC_05";
-        String expected = excelData(testId, "Expected Result");
+		Assert.assertTrue(page.isCategoryVisible(excel.getData("allcourses", 1, 0)),
+				excel.getData("allcourses", 1, 0) + " category is not displayed.");
 
-        AllCoursesPage page =new AllCoursesPage(driver, properties, wait);
-
-        page.openAllCoursesPage();
-        page.selectCategory("Artificial Intelligence");
-
-        Assert.assertTrue(page.isCategoryVisible("Artificial Intelligence"),"Artificial Intelligence category is not displayed.");
-
-        Reporter.log(testId + " completed: " + expected, true);
-    }
+		Reporter.log(testId + " passed ", true);
+	}
 
 }
